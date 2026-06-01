@@ -1,0 +1,554 @@
+{
+  "nav_features": {
+    "text": "Features",
+    "context": "label"
+  },
+  "nav_showcase": {
+    "text": "Showcase",
+    "context": "label"
+  },
+  "nav_how": {
+    "text": "How it works",
+    "context": "label"
+  },
+  "nav_contact": {
+    "text": "Contact",
+    "context": "label"
+  },
+  "hero_title": {
+    "text": "Corvus RSS<br>for Safari",
+    "context": "name"
+  },
+  "hero_sub": {
+    "text": "Subscribe to your favorite websites, YouTube channels, and blogs. Read everything in one place with a native Safari extension for macOS, iOS, and iPadOS.",
+    "context": "description"
+  },
+  "hero_cta_ios": {
+    "text": "Download for iOS",
+    "context": "label"
+  },
+  "hero_cta_mac": {
+    "text": "Download for macOS",
+    "context": "label"
+  },
+  "hero_req": {
+    "text": "iOS 17.0+ · macOS 14.0+",
+    "context": "label"
+  },
+  "sec_features": {
+    "text": "Features",
+    "context": "label"
+  },
+  "sec_features_title": {
+    "text": "A complete RSS reader inside Safari",
+    "context": "name"
+  },
+  "f1_t": {
+    "text": "RSS & Atom Feeds",
+    "context": "name"
+  },
+  "f1_d": {
+    "text": "Subscribe to any website with an RSS or Atom feed. Fast continuous refresh, auto-discovery, and built-in feed health tools.",
+    "context": "description"
+  },
+  "f2_t": {
+    "text": "YouTube Channels",
+    "context": "name"
+  },
+  "f2_d": {
+    "text": "Subscribe to any YouTube channel directly from its page with automatic @handle resolution. Hide Shorts from your feed to focus on full videos.",
+    "context": "description"
+  },
+  "f3_t": {
+    "text": "Folder Organization",
+    "context": "name"
+  },
+  "f3_d": {
+    "text": "Group your feeds into folders and nested sub-folders. Keep Tech, News, YouTube, and Design neatly separated.",
+    "context": "description"
+  },
+  "f4_t": {
+    "text": "5 View Modes",
+    "context": "name"
+  },
+  "f4_d": {
+    "text": "Magazine, list, card, expanded, and full-view layouts. Choose the reading experience that works best for you.",
+    "context": "description"
+  },
+  "f5_t": {
+    "text": "Star, Pin & Read Later",
+    "context": "name"
+  },
+  "f5_d": {
+    "text": "Save articles for later, star your favorites, and pin important items. Built-in smart feeds for quick access.",
+    "context": "description"
+  },
+  "f6_t": {
+    "text": "Keyboard Shortcuts",
+    "context": "name"
+  },
+  "f6_d": {
+    "text": "Navigate, star, refresh, and manage articles entirely from the keyboard. J/K to browse, S to star, V to open, and more.",
+    "context": "description"
+  },
+  "f7_t": {
+    "text": "Full-Text Search",
+    "context": "name"
+  },
+  "f7_d": {
+    "text": "Search across all your articles by title, content, or author. Find anything instantly, even in thousands of articles.",
+    "context": "description"
+  },
+  "f8_t": {
+    "text": "Themes & Customization",
+    "context": "name"
+  },
+  "f8_d": {
+    "text": "Pick from a visual grid of 7 themes, Light, Dark, Midnight, Sepia, Nord, Dracula, Solarized Dark, plus custom accent colors, font sizes, density settings, and newspaper-style column layouts.",
+    "context": "description"
+  },
+  "f9_t": {
+    "text": "33 Languages",
+    "context": "name"
+  },
+  "f9_d": {
+    "text": "Fully localized in 33 languages, including English, Spanish, French, German, Japanese, Korean, Portuguese, Chinese, Arabic, Hindi, Russian, Turkish, and more.",
+    "context": "description"
+  },
+  "f10_t": {
+    "text": "Auto-Categorize",
+    "context": "name"
+  },
+  "f10_d": {
+    "text": "New feeds are automatically sorted into 20 category folders based on domain and keyword matching. No manual organization needed.",
+    "context": "description"
+  },
+  "f11_t": {
+    "text": "OPML Import & Export",
+    "context": "name"
+  },
+  "f11_d": {
+    "text": "Bring your feeds from any reader with OPML import. Full folder hierarchy preserved, with progress tracking and duplicate detection.",
+    "context": "description"
+  },
+  "f12_t": {
+    "text": "Offline Reading",
+    "context": "name"
+  },
+  "f12_d": {
+    "text": "Save articles with embedded images for reading without an internet connection. Your saved content is always available.",
+    "context": "description"
+  },
+  "f13_t": {
+    "text": "Feed Health Dashboard",
+    "context": "name"
+  },
+  "f13_d": {
+    "text": "Monitor broken, stale, and error-prone feeds at a glance. Bulk disable inactive feeds and retry disabled ones with a single tap.",
+    "context": "description"
+  },
+  "f14_t": {
+    "text": "Auto-Action Rules",
+    "context": "name"
+  },
+  "f14_d": {
+    "text": "Create rules to automatically star, tag, mute, or archive articles based on keywords, feeds, or authors. Your inbox, your rules.",
+    "context": "description"
+  },
+  "f15_t": {
+    "text": "Smart Filters",
+    "context": "name"
+  },
+  "f15_d": {
+    "text": "Built-in smart feeds for Today, Unread, Starred, Read Later, and Archived articles. Jump to what matters in one click.",
+    "context": "description"
+  },
+  "f16_t": {
+    "text": "Discover Feeds",
+    "context": "name"
+  },
+  "f16_d": {
+    "text": "Browse a curated directory of 5,000+ feeds across 34 categories and 47 countries. Find new sources in seconds, no URL hunting required.",
+    "context": "description"
+  },
+  "f17_t": {
+    "text": "Organized Settings",
+    "context": "name"
+  },
+  "f17_d": {
+    "text": "A polished settings panel with 8 categories, live search across every option, and a What's New sheet that surfaces release notes on first launch after every update.",
+    "context": "description"
+  },
+  "sec_showcase": {
+    "text": "Showcase",
+    "context": "label"
+  },
+  "sec_showcase_title": {
+    "text": "A Safari RSS reader designed to get out of the way",
+    "context": "name"
+  },
+  "sc_fullview_t": {
+    "text": "Full-View Layout",
+    "context": "name"
+  },
+  "sc_fullview_d": {
+    "text": "A magazine-style reading experience. Articles displayed as rich cards with thumbnails, summaries, and metadata.",
+    "context": "description"
+  },
+  "sc_reader_t": {
+    "text": "Three-Panel Reader",
+    "context": "name"
+  },
+  "sc_reader_d": {
+    "text": "Sidebar, article list, and reading pane. Navigate your feeds with speed.",
+    "context": "description"
+  },
+  "sc_light_t": {
+    "text": "Light & Sepia Themes",
+    "context": "name"
+  },
+  "sc_light_d": {
+    "text": "Choose the theme that suits your environment. Easy on the eyes, day or night.",
+    "context": "description"
+  },
+  "sc_youtube_t": {
+    "text": "YouTube, Your Way",
+    "context": "name"
+  },
+  "sc_youtube_d": {
+    "text": "Subscribe to channels without an algorithm. Hide Shorts and see every video in a clean, distraction-free layout.",
+    "context": "description"
+  },
+  "sc_warm_t": {
+    "text": "Warm & Inviting",
+    "context": "name"
+  },
+  "sc_warm_d": {
+    "text": "The sepia theme transforms your reading experience into something that feels like a favorite bookshop.",
+    "context": "description"
+  },
+  "sec_how": {
+    "text": "How it works",
+    "context": "label"
+  },
+  "sec_how_title": {
+    "text": "Up and running in seconds",
+    "context": "name"
+  },
+  "s1_t": {
+    "text": "Install from the App Store",
+    "context": "name"
+  },
+  "s1_d": {
+    "text": "Download Corvus from the App Store. Available on Mac, iPhone, and iPad.",
+    "context": "description"
+  },
+  "s2_t": {
+    "text": "Enable in Safari",
+    "context": "name"
+  },
+  "s2_d": {
+    "text": "Open Safari Settings, go to Extensions, and enable Corvus. Grant permission for the sites you want to subscribe to.",
+    "context": "description"
+  },
+  "s3_t": {
+    "text": "Subscribe & Read",
+    "context": "name"
+  },
+  "s3_d": {
+    "text": "Visit any website or YouTube channel, click the Corvus icon, and subscribe. Your articles appear instantly in the reader.",
+    "context": "description"
+  },
+  "sec_why": {
+    "text": "Why Corvus",
+    "context": "label"
+  },
+  "sec_why_title": {
+    "text": "Built for Safari users",
+    "context": "name"
+  },
+  "w1_t": {
+    "text": "No account required",
+    "context": "name"
+  },
+  "w1_d": {
+    "text": "No sign-ups, no cloud sync, no login walls. Your feeds live on your device, ready instantly. Open Safari and start reading.",
+    "context": "description"
+  },
+  "w2_t": {
+    "text": "Works everywhere",
+    "context": "name"
+  },
+  "w2_d": {
+    "text": "Subscribe to blogs, news sites, YouTube channels, Reddit, GitHub releases, podcasts, and any site with an RSS or Atom feed.",
+    "context": "description"
+  },
+  "w3_t": {
+    "text": "Native Safari extension",
+    "context": "name"
+  },
+  "w3_d": {
+    "text": "Not a Chrome extension ported to Safari. Corvus is built specifically for Safari with native performance, no background processes, and zero data collection.",
+    "context": "description"
+  },
+  "req": {
+    "text": "Requires macOS 14.0 (Sonoma) or later, or iOS/iPadOS 17.0 or later. Works with Safari 17+.",
+    "context": "description"
+  },
+  "f_brand": {
+    "text": "Indie software studio.<br>Building focused, privacy-first tools for Apple platforms.",
+    "context": "label"
+  },
+  "f_legal": {
+    "text": "Legal",
+    "context": "label"
+  },
+  "f_privacy": {
+    "text": "Privacy Policy",
+    "context": "label"
+  },
+  "f_terms": {
+    "text": "Terms of Service",
+    "context": "label"
+  },
+  "f_connect": {
+    "text": "Connect",
+    "context": "label"
+  },
+  "legal_back": {
+    "text": "&larr; Back to Corvus RSS Reader",
+    "context": "label"
+  },
+  "privacy_title": {
+    "text": "Privacy Policy",
+    "context": "name"
+  },
+  "privacy_date": {
+    "text": "Effective Date: April 6, 2026 &middot; Last Updated: April 6, 2026",
+    "context": "description"
+  },
+  "privacy_intro": {
+    "text": "CorvusDevs (\"we\", \"us\", \"our\") develops and publishes software applications. This Privacy Policy explains how we handle data in Corvus RSS Reader for Safari.",
+    "context": "description"
+  },
+  "privacy_h_commitment": {
+    "text": "Our Commitment",
+    "context": "name"
+  },
+  "privacy_commitment": {
+    "text": "Corvus RSS Reader is designed to work entirely on your device. We do not collect, store, or transmit any personal data.",
+    "context": "description"
+  },
+  "privacy_h_collection": {
+    "text": "Data Collection",
+    "context": "name"
+  },
+  "privacy_collection_intro": {
+    "text": "Corvus RSS Reader does not collect any data. Specifically:",
+    "context": "description"
+  },
+  "privacy_collection_li_analytics": {
+    "text": "<strong>No analytics or telemetry</strong>, We do not track how you use the extension",
+    "context": "description"
+  },
+  "privacy_collection_li_personal": {
+    "text": "<strong>No personal information</strong>, We do not collect names, emails, IP addresses, or device identifiers",
+    "context": "description"
+  },
+  "privacy_collection_li_thirdparty": {
+    "text": "<strong>No third-party tracking</strong>, We do not embed advertising SDKs, analytics frameworks, or tracking pixels",
+    "context": "description"
+  },
+  "privacy_collection_li_local": {
+    "text": "<strong>Local storage only</strong>, Your feeds, articles, folders, and preferences are stored locally on your device using Safari's extension storage and are never sent to any server",
+    "context": "description"
+  },
+  "privacy_h_network": {
+    "text": "Network Requests",
+    "context": "name"
+  },
+  "privacy_network_intro": {
+    "text": "Corvus RSS Reader makes the following network requests to function:",
+    "context": "description"
+  },
+  "privacy_network_li_feed": {
+    "text": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader fetches feed URLs that you subscribe to in order to retrieve new articles. These requests go directly from your browser to the feed publisher's server.",
+    "context": "description"
+  },
+  "privacy_network_li_favicon": {
+    "text": "<strong>Favicon loading</strong>, Corvus RSS Reader loads site favicons via DuckDuckGo's icon service (icons.duckduckgo.com) to display feed icons. No personal data is sent.",
+    "context": "description"
+  },
+  "privacy_network_li_youtube": {
+    "text": "<strong>YouTube channel resolution</strong>, When subscribing to a YouTube channel, Corvus RSS Reader may use YouTube's InnerTube API to resolve channel IDs. No authentication or personal data is involved.",
+    "context": "description"
+  },
+  "privacy_network_outro": {
+    "text": "All requests are made directly from your browser. We do not proxy, log, or intercept any network traffic.",
+    "context": "description"
+  },
+  "privacy_h_website": {
+    "text": "Website",
+    "context": "name"
+  },
+  "privacy_website": {
+    "text": "This website (hosted via GitHub Pages) does not use cookies, analytics, or tracking scripts.",
+    "context": "description"
+  },
+  "privacy_h_children": {
+    "text": "Children's Privacy",
+    "context": "name"
+  },
+  "privacy_children": {
+    "text": "Corvus RSS Reader is not directed at children under 13, and we do not knowingly collect data from children.",
+    "context": "description"
+  },
+  "privacy_h_changes": {
+    "text": "Changes to This Policy",
+    "context": "name"
+  },
+  "privacy_changes": {
+    "text": "We may update this Privacy Policy from time to time. The updated version will be posted at this URL with a revised \"Last Updated\" date.",
+    "context": "description"
+  },
+  "privacy_h_contact": {
+    "text": "Contact",
+    "context": "name"
+  },
+  "privacy_contact": {
+    "text": "If you have questions about this Privacy Policy, contact us at:",
+    "context": "description"
+  },
+  "privacy_contact_block": {
+    "text": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "context": "description"
+  },
+  "terms_title": {
+    "text": "Terms of Service",
+    "context": "name"
+  },
+  "terms_date": {
+    "text": "Effective Date: April 6, 2026 &middot; Last Updated: April 6, 2026",
+    "context": "description"
+  },
+  "terms_intro": {
+    "text": "These Terms of Service (\"Terms\") govern your use of Corvus RSS Reader for Safari, developed and published by CorvusDevs (\"we\", \"us\", \"our\"). By downloading, installing, or using Corvus, you agree to these Terms.",
+    "context": "description"
+  },
+  "terms_h_license": {
+    "text": "1. License",
+    "context": "name"
+  },
+  "terms_license": {
+    "text": "We grant you a personal, non-exclusive, non-transferable, revocable license to install and use Corvus on any Apple devices that you own or control, for personal use.",
+    "context": "description"
+  },
+  "terms_h_restrictions": {
+    "text": "2. Restrictions",
+    "context": "name"
+  },
+  "terms_restrictions_intro": {
+    "text": "You may not:",
+    "context": "description"
+  },
+  "terms_restrictions_li_redistribute": {
+    "text": "Redistribute, resell, or sublicense the extension",
+    "context": "description"
+  },
+  "terms_restrictions_li_reverse": {
+    "text": "Reverse-engineer, decompile, or disassemble the extension, except where permitted by applicable law",
+    "context": "description"
+  },
+  "terms_restrictions_li_branding": {
+    "text": "Remove or alter any copyright notices or branding",
+    "context": "description"
+  },
+  "terms_restrictions_li_unlawful": {
+    "text": "Use the extension for any unlawful purpose",
+    "context": "description"
+  },
+  "terms_h_thirdparty": {
+    "text": "3. Third-Party Content",
+    "context": "name"
+  },
+  "terms_thirdparty": {
+    "text": "Corvus retrieves content from RSS and Atom feeds published by third parties. We are not responsible for the accuracy, availability, or content of any third-party feeds. Your use of third-party content is subject to those publishers' own terms.",
+    "context": "description"
+  },
+  "terms_h_ip": {
+    "text": "4. Intellectual Property",
+    "context": "name"
+  },
+  "terms_ip": {
+    "text": "Corvus, including its code, design, names, and logos, is the property of CorvusDevs and is protected by copyright law. Your license does not transfer any ownership rights.",
+    "context": "description"
+  },
+  "terms_h_updates": {
+    "text": "5. Updates",
+    "context": "name"
+  },
+  "terms_updates": {
+    "text": "We may release updates at our discretion through the App Store. We are not obligated to provide updates, new features, or ongoing support.",
+    "context": "description"
+  },
+  "terms_h_warranty": {
+    "text": "6. Disclaimer of Warranties",
+    "context": "name"
+  },
+  "terms_warranty": {
+    "text": "Corvus is provided \"as is\" without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the extension will be uninterrupted, error-free, or compatible with all versions of Safari.",
+    "context": "description"
+  },
+  "terms_h_liability": {
+    "text": "7. Limitation of Liability",
+    "context": "name"
+  },
+  "terms_liability": {
+    "text": "To the maximum extent permitted by law, CorvusDevs shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of Corvus.",
+    "context": "description"
+  },
+  "terms_h_termination": {
+    "text": "8. Termination",
+    "context": "name"
+  },
+  "terms_termination": {
+    "text": "We may terminate your license if you violate these Terms. Upon termination, you must uninstall the extension.",
+    "context": "description"
+  },
+  "terms_h_changes": {
+    "text": "9. Changes to These Terms",
+    "context": "name"
+  },
+  "terms_changes": {
+    "text": "We may update these Terms from time to time. The updated version will be posted at this URL with a revised \"Last Updated\" date. Continued use of the extension after changes constitutes acceptance of the new Terms.",
+    "context": "description"
+  },
+  "terms_h_governing": {
+    "text": "10. Governing Law",
+    "context": "name"
+  },
+  "terms_governing": {
+    "text": "These Terms are governed by the laws of the jurisdiction in which CorvusDevs operates, without regard to conflict-of-law principles.",
+    "context": "description"
+  },
+  "terms_h_contact": {
+    "text": "11. Contact",
+    "context": "name"
+  },
+  "terms_contact": {
+    "text": "If you have questions about these Terms, contact us at:",
+    "context": "description"
+  },
+  "terms_contact_block": {
+    "text": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "context": "description"
+  },
+  "carousel_title": {
+    "text": "More from CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privacy-first apps for macOS, iOS, and Safari.",
+    "context": "description"
+  }
+}

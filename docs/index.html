@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corvus, RSS Reader for Safari on macOS, iOS & iPadOS</title>
+    <meta name="description" content="Subscribe to your favorite websites, YouTube channels, and blogs. Read everything in one place with Corvus, a native RSS reader extension for Safari on macOS, iOS, and iPadOS.">
+    <link rel="canonical" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=es">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=fr">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=de">
+    <link rel="alternate" hreflang="pt" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=pt">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=it">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=ja">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=ko">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/?lang=ru">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
+    <meta property="og:title" content="Corvus, RSS Reader for Safari on macOS, iOS & iPadOS">
+    <meta property="og:description" content="Subscribe to your favorite websites, YouTube channels, and blogs. A native Safari extension with folder organization, multiple view modes, and full keyboard shortcuts.">
+    <meta property="og:image" content="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/images/hero-dark.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Corvus, RSS Reader for Safari on macOS, iOS & iPadOS">
+    <meta name="twitter:description" content="Subscribe to your favorite websites, YouTube channels, and blogs. Native RSS reader for Safari.">
+    <meta name="twitter:image" content="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/images/hero-dark.jpg">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="rss reader, safari extension, feed reader, atom, rss, news reader, youtube rss, blog reader, macos, ios, ipados, corvus">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Corvus RSS Reader for Safari",
+        "description": "Subscribe to your favorite websites, YouTube channels, and blogs. Read everything in one place with a native RSS reader extension for Safari.",
+        "operatingSystem": "macOS 14.0+, iOS 17.0+, iPadOS 17.0+",
+        "applicationCategory": "NewsApplication",
+        "applicationSubCategory": "RSS Reader",
+        "downloadUrl": "https://apps.apple.com/app/id6761442829",
+        "screenshot": "https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/images/hero-dark.jpg",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io" }
+    }
+    </script>
+    <link rel="preload" as="image" href="images/hero-dark.jpg" fetchpriority="high">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #111114;
+            --surface-2: #19191e;
+            --border: #252530;
+            --text: #e8e8ed;
+            --text-secondary: #7c7c84;
+            --accent: #ee802f;
+            --accent-light: #f4a261;
+            --accent-dim: rgba(238, 128, 47, 0.1);
+            --accent-glow: rgba(238, 128, 47, 0.06);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Nav */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(10, 10, 12, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+        }
+
+        .nav-brand {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.3px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-brand img {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .nav-brand span { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover { color: var(--text); }
+
+        /* Language Picker */
+        .lang-wrap { position: relative; margin-left: 16px; flex-shrink: 0; }
+        .lang-btn {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+            padding: 6px 28px 6px 12px; color: var(--text); font-size: 13px; cursor: pointer;
+            white-space: nowrap;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 10px center;
+        }
+        .lang-menu {
+            display: none; position: absolute; top: calc(100% + 6px); right: 0; z-index: 300;
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 6px 0; min-width: 160px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .lang-menu.open { display: block; }
+        .lang-menu button {
+            display: block; width: 100%; padding: 8px 16px; background: none; border: none;
+            color: var(--text); font-size: 13px; cursor: pointer; text-align: left; white-space: nowrap;
+        }
+        .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+        .lang-menu button.active { color: var(--accent); }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 140px 24px 0;
+            position: relative;
+            overflow: visible;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1000px;
+            height: 1000px;
+            background: radial-gradient(circle, rgba(238, 128, 47, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            margin-bottom: 28px;
+            position: relative;
+            border: 2px solid var(--border);
+            box-shadow: 0 0 60px 20px rgba(238, 128, 47, 0.2), 0 0 120px 50px rgba(238, 128, 47, 0.08);
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 800;
+            letter-spacing: -3px;
+            line-height: 1.05;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 19px;
+            color: var(--text-secondary);
+            max-width: 540px;
+            margin: 0 auto 40px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 36px;
+            background: var(--accent);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 14px;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hero-cta:hover {
+            filter: brightness(1.15);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 32px rgba(238, 128, 47, 0.3);
+        }
+
+        .hero-cta svg { width: 20px; height: 20px; }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero-free {
+            display: block;
+            margin-top: 14px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Hero Showcase, large image below CTA */
+        .hero-showcase {
+            max-width: 1100px;
+            margin: 72px auto 0;
+            position: relative;
+            perspective: 1200px;
+        }
+
+        .hero-showcase img {
+            width: 100%;
+            border-radius: 16px;
+            box-shadow:
+                0 32px 80px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 255, 255, 0.05);
+        }
+
+        .hero-showcase::after {
+            content: '';
+            position: absolute;
+            bottom: -80px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 160px;
+            background: radial-gradient(ellipse, rgba(238, 128, 47, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        /* Showcase Gallery */
+        .showcase {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 120px 24px;
+        }
+
+        .showcase-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .showcase-pair.single {
+            grid-template-columns: 1fr;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .showcase-item {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+        }
+
+        .showcase-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+        }
+
+        .showcase-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .showcase-item .showcase-caption {
+            padding: 20px 24px;
+        }
+
+        .showcase-caption h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .showcase-caption p {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        /* Themes Banner, full width dramatic image */
+        .themes-banner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px 120px;
+        }
+
+        .themes-banner-inner {
+            position: relative;
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .themes-banner-inner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .themes-banner-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 48px 40px 40px;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+        }
+
+        .themes-banner-overlay h3 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .themes-banner-overlay p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 480px;
+        }
+
+        /* Section Labels */
+        .section-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 44px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1.5px;
+            margin-bottom: 56px;
+            line-height: 1.1;
+        }
+
+        /* Features Grid */
+        .features {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px 24px 100px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: rgba(238, 128, 47, 0.3);
+        }
+
+        /* Feature LIST (rows below the 9-card grid) */
+        .features-list { margin: 40px auto 0; max-width: 900px; display: flex; flex-direction: column; gap: 4px; }
+        .feature-row {
+            display: grid; grid-template-columns: 56px 1fr; gap: 18px; align-items: start;
+            padding: 18px 20px; border-radius: 12px; transition: background 0.2s;
+        }
+        .feature-row:hover { background: rgba(255,255,255,0.025); }
+        .feature-row__icon {
+            width: 44px; height: 44px; border-radius: 11px; background: var(--accent-dim);
+            display: flex; align-items: center; justify-content: center;
+        }
+        .feature-row__icon svg { width: 20px; height: 20px; }
+        .feature-row__body h3 { font-size: 16px; font-weight: 600; margin: 0 0 4px; }
+        .feature-row__body p { font-size: 14px; color: var(--text-secondary); line-height: 1.55; margin: 0; }
+        @media (max-width: 600px) {
+            .feature-row { padding: 14px 12px; gap: 14px; grid-template-columns: 44px 1fr; }
+            .feature-row__icon { width: 38px; height: 38px; }
+        }
+
+        /* GRADIENT TEXT utility */
+        .gradient-text {
+            background: linear-gradient(135deg, #ee802f 0%, #f4a261 40%, #fff 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: 0 0 20px rgba(238, 128, 47, 0.15);
+        }
+        .feature-icon svg { width: 24px; height: 24px; }
+
+        .feature-card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 56px;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-num {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 18px;
+            border: 1px solid rgba(238, 128, 47, 0.2);
+        }
+
+        .step h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .step p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Why Section */
+        .why {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px 100px;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .why-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+        }
+
+        .why-card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .why-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Requirements */
+        .req {
+            text-align: center;
+            padding: 0 24px 60px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        footer {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-brand .logo {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-brand .logo span { color: var(--accent); }
+
+        .footer-brand p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .footer-col h4 {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+
+        .footer-col a {
+            display: block;
+            font-size: 14px;
+            color: var(--text);
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-socials a {
+            color: var(--text-secondary);
+            transition: color 0.2s;
+        }
+
+        .footer-socials a:hover { color: var(--text); }
+
+        .footer-socials svg { width: 18px; height: 18px; }
+
+        /* Scroll Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .features-grid, .why-grid { grid-template-columns: repeat(2, 1fr); }
+            .showcase-pair { grid-template-columns: 1fr; }
+            .themes-banner-overlay h3 { font-size: 22px; }
+            .themes-banner-overlay p { font-size: 14px; }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 40px; letter-spacing: -2px; }
+            .hero .subtitle { font-size: 16px; }
+            .hero { padding-top: 120px; }
+            .section-title { font-size: 30px; }
+            .features-grid, .steps, .why-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .footer-bottom { flex-direction: column; gap: 12px; }
+            nav { padding: 14px 16px; }
+            .nav-links { gap: 16px; }
+            .hero-showcase { margin-top: 48px; }
+            .hero-showcase img { border-radius: 12px; }
+            .showcase { padding: 80px 16px; }
+            .showcase-item { border-radius: 12px; }
+            .themes-banner-inner { border-radius: 16px; }
+            .themes-banner-overlay { padding: 32px 24px 28px; }
+            .themes-banner-overlay h3 { font-size: 20px; }
+        }
+    
+        /* SVG language flags in dropdown */
+        .lang-menu button {
+            display: flex; align-items: center; gap: 8px;
+        }
+        .lang-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+        }
+        .lang-btn .lang-flag, .lang-btn .lang-auto-glyph { margin: 0; }
+        .lang-flag {
+            width: 18px; height: 13px; border-radius: 2px;
+            flex-shrink: 0; object-fit: cover; display: inline-block;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .lang-auto-glyph {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 18px; height: 13px; color: var(--text-secondary, #999);
+        }
+        .lang-auto-glyph svg { width: 14px; height: 14px; }
+        .lang-name { display: inline-block; }
+    
+        /* 文A language glyph (replaces globe) */
+        .lang-glyph {
+            display: inline-flex; align-items: center; justify-content: center;
+            margin-right: 6px; color: var(--text-secondary, #999);
+            vertical-align: middle; pointer-events: none;
+        }
+        .lang-glyph svg { display: block; }
+
+    
+        /* ─── App carousel (More from CorvusDevs) ─── */
+.corvus-carousel {
+    max-width: 1200px;
+    margin: 80px auto 40px;
+    padding: 0 24px;
+}
+.corvus-carousel__title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.5px;
+    color: var(--text, #fff);
+}
+.corvus-carousel__sub {
+    font-size: 15px;
+    color: var(--text-secondary, #9a9a9f);
+    margin: 0 0 28px;
+}
+.corvus-carousel__viewport {
+    position: relative;
+}
+/* Fade peek via mask-image on the track itself.
+ *
+ * Previous approach used a pseudo-element overlay on the viewport, but
+ * .corvus-carousel__track is a scroll container (overflow-x: auto) that
+ * the browser composites in its own paint layer, cards render above
+ * sibling pseudo-elements regardless of z-index, defeating the overlay.
+ * Masking the track directly applies the fade to the cards themselves
+ * with no stacking-order dependencies.
+ *
+ * --fade-l / --fade-r are set by carousel.js based on scrollLeft. 0px
+ * means no fade on that side; FADE_PX means full fade.
+ */
+.corvus-carousel__track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 4px 4px 16px;
+    margin: 0 -4px;
+    scrollbar-width: thin;
+    /* Touch swipe, overflow-x: auto already enables native horizontal pan
+     * on iOS/iPadOS/Android. The following are belt-and-suspenders so the
+     * gesture isn't intercepted (e.g. by parent vertical-pan listeners) and
+     * gets iOS momentum / rubber-banding on older Safari versions. */
+    touch-action: pan-x;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    --fade-l: 0px;
+    --fade-r: 0px;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black var(--fade-l), black calc(100% - var(--fade-r)), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, black var(--fade-l), black calc(100% - var(--fade-r)), transparent 100%);
+    transition: -webkit-mask-image 0.25s, mask-image 0.25s;
+}
+.corvus-carousel__track::-webkit-scrollbar { height: 6px; }
+.corvus-carousel__track::-webkit-scrollbar-thumb {
+    background: var(--border, #2a2a30);
+    border-radius: 3px;
+}
+.corvus-carousel__card {
+    flex: 0 0 280px;
+    scroll-snap-align: start;
+    background: var(--surface, #18181c);
+    border: 1px solid var(--border, #2a2a30);
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--text, #fff);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.corvus-carousel__card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent, #2d7ff9);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.corvus-carousel__card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+.corvus-carousel__card-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text, #fff);
+    line-height: 1.2;
+}
+.corvus-carousel__card-tagline {
+    font-size: 12px;
+    color: var(--accent, #2d7ff9);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.corvus-carousel__card-desc {
+    font-size: 13px;
+    color: var(--text-secondary, #9a9a9f);
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.corvus-carousel__card-cta {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent, #2d7ff9);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: auto;
+}
+/* Nav arrows, accent-colored so they pop against the page background */
+.corvus-carousel__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--accent, #2d7ff9);
+    border: 1px solid var(--accent, #2d7ff9);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(45,127,249,0.35);
+    transition: filter 0.2s, transform 0.2s;
+    z-index: 2;
+}
+.corvus-carousel__nav:hover { filter: brightness(1.1); transform: translateY(-50%) scale(1.05); }
+.corvus-carousel__nav:disabled {
+    background: var(--surface, #18181c);
+    color: var(--text-secondary, #9a9a9f);
+    border-color: var(--border, #2a2a30);
+    box-shadow: none;
+    cursor: default;
+    filter: none;
+}
+.corvus-carousel__nav svg { width: 20px; height: 20px; fill: none; }
+.corvus-carousel__nav--prev { left: -18px; }
+.corvus-carousel__nav--next { right: -18px; }
+@media (max-width: 600px) {
+    .corvus-carousel { margin-top: 48px; }
+    .corvus-carousel__title { font-size: 26px; }
+    .corvus-carousel__card { flex-basis: 240px; padding: 16px; }
+
+    
+        /* ─── Shared language picker (文A trigger + globe Default + search) ─── */
+        }
+        .lang-current { font-size: 14px; line-height: 1; }
+        .lang-menu {
+            display: none; position: absolute; top: calc(100% + 8px); right: 0; z-index: 300;
+            background: rgba(20, 20, 24, 0.92);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px;
+            padding: 6px 0; min-width: 220px; max-height: 420px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.02);
+            overflow: hidden;
+            display: none; flex-direction: column;
+        }
+        .lang-menu.open { display: flex; }
+        /* Sticky search bar at top of menu */
+        .lang-search-wrap {
+            position: sticky; top: 0; padding: 8px 10px;
+            background: inherit; border-bottom: 1px solid rgba(255,255,255,0.06);
+            flex-shrink: 0;
+        }
+        .lang-search {
+            width: 100%; padding: 7px 10px 7px 30px;
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 7px;
+            color: var(--text); font-size: 13px; outline: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: 10px center;
+        }
+        .lang-search:focus { border-color: var(--accent); }
+        .lang-search::placeholder { color: var(--text-secondary); }
+        /* Scrollable language list */
+        .lang-list {
+            overflow-y: auto; flex: 1; padding: 4px 0;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255,255,255,0.15) transparent;
+        }
+        .lang-list::-webkit-scrollbar { width: 6px; }
+        .lang-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+        .lang-list::-webkit-scrollbar-track { background: transparent; }
+        .lang-menu button {
+            display: flex; align-items: center; gap: 10px;
+            width: 100%; padding: 8px 16px; background: none; border: none;
+            color: var(--text); font-size: 13px; cursor: pointer; text-align: left; white-space: nowrap;
+            transition: background 0.12s;
+        }
+        .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+        /* Active row: accent-colored text + checkmark on the right */
+        .lang-menu button.active { color: var(--accent); font-weight: 600; }
+        .lang-menu button.active::after {
+            content: ''; margin-left: auto; width: 16px; height: 16px; flex-shrink: 0;
+            background-color: var(--accent);
+            -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center / contain;
+                    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center / contain;
+        }
+        /* Subtle divider after the sticky "Default" row */
+        .lang-menu button.lang-default { border-bottom: 1px solid rgba(255,255,255,0.06); margin-bottom: 4px; padding-bottom: 10px; }
+        /* "No results" empty state */
+        .lang-empty {
+            .nav-links { gap: 16px; }
+        }
+    
+        /* SVG language flags in dropdown, added by inject-i18n-flags.py */
+        .lang-menu button {
+            display: flex; align-items: center; gap: 8px;
+        }
+        .lang-flag {
+            width: 18px; height: 13px; border-radius: 2px;
+            flex-shrink: 0; object-fit: cover; display: inline-block;
+        }
+
+        /* Lang picker: 文A glyph (replaces globe). */
+        .lang-glyph {
+            display: inline-flex; align-items: center; justify-content: center;
+            color: var(--text-secondary); pointer-events: none; margin-right: 4px;
+        }
+        .lang-glyph svg { display: block; width: 22px; height: 22px; }
+        .lang-btn { display: inline-flex; align-items: center; gap: 8px; }
+        .lang-menu button { display: flex; align-items: center; gap: 10px; }
+        .lang-flag {
+            width: 18px; height: 13px; flex-shrink: 0; border-radius: 2px;
+            box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+            object-fit: cover;
+        }
+        .lang-auto-glyph {
+            width: 18px; height: 13px; flex-shrink: 0;
+            display: inline-flex; align-items: center; justify-content: center;
+            color: var(--text-secondary);
+        }
+        .lang-auto-glyph svg { display: block; width: 14px; height: 14px; }
+        .lang-name { white-space: nowrap; }
+    
+/* page-carousel template v2 (2026-05-27) */
+    </style>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav>
+        <a href="https://corvusdevs.github.io" class="nav-brand">
+            <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">
+            Corvus<span>Devs</span>
+        </a>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav_features">Features</a></li>
+                <li><a href="#showcase" data-i18n="nav_showcase">Showcase</a></li>
+                <li><a href="#how" data-i18n="nav_how">How it works</a></li>
+                <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="lang-wrap" id="langWrap">
+                <span class="lang-glyph" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language" style="vertical-align:middle;"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span><button class="lang-btn" id="langBtn">English</button>
+                <div class="lang-menu" id="langMenu"><!-- populated by JS --></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <img src="icon.png" alt="Corvus" class="hero-icon">
+        <h1 data-i18n-html="hero_title">Corvus RSS<br>for Safari</h1>
+        <p class="subtitle" data-i18n="hero_sub">Subscribe to your favorite websites, YouTube channels, and blogs. Read everything in one place with a native Safari extension for macOS, iOS, and iPadOS.</p>
+        <div class="hero-buttons">
+            <a href="https://apps.apple.com/app/id6761442829" class="hero-cta" id="storeBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span data-i18n="hero_cta_ios">Download for iOS</span>
+            </a>
+            <a href="https://apps.apple.com/app/id6761442829" class="hero-cta" id="storeBtnMac">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span data-i18n="hero_cta_mac">Download for macOS</span>
+            </a>
+        </div>
+        <span class="hero-free" data-i18n="hero_req">iOS 17.0+ &middot; macOS 14.0+</span>
+
+        <!-- Hero Image -->
+        <div class="hero-showcase fade-in">
+            <img src="images/hero-dark.jpg" alt="Corvus RSS Reader, dark theme reading view on a Studio Display" loading="eager" fetchpriority="high" width="1360" height="768" decoding="async">
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="section-label fade-in" data-i18n="sec_features">Features</div>
+        <h2 class="section-title gradient-text fade-in" data-i18n="sec_features_title">A complete RSS reader inside Safari</h2>
+
+        <div class="features-grid">
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                </div>
+                <h3 data-i18n="f1_t">RSS & Atom Feeds</h3>
+                <p data-i18n="f1_d">Subscribe to any website with an RSS or Atom feed. Fast continuous refresh, auto-discovery, and built-in feed health tools.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+                <h3 data-i18n="f2_t">YouTube Channels</h3>
+                <p data-i18n="f2_d">Subscribe to any YouTube channel directly from its page with automatic @handle resolution. Hide Shorts from your feed to focus on full videos.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <h3 data-i18n="f3_t">Folder Organization</h3>
+                <p data-i18n="f3_d">Group your feeds into folders and nested sub-folders. Keep Tech, News, YouTube, and Design neatly separated.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                </div>
+                <h3 data-i18n="f4_t">5 View Modes</h3>
+                <p data-i18n="f4_d">Magazine, list, card, expanded, and full-view layouts. Choose the reading experience that works best for you.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <h3 data-i18n="f5_t">Star, Pin & Read Later</h3>
+                <p data-i18n="f5_d">Save articles for later, star your favorites, and pin important items. Built-in smart feeds for quick access.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/></svg>
+                </div>
+                <h3 data-i18n="f6_t">Keyboard Shortcuts</h3>
+                <p data-i18n="f6_d">Navigate, star, refresh, and manage articles entirely from the keyboard. J/K to browse, S to star, V to open, and more.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </div>
+                <h3 data-i18n="f7_t">Full-Text Search</h3>
+                <p data-i18n="f7_d">Search across all your articles by title, content, or author. Find anything instantly, even in thousands of articles.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><path d="M3 20c0-6.63 5.37-12 12-12h1"/><circle cx="19.5" cy="17.5" r="2.5"/><path d="M21 4c0 6.63-5.37 12-12 12H8"/></svg>
+                </div>
+                <h3 data-i18n="f8_t">Themes & Customization</h3>
+                <p data-i18n="f8_d">Pick from a visual grid of 7 themes, Light, Dark, Midnight, Sepia, Nord, Dracula, Solarized Dark, plus custom accent colors, font sizes, density settings, and newspaper-style column layouts.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">
+                    <svg width="44" height="44" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language" style="vertical-align:middle;"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', sans-serif" font-size="14" font-weight="600" fill="#ee802f" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="#ee802f" text-anchor="middle">A</text></svg>
+                </div>
+                <h3 data-i18n="f9_t">33 Languages</h3>
+                <p data-i18n="f9_d">Fully localized in 33 languages, including English, Spanish, French, German, Japanese, Korean, Portuguese, Chinese, Arabic, Hindi, Russian, Turkish, and more.</p>
+            </div>
+        </div>
+
+        <div class="features-list">
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f10_t">Auto-Categorize</h3>
+                    <p data-i18n="f10_d">New feeds are automatically sorted into 20 category folders based on domain and keyword matching. No manual organization needed.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f11_t">OPML Import & Export</h3>
+                    <p data-i18n="f11_d">Bring your feeds from any reader with OPML import. Full folder hierarchy preserved, with progress tracking and duplicate detection.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f12_t">Offline Reading</h3>
+                    <p data-i18n="f12_d">Save articles with embedded images for reading without an internet connection. Your saved content is always available.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f13_t">Feed Health Dashboard</h3>
+                    <p data-i18n="f13_d">Monitor broken, stale, and error-prone feeds at a glance. Bulk disable inactive feeds and retry disabled ones with a single tap.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f14_t">Auto-Action Rules</h3>
+                    <p data-i18n="f14_d">Create rules to automatically star, tag, mute, or archive articles based on keywords, feeds, or authors. Your inbox, your rules.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f15_t">Smart Filters</h3>
+                    <p data-i18n="f15_d">Built-in smart feeds for Today, Unread, Starred, Read Later, and Archived articles. Jump to what matters in one click.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2" fill="#ee802f"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f16_t">Discover Feeds</h3>
+                    <p data-i18n="f16_d">Browse a curated directory of 5,000+ feeds across 34 categories and 47 countries. Find new sources in seconds, no URL hunting required.</p>
+                </div>
+            </div>
+            <div class="feature-row fade-in">
+                <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#ee802f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="18" y2="18"/><circle cx="17" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="14" cy="18" r="2"/></svg></div>
+                <div class="feature-row__body">
+                    <h3 data-i18n="f17_t">Organized Settings</h3>
+                    <p data-i18n="f17_d">A polished settings panel with 8 categories, live search across every option, and a What&rsquo;s New sheet that surfaces release notes on first launch after every update.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="showcase" id="showcase">
+        <div class="section-label fade-in" data-i18n="sec_showcase">Showcase</div>
+        <h2 class="section-title gradient-text fade-in" data-i18n="sec_showcase_title">A Safari RSS reader designed to get out of the way</h2>
+
+        <!-- Full-width dark theme banner -->
+        <div class="themes-banner fade-in" style="padding: 0; margin-bottom: 48px;">
+            <div class="themes-banner-inner">
+                <img src="images/screenshot-dark-fullview.jpg" alt="Corvus full-view layout with dark theme, magazine-style article cards" loading="lazy" width="2400" height="1350" decoding="async">
+                <div class="themes-banner-overlay">
+                    <h3 data-i18n="sc_fullview_t">Full-View Layout</h3>
+                    <p data-i18n="sc_fullview_d">A magazine-style reading experience. Articles displayed as rich cards with thumbnails, summaries, and metadata.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Two screenshots side by side -->
+        <div class="showcase-pair fade-in">
+            <div class="showcase-item">
+                <img src="images/screenshot-dark-reader.jpg" alt="Corvus three-panel reader view in dark theme" loading="lazy" width="2400" height="1350" decoding="async">
+                <div class="showcase-caption">
+                    <h3 data-i18n="sc_reader_t">Three-Panel Reader</h3>
+                    <p data-i18n="sc_reader_d">Sidebar, article list, and reading pane. Navigate your feeds with speed.</p>
+                </div>
+            </div>
+            <div class="showcase-item">
+                <img src="images/screenshot-light-reader.jpg" alt="Corvus three-panel reader view in light theme" loading="lazy" width="2400" height="1350" decoding="async">
+                <div class="showcase-caption">
+                    <h3 data-i18n="sc_light_t">Light & Sepia Themes</h3>
+                    <p data-i18n="sc_light_d">Choose the theme that suits your environment. Easy on the eyes, day or night.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- YouTube banner -->
+        <div class="themes-banner fade-in" style="padding: 0; margin-top: 24px;">
+            <div class="themes-banner-inner">
+                <img src="images/screenshot-youtube.jpg" alt="YouTube channel feed displayed as video cards in Corvus" loading="lazy" width="2400" height="1398" decoding="async">
+                <div class="themes-banner-overlay">
+                    <h3 data-i18n="sc_youtube_t">YouTube, Your Way</h3>
+                    <p data-i18n="sc_youtube_d">Subscribe to channels without an algorithm. Hide Shorts and see every video in a clean, distraction-free layout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lifestyle Mockups -->
+    <div class="themes-banner fade-in">
+        <div class="showcase-pair" style="margin-bottom: 0;">
+            <div class="showcase-item" style="border: none; background: none;">
+                <img src="images/hero-light.jpg" alt="Corvus light theme on a Studio Display in a home office" style="border-radius: 16px;" loading="lazy" width="1360" height="768" decoding="async">
+            </div>
+            <div class="showcase-item" style="border: none; background: none;">
+                <img src="images/hero-youtube.jpg" alt="Corvus displaying YouTube feeds on a Studio Display" style="border-radius: 16px;" loading="lazy" width="1328" height="768" decoding="async">
+            </div>
+        </div>
+    </div>
+
+    <!-- Light fullview banner -->
+    <div class="themes-banner fade-in" style="margin-top: 24px;">
+        <div class="themes-banner-inner">
+            <img src="images/screenshot-light-fullview.jpg" alt="Corvus full-view layout in warm sepia theme reading NASA articles" loading="lazy" width="2400" height="1350" decoding="async">
+            <div class="themes-banner-overlay" style="background: linear-gradient(to top, rgba(40,30,20,0.9) 0%, transparent 100%);">
+                <h3 data-i18n="sc_warm_t">Warm & Inviting</h3>
+                <p data-i18n="sc_warm_d">The sepia theme transforms your reading experience into something that feels like a favorite bookshop.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- How it works -->
+    <section class="how-it-works" id="how">
+        <div class="section-label fade-in" data-i18n="sec_how">How it works</div>
+        <h2 class="section-title gradient-text fade-in" data-i18n="sec_how_title">Up and running in seconds</h2>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3 data-i18n="s1_t">Install from the App Store</h3>
+                <p data-i18n="s1_d">Download Corvus from the App Store. Available on Mac, iPhone, and iPad.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3 data-i18n="s2_t">Enable in Safari</h3>
+                <p data-i18n="s2_d">Open Safari Settings, go to Extensions, and enable Corvus. Grant permission for the sites you want to subscribe to.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3 data-i18n="s3_t">Subscribe & Read</h3>
+                <p data-i18n="s3_d">Visit any website or YouTube channel, click the Corvus icon, and subscribe. Your articles appear instantly in the reader.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why -->
+    <section class="why">
+        <div class="section-label fade-in" data-i18n="sec_why">Why Corvus</div>
+        <h2 class="section-title gradient-text fade-in" data-i18n="sec_why_title">Built for Safari users</h2>
+
+        <div class="why-grid">
+            <div class="why-card">
+                <h3 data-i18n="w1_t">No account required</h3>
+                <p data-i18n="w1_d">No sign-ups, no cloud sync, no login walls. Your feeds live on your device, ready instantly. Open Safari and start reading.</p>
+            </div>
+            <div class="why-card">
+                <h3 data-i18n="w2_t">Works everywhere</h3>
+                <p data-i18n="w2_d">Subscribe to blogs, news sites, YouTube channels, Reddit, GitHub releases, podcasts, and any site with an RSS or Atom feed.</p>
+            </div>
+            <div class="why-card">
+                <h3 data-i18n="w3_t">Native Safari extension</h3>
+                <p data-i18n="w3_d">Not a Chrome extension ported to Safari. Corvus is built specifically for Safari with native performance, no background processes, and zero data collection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <p class="req" data-i18n="req">Requires macOS 14.0 (Sonoma) or later, or iOS/iPadOS 17.0 or later. Works with Safari 17+.</p>
+
+    <!-- Footer -->
+        <section id="corvus-carousel" class="corvus-carousel" aria-labelledby="corvus-carousel-title" data-current-slug="Corvus-RSS-Reader-For-Safari">
+        <h2 id="corvus-carousel-title" class="corvus-carousel__title" data-i18n="carousel_title">More from CorvusDevs</h2>
+        <p class="corvus-carousel__sub" data-i18n="carousel_sub">Privacy-first apps for macOS, iOS, and Safari.</p>
+        <div class="corvus-carousel__viewport">
+            <button class="corvus-carousel__nav corvus-carousel__nav--prev" type="button" aria-label="Previous">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="corvus-carousel__track" role="list"><!-- Cards injected at runtime --></div>
+            <button class="corvus-carousel__nav corvus-carousel__nav--next" type="button" aria-label="Next">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></svg>
+            </button>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Corvus<span>Devs</span></div>
+                <p data-i18n="f_brand">Indie software studio.<br>Building focused, privacy-first tools for Apple platforms.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="f_legal">Legal</h4>
+                <a href="privacy" data-i18n="f_privacy">Privacy Policy</a>
+                <a href="terms" data-i18n="f_terms">Terms of Service</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="f_connect">Connect</h4>
+                <a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a>
+                <a href="https://github.com/CorvusDevs">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CorvusDevs. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/CorvusDevs" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="lang-picker.js"></script>
+    <script>
+    /* Scroll fade-in animations */
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "36ef79985b2045c4b271333fe4e427ab"}'></script><!-- End Cloudflare Web Analytics -->
+
+<script>
+(function() {
+    const APPS_JSON_URL = 'https://corvusdevs.github.io/apps.json';
+    const section = document.getElementById('corvus-carousel');
+    if (!section) return;
+    const track = section.querySelector('.corvus-carousel__track');
+    if (!track) return;
+
+    function getCurrentSlug() {
+        const explicit = section.getAttribute('data-current-slug');
+        if (explicit) return explicit.toLowerCase();
+        const segs = location.pathname.split('/').filter(Boolean);
+        return segs.length ? segs[0].toLowerCase() : '';
+    }
+
+    function buildCard(app) {
+        const a = document.createElement('a');
+        a.className = 'corvus-carousel__card';
+        a.href = app.url;
+        a.setAttribute('role', 'listitem');
+        if (app.accent) a.style.setProperty('--card-accent', `var(--accent-${app.accent}, var(--accent))`);
+
+        const img = document.createElement('img');
+        img.className = 'corvus-carousel__card-icon';
+        img.src = app.icon;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.width = 56;
+        img.height = 56;
+
+        const tag = document.createElement('div');
+        tag.className = 'corvus-carousel__card-tagline';
+        tag.textContent = app.tagline || '';
+
+        const name = document.createElement('div');
+        name.className = 'corvus-carousel__card-name';
+        name.textContent = app.name;
+
+        const desc = document.createElement('p');
+        desc.className = 'corvus-carousel__card-desc';
+        desc.textContent = app.description || '';
+
+        const cta = document.createElement('span');
+        cta.className = 'corvus-carousel__card-cta';
+        cta.textContent = 'Learn more →';
+
+        a.append(img, tag, name, desc, cta);
+        return a;
+    }
+
+    let navWired = false, syncNav = null;
+    function wireNav() {
+        const prev = section.querySelector('.corvus-carousel__nav--prev');
+        const next = section.querySelector('.corvus-carousel__nav--next');
+        if (!prev || !next) return;
+        const FADE_PX = 80;
+        const stepFn = () => Math.max(track.clientWidth * 0.8, 280 + 16);
+        prev.addEventListener('click', () => track.scrollBy({ left: -stepFn(), behavior: 'smooth' }));
+        next.addEventListener('click', () => track.scrollBy({ left: stepFn(), behavior: 'smooth' }));
+        function sync() {
+            const atStart = track.scrollLeft <= 4;
+            const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+            prev.disabled = atStart;
+            next.disabled = atEnd;
+            track.style.setProperty('--fade-l', atStart ? '0px' : FADE_PX + 'px');
+            track.style.setProperty('--fade-r', atEnd ? '0px' : FADE_PX + 'px');
+        }
+        syncNav = sync;
+        track.addEventListener('scroll', sync, { passive: true });
+        window.addEventListener('resize', sync, { passive: true });
+        sync();
+    }
+
+    // Idempotent: replaces any existing cards (so a cache render followed by a
+    // fresh render doesn't duplicate), wires nav once, re-syncs after re-render.
+    function render(data) {
+        const apps = (data && Array.isArray(data.apps)) ? data.apps : [];
+        const currentSlug = getCurrentSlug();
+        const filtered = apps.filter(a => (a.slug || '').toLowerCase() !== currentSlug);
+        if (!filtered.length) { if (!track.children.length) section.style.display = 'none'; return; }
+        filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+        const frag = document.createDocumentFragment();
+        for (const app of filtered) frag.appendChild(buildCard(app));
+        track.replaceChildren(frag);
+        section.style.display = '';
+        if (!navWired) { wireNav(); navWired = true; } else if (syncNav) { syncNav(); }
+    }
+
+    const CACHE_KEY = 'corvusApps_v1';
+    // 1. Instant paint from last-known data, so repeat visits show the carousel
+    //    with no network wait.
+    try {
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (cached) render(JSON.parse(cached));
+    } catch (_) {}
+
+    // 2. Fresh data: reuse the <head>-warmed fetch when present (it started
+    //    during HTML parse), otherwise fetch now. Cache the result for next time.
+    const fresh = (window.__corvusAppsPromise && typeof window.__corvusAppsPromise.then === 'function')
+        ? window.__corvusAppsPromise
+        : fetch(APPS_JSON_URL, { cache: 'default' }).then(r => r.ok ? r.json() : null).catch(() => null);
+    fresh.then(data => {
+        if (!data) { if (!track.children.length) section.style.display = 'none'; return; }
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (_) {}
+        render(data);
+    });
+})();
+</script>
+
+</body>
+</html>
