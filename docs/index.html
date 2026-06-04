@@ -348,6 +348,55 @@
             color: var(--text-secondary);
         }
 
+        /* Screenshot carousel (ported from Corvus Player), one shot at a time
+           so the gallery stops stacking vertically. Borderless, ambient depth. */
+        .shot-carousel { position: relative; isolation: isolate; max-width: 1000px; margin: 0 auto; }
+        .shot-carousel__glow { position: absolute; inset: -8% -6% -16%; z-index: 0; pointer-events: none; }
+        .shot-carousel__bloom {
+            position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+            transform: scale(1.12); filter: blur(55px) saturate(1.4); opacity: 0;
+            transition: opacity 0.9s ease;
+            -webkit-mask: radial-gradient(ellipse 70% 68% at 50% 52%, #000 38%, transparent 100%);
+                    mask: radial-gradient(ellipse 70% 68% at 50% 52%, #000 38%, transparent 100%);
+        }
+        .shot-carousel__bloom.is-active { opacity: 0.5; }
+        .shot-carousel__viewport { position: relative; z-index: 1; aspect-ratio: 16 / 9; display: grid; place-items: center; }
+        .shot-carousel__slide {
+            grid-area: 1 / 1; max-width: 100%; max-height: 100%; width: auto; height: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 2px 6px rgba(0, 0, 0, 0.4), 0 24px 55px -14px rgba(0, 0, 0, 0.7);
+            opacity: 0; transform: scale(1.015);
+            transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .shot-carousel__slide.is-active { opacity: 1; transform: scale(1); }
+        .shot-carousel__arrow {
+            position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+            width: 44px; height: 44px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            background: rgba(17, 17, 20, 0.5); border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--text); font-size: 20px; line-height: 1; cursor: pointer;
+            -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+            opacity: 0; transition: opacity 0.25s, background 0.2s, border-color 0.2s, transform 0.2s;
+        }
+        .shot-carousel:hover .shot-carousel__arrow, .shot-carousel__arrow:focus-visible { opacity: 1; }
+        .shot-carousel__arrow:hover { background: var(--accent); border-color: var(--accent); }
+        .shot-carousel__arrow--prev { left: 16px; }
+        .shot-carousel__arrow--prev:hover { transform: translateY(-50%) translateX(-2px); }
+        .shot-carousel__arrow--next { right: 16px; }
+        .shot-carousel__arrow--next:hover { transform: translateY(-50%) translateX(2px); }
+        .shot-carousel__dots { display: flex; justify-content: center; gap: 8px; margin-top: 22px; }
+        .shot-carousel__dot {
+            width: 8px; height: 8px; border-radius: 50%; padding: 0; border: none;
+            background: rgba(255, 255, 255, 0.18); cursor: pointer;
+            transition: width 0.3s, background 0.3s, border-radius 0.3s;
+        }
+        .shot-carousel__dot.is-active { width: 22px; border-radius: 4px; background: var(--accent); }
+        .shot-carousel__dot:hover { background: rgba(255, 255, 255, 0.4); }
+        @media (max-width: 768px) { .shot-carousel__arrow { opacity: 1; width: 38px; height: 38px; } }
+        @media (prefers-reduced-motion: reduce) {
+            .shot-carousel__slide, .shot-carousel__bloom { transition: opacity 0.3s ease; transform: none; }
+        }
+
         /* Themes Banner, full width dramatic image */
         .themes-banner {
             max-width: 1200px;
@@ -1146,69 +1195,27 @@
         <div class="section-label fade-in" data-i18n="sec_showcase">Showcase</div>
         <h2 class="section-title gradient-text fade-in" data-i18n="sec_showcase_title">A Safari RSS reader designed to get out of the way</h2>
 
-        <!-- Full-width dark theme banner -->
-        <div class="themes-banner fade-in" style="padding: 0; margin-bottom: 48px;">
-            <div class="themes-banner-inner">
-                <img src="images/screenshot-dark-fullview.jpg" alt="Corvus full-view layout with dark theme, magazine-style article cards" loading="lazy" width="2400" height="1350" decoding="async">
-                <div class="themes-banner-overlay">
-                    <h3 data-i18n="sc_fullview_t">Full-View Layout</h3>
-                    <p data-i18n="sc_fullview_d">A magazine-style reading experience. Articles displayed as rich cards with thumbnails, summaries, and metadata.</p>
-                </div>
+        <!-- Screenshot carousel, one shot at a time, replaces the stacked gallery -->
+        <div class="shot-carousel fade-in" data-interval="5000" tabindex="0" aria-roledescription="carousel" aria-label="Corvus RSS Reader screenshots">
+            <div class="shot-carousel__glow" aria-hidden="true">
+                <img class="shot-carousel__bloom is-active" src="images/screenshot-dark-reader.jpg" alt="" loading="eager" decoding="async">
+                <img class="shot-carousel__bloom" src="images/screenshot-dark-fullview.jpg" alt="" loading="lazy" decoding="async">
+                <img class="shot-carousel__bloom" src="images/screenshot-light-reader.jpg" alt="" loading="lazy" decoding="async">
+                <img class="shot-carousel__bloom" src="images/screenshot-light-fullview.jpg" alt="" loading="lazy" decoding="async">
+                <img class="shot-carousel__bloom" src="images/screenshot-youtube.jpg" alt="" loading="lazy" decoding="async">
             </div>
-        </div>
-
-        <!-- Two screenshots side by side -->
-        <div class="showcase-pair fade-in">
-            <div class="showcase-item">
-                <img src="images/screenshot-dark-reader.jpg" alt="Corvus three-panel reader view in dark theme" loading="lazy" width="2400" height="1350" decoding="async">
-                <div class="showcase-caption">
-                    <h3 data-i18n="sc_reader_t">Three-Panel Reader</h3>
-                    <p data-i18n="sc_reader_d">Sidebar, article list, and reading pane. Navigate your feeds with speed.</p>
-                </div>
+            <div class="shot-carousel__viewport">
+                <img class="shot-carousel__slide is-active" src="images/screenshot-dark-reader.jpg" alt="Corvus three-panel reader view in dark theme" loading="eager" fetchpriority="high" width="2400" height="1350" decoding="async">
+                <img class="shot-carousel__slide" src="images/screenshot-dark-fullview.jpg" alt="Corvus full-view magazine layout in dark theme" loading="lazy" width="2400" height="1350" decoding="async">
+                <img class="shot-carousel__slide" src="images/screenshot-light-reader.jpg" alt="Corvus three-panel reader view in light theme" loading="lazy" width="2400" height="1350" decoding="async">
+                <img class="shot-carousel__slide" src="images/screenshot-light-fullview.jpg" alt="Corvus full-view layout in warm sepia theme" loading="lazy" width="2400" height="1350" decoding="async">
+                <img class="shot-carousel__slide" src="images/screenshot-youtube.jpg" alt="YouTube channel feed displayed as video cards in Corvus" loading="lazy" width="2400" height="1398" decoding="async">
             </div>
-            <div class="showcase-item">
-                <img src="images/screenshot-light-reader.jpg" alt="Corvus three-panel reader view in light theme" loading="lazy" width="2400" height="1350" decoding="async">
-                <div class="showcase-caption">
-                    <h3 data-i18n="sc_light_t">Light & Sepia Themes</h3>
-                    <p data-i18n="sc_light_d">Choose the theme that suits your environment. Easy on the eyes, day or night.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- YouTube banner -->
-        <div class="themes-banner fade-in" style="padding: 0; margin-top: 24px;">
-            <div class="themes-banner-inner">
-                <img src="images/screenshot-youtube.jpg" alt="YouTube channel feed displayed as video cards in Corvus" loading="lazy" width="2400" height="1398" decoding="async">
-                <div class="themes-banner-overlay">
-                    <h3 data-i18n="sc_youtube_t">YouTube, Your Way</h3>
-                    <p data-i18n="sc_youtube_d">Subscribe to channels without an algorithm. Hide Shorts and see every video in a clean, distraction-free layout.</p>
-                </div>
-            </div>
+            <button class="shot-carousel__arrow shot-carousel__arrow--prev" type="button" aria-label="Previous screenshot">&#8249;</button>
+            <button class="shot-carousel__arrow shot-carousel__arrow--next" type="button" aria-label="Next screenshot">&#8250;</button>
+            <div class="shot-carousel__dots" role="tablist" aria-label="Choose screenshot"></div>
         </div>
     </section>
-
-    <!-- Lifestyle Mockups -->
-    <div class="themes-banner fade-in">
-        <div class="showcase-pair" style="margin-bottom: 0;">
-            <div class="showcase-item" style="border: none; background: none;">
-                <img src="images/hero-light.jpg" alt="Corvus light theme on a Studio Display in a home office" style="border-radius: 16px;" loading="lazy" width="1360" height="768" decoding="async">
-            </div>
-            <div class="showcase-item" style="border: none; background: none;">
-                <img src="images/hero-youtube.jpg" alt="Corvus displaying YouTube feeds on a Studio Display" style="border-radius: 16px;" loading="lazy" width="1328" height="768" decoding="async">
-            </div>
-        </div>
-    </div>
-
-    <!-- Light fullview banner -->
-    <div class="themes-banner fade-in" style="margin-top: 24px;">
-        <div class="themes-banner-inner">
-            <img src="images/screenshot-light-fullview.jpg" alt="Corvus full-view layout in warm sepia theme reading NASA articles" loading="lazy" width="2400" height="1350" decoding="async">
-            <div class="themes-banner-overlay" style="background: linear-gradient(to top, rgba(40,30,20,0.9) 0%, transparent 100%);">
-                <h3 data-i18n="sc_warm_t">Warm & Inviting</h3>
-                <p data-i18n="sc_warm_d">The sepia theme transforms your reading experience into something that feels like a favorite bookshop.</p>
-            </div>
-        </div>
-    </div>
 
     <!-- How it works -->
     <section class="how-it-works" id="how">
@@ -1424,6 +1431,63 @@
         try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (_) {}
         render(data);
     });
+})();
+</script>
+
+<!-- Screenshot carousel (ported from Corvus Player): autoplay, arrows, dots, keyboard, swipe -->
+<script>
+(function () {
+    var c = document.querySelector('.shot-carousel');
+    if (!c) return;
+    var slides = Array.prototype.slice.call(c.querySelectorAll('.shot-carousel__slide'));
+    if (slides.length < 2) return;
+    var blooms = Array.prototype.slice.call(c.querySelectorAll('.shot-carousel__bloom'));
+    var dotsWrap = c.querySelector('.shot-carousel__dots');
+    var interval = parseInt(c.getAttribute('data-interval'), 10) || 5000;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var i = 0, timer = null;
+    var dots = slides.map(function (_, n) {
+        var b = document.createElement('button');
+        b.className = 'shot-carousel__dot' + (n === 0 ? ' is-active' : '');
+        b.type = 'button';
+        b.setAttribute('role', 'tab');
+        b.setAttribute('aria-label', 'Screenshot ' + (n + 1));
+        b.addEventListener('click', function () { go(n, true); });
+        dotsWrap.appendChild(b);
+        return b;
+    });
+    function go(n, manual) {
+        i = (n + slides.length) % slides.length;
+        slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
+        blooms.forEach(function (b, k) { b.classList.toggle('is-active', k === i); });
+        dots.forEach(function (d, k) {
+            d.classList.toggle('is-active', k === i);
+            d.setAttribute('aria-selected', k === i ? 'true' : 'false');
+        });
+        if (manual) restart();
+    }
+    function start() { if (!reduce && !timer) timer = setInterval(function () { go(i + 1); }, interval); }
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+    function restart() { stop(); start(); }
+    c.querySelector('.shot-carousel__arrow--next').addEventListener('click', function () { go(i + 1, true); });
+    c.querySelector('.shot-carousel__arrow--prev').addEventListener('click', function () { go(i - 1, true); });
+    c.addEventListener('mouseenter', stop);
+    c.addEventListener('mouseleave', start);
+    c.addEventListener('focusin', stop);
+    c.addEventListener('focusout', start);
+    c.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') { go(i + 1, true); e.preventDefault(); }
+        else if (e.key === 'ArrowLeft') { go(i - 1, true); e.preventDefault(); }
+    });
+    var x0 = null;
+    c.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    c.addEventListener('touchend', function (e) {
+        if (x0 === null) return;
+        var dx = e.changedTouches[0].clientX - x0;
+        if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1), true);
+        x0 = null;
+    });
+    start();
 })();
 </script>
 
