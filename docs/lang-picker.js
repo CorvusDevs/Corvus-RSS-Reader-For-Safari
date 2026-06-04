@@ -56,6 +56,13 @@
         return T[selection] ? selection : 'en';
     }
     function pickInitialSelection() {
+        // Per-locale SEO pages (/i18n/<code>/) set window.__forceLang so the
+        // body renders in that locale too (not just the localized meta tags).
+        // The main page never sets it, so its auto-detect behavior is intact.
+        if (typeof window !== 'undefined' && window.__forceLang
+                && (window.__forceLang === 'auto' || T[window.__forceLang])) {
+            return window.__forceLang;
+        }
         const url = new URL(location.href);
         const fromQuery = url.searchParams.get('lang');
         if (fromQuery && (fromQuery === 'auto' || T[fromQuery])) return fromQuery;

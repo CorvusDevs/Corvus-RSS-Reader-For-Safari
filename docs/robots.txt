@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/sitemap.xml
