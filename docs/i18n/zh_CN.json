@@ -136,5 +136,12 @@
   "terms_contact": "如果您对这些条款有任何疑问，请联系我们：",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "更多来自 CorvusDevs 的内容",
-  "carousel_sub": "适用于 macOS、iOS 和 Safari 的首重隐私应用。"
+  "carousel_sub": "适用于 macOS、iOS 和 Safari 的首重隐私应用。",
+  "dialog_whats_new": "新功能",
+  "btn_full_changelog": "完整变更日志",
+  "wn_2_8_0_title": "iPhone 上的更好阅读器",
+  "wn_2_8_0_mobile": "新增移动导航、触控友好的设置，以及在订阅源和发现页面中的可靠滚动。",
+  "wn_2_8_0_onboarding": "现在，入门流程已改为引导式三步流程，不再是一个长长的列表。",
+  "wn_2_8_0_appearance": "经过优化的编辑版式、Safari 主题色、全新应用图标以及可选的自定义文章强调线。",
+  "wn_2_8_0_reliability": "修复了对话框卡死、导航损坏、刷新循环和存储写入冲突问题。"
 }

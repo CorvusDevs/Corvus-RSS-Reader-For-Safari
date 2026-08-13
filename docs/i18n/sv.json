@@ -136,5 +136,12 @@
   "terms_contact": "Om du har frågor om dessa villkor, kontakta oss på:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Mer från CorvusDevs",
-  "carousel_sub": "Privatfokuserade appar för macOS, iOS och Safari."
+  "carousel_sub": "Privatfokuserade appar för macOS, iOS och Safari.",
+  "dialog_whats_new": "Nyheter",
+  "btn_full_changelog": "Fullständig ändringslogg",
+  "wn_2_8_0_title": "En bättre läsare på iPhone",
+  "wn_2_8_0_mobile": "Nytt mobilnavigering, berörningsvänliga Inställningar och pålitlig scrollning över flöden och Upptäck.",
+  "wn_2_8_0_onboarding": "Inledningsprocessen är nu en tre stegars process med stöd istället för en lång lista.",
+  "wn_2_8_0_appearance": "En förfinad redaktionell layout, Safari-temafärger, en ny appikon och valfria anpassningsbara artikelaccentlinjer.",
+  "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing."
 }

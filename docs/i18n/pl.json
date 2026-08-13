@@ -136,5 +136,12 @@
   "terms_contact": "Jeśli masz pytania dotyczące tych warunków, skontaktuj się z nami pod adresem:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Więcej od CorvusDevs",
-  "carousel_sub": "Aplikacje priorytetem prywatności dla macOS, iOS i Safari."
+  "carousel_sub": "Aplikacje priorytetem prywatności dla macOS, iOS i Safari.",
+  "dialog_whats_new": "Co nowego",
+  "btn_full_changelog": "Pełna historia zmian",
+  "wn_2_8_0_title": "Lepszy czytnik na iPhone",
+  "wn_2_8_0_mobile": "Otrzymaj nową nawigację mobilną, przyjazne dotykowi Ustawienia oraz niezawodowe przewijanie w feedach i Discover.",
+  "wn_2_8_0_onboarding": "Onboarding jest teraz prowadzonym, trzema krokami procesem, zamiast jednej długiej listy.",
+  "wn_2_8_0_appearance": "Przedstawia ulepszony układ redakcyjny, kolory motywu Safari, nowy ikona aplikacji oraz opcjonalne, dostosowalne linie akcentu artykułów.",
+  "wn_2_8_0_reliability": "Naprawiono zablokowane okna dialogowe, uszkodzoną nawigację, pętle odświeżania oraz wyścigi zapisu do pamięci."
 }

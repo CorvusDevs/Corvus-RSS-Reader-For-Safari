@@ -136,5 +136,12 @@
   "terms_contact": "これらの利用規約についてご質問がある場合は、以下の連絡先までお問い合わせください：",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "CorvusDevs の他のアプリもチェック",
-  "carousel_sub": "Apple 製 macOS、iOS、Safari でプライバシーを最優先にしたアプリ。"
+  "carousel_sub": "Apple 製 macOS、iOS、Safari でプライバシーを最優先にしたアプリ。",
+  "dialog_whats_new": "新機能",
+  "btn_full_changelog": "完全な変更履歴",
+  "wn_2_8_0_title": "iPhone でより優れたリーダー",
+  "wn_2_8_0_mobile": "新しいモバイルナビゲーション、タッチに最適化された設定、そしてフィードとディスカバリーでの信頼性の高いスクロールを実現します。",
+  "wn_2_8_0_onboarding": "オンボーディングは、長いリストから 3 ステップのガイド付きフローに変更されました。",
+  "wn_2_8_0_appearance": "洗練されたエディトリアルレイアウト、Safari のテーマカラー、新しいアプリアイコン、そしてオプションのカスタマイズ可能な記事アクセントラインを備えています。",
+  "wn_2_8_0_reliability": "スタックしたダイアログ、ナビゲーションの不具合、リフレッシュループ、ストレージ書き込み競合を修正しました。"
 }

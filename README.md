@@ -54,6 +54,7 @@ Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Subscribe from th
 
 - [Features](#features)
 - [Install](#install)
+- [What's new](#whats-new)
 - [What makes Corvus different](#what-makes-corvus-different)
 - [Requirements](#requirements)
 - [Privacy](#privacy)
@@ -94,6 +95,17 @@ Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Subscribe from th
 3. Visit a website or YouTube channel, open Corvus, and subscribe.
 
 The same purchase supports Mac, iPhone, and iPad.
+
+## What's new
+
+### 2.8.0
+
+- New mobile navigation, touch-friendly Settings, and reliable scrolling across feeds and Discover.
+- Onboarding is now a guided three-step flow instead of one long list.
+- A refined editorial layout, Safari theme colors, a new app icon, and optional customizable article accent lines.
+- Fixed stuck dialogs, broken navigation, refresh loops, and storage write races.
+
+See the [website changelog](https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/#whats-new) for the current release.
 
 ## What makes Corvus different
 

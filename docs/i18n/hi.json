@@ -136,5 +136,12 @@
   "terms_contact": "यदि आपके इन शर्तों के बारे में कोई प्रश्न हैं, तो हमसे संपर्क करें:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "CorvusDevs से और अधिक",
-  "carousel_sub": "macOS, iOS और Safari के लिए गोपनीयता-पहले ऐप्स।"
+  "carousel_sub": "macOS, iOS और Safari के लिए गोपनीयता-पहले ऐप्स।",
+  "dialog_whats_new": "नया क्या है",
+  "btn_full_changelog": "पूर्ण परिवर्तन लॉग",
+  "wn_2_8_0_title": "iPhone में बेहतर पाठक",
+  "wn_2_8_0_mobile": "नया मोबाइल नेविगेशन, स्पर्श-अनुकूल सेटिंग्स और फीड और डिस्कवरी में भरोसेमंद स्क्रॉलिंग।",
+  "wn_2_8_0_onboarding": "अब ऑनबोर्डिंग एक लंबी सूची के बजाय एक निर्देशित तीन-चरण प्रक्रिया है।",
+  "wn_2_8_0_appearance": "सुधारित संपादकीय लेआउट, Safari थीम रंग, नया ऐप आइकन और वैकल्पिक अनुकूलनीय लेख प्रकाश रेखाएं।",
+  "wn_2_8_0_reliability": "में जमे हुए डायलॉग, टूटी हुई नेविगेशन, रिफ्रेश लूप्स और स्टोरेज राइस की समस्याओं को ठीक किया गया।"
 }

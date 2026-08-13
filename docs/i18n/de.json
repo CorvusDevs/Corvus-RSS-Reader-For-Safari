@@ -136,5 +136,12 @@
   "terms_contact": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie uns unter:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Weitere Apps von CorvusDevs",
-  "carousel_sub": "Datenschutzorientierte Apps für macOS, iOS und Safari."
+  "carousel_sub": "Datenschutzorientierte Apps für macOS, iOS und Safari.",
+  "dialog_whats_new": "Neuigkeiten",
+  "btn_full_changelog": "Vollständiger Änderungsbericht",
+  "wn_2_8_0_title": "Besserer iPhone-Reader",
+  "wn_2_8_0_mobile": "Die neue mobile Navigation, die berührungsoptimierte Einstellungen und zuverlässiges Scrollen in Feeds und Discover.",
+  "wn_2_8_0_onboarding": "Das Onboarding ist jetzt ein geführter dreistufiger Ablauf statt einer langen Liste.",
+  "wn_2_8_0_appearance": "Eine verfeinerte editorielle Anordnung, Safari-Themenfarben, ein neues App-Symbol und optional anpassbare Artikel-Akzentlinien.",
+  "wn_2_8_0_reliability": "Die Dialoge, die Navigation, die Aktualisierungsschleifen und die Speicherzugriffsprobleme wurden behoben."
 }

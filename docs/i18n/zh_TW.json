@@ -136,5 +136,12 @@
   "terms_contact": "如有關於這些使用條款的問題，請聯絡我們：",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "更多來自 CorvusDevs 的內容",
-  "carousel_sub": "適用於 macOS、iOS 和 Safari 的重度隱私優先應用程式。"
+  "carousel_sub": "適用於 macOS、iOS 和 Safari 的重度隱私優先應用程式。",
+  "dialog_whats_new": "新功能",
+  "btn_full_changelog": "完整變更日誌",
+  "wn_2_8_0_title": "iPhone 更佳的閱讀器",
+  "wn_2_8_0_mobile": "新增的移動式導覽、觸控友善的設定，以及在資訊流與「發現」中流暢可靠的滑動體驗。",
+  "wn_2_8_0_onboarding": "現在，初始設定已改為引導式三步驟流程，而非冗長的清單。",
+  "wn_2_8_0_appearance": "提供經過優化的閱讀版面、Safari 主題色系、全新應用程式圖示，以及可自訂的文章強調線。",
+  "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。"
 }

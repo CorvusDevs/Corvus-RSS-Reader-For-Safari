@@ -550,5 +550,33 @@
   "carousel_sub": {
     "text": "Privacy-first apps for macOS, iOS, and Safari.",
     "context": "description"
+  },
+  "dialog_whats_new": {
+    "text": "What's New",
+    "context": "label"
+  },
+  "btn_full_changelog": {
+    "text": "Full Changelog",
+    "context": "label"
+  },
+  "wn_2_8_0_title": {
+    "text": "A better reader on iPhone",
+    "context": "description"
+  },
+  "wn_2_8_0_mobile": {
+    "text": "New mobile navigation, touch-friendly Settings, and reliable scrolling across feeds and Discover.",
+    "context": "description"
+  },
+  "wn_2_8_0_onboarding": {
+    "text": "Onboarding is now a guided three-step flow instead of one long list.",
+    "context": "description"
+  },
+  "wn_2_8_0_appearance": {
+    "text": "A refined editorial layout, Safari theme colors, a new app icon, and optional customizable article accent lines.",
+    "context": "description"
+  },
+  "wn_2_8_0_reliability": {
+    "text": "Fixed stuck dialogs, broken navigation, refresh loops, and storage write races.",
+    "context": "description"
   }
 }

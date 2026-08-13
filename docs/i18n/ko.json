@@ -136,5 +136,12 @@
   "terms_contact": "이 약관에 대해 문의사항이 있으시면 다음 주소로 연락해 주세요:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "CorvusDevs 에서 더 많은 앱 확인하기",
-  "carousel_sub": "macOS, iOS, 및 Safari를 위한 프라이버시 우선 앱입니다."
+  "carousel_sub": "macOS, iOS, 및 Safari를 위한 프라이버시 우선 앱입니다.",
+  "dialog_whats_new": "새로운 기능",
+  "btn_full_changelog": "전체 변경 사항",
+  "wn_2_8_0_title": "iPhone 에서 더 나은 리더",
+  "wn_2_8_0_mobile": "새 모바일 내비게이션, 터치에 최적화된 설정, 그리고 피드 및 Discover에서 안정적인 스크롤을 경험하세요.",
+  "wn_2_8_0_onboarding": "이제 온보딩은 긴 목록 대신 안내되는 세 단계 흐름으로 변경되었습니다.",
+  "wn_2_8_0_appearance": "다듬어진 읽기 레이아웃, Safari 테마 색상, 새로운 앱 아이콘과 선택적으로 맞춤 설정할 수 있는 기사 강조선을 제공합니다.",
+  "wn_2_8_0_reliability": "고정된 대화상자, 깨진 내비게이션, 새로고침 루프, 그리고 스토리지 쓰기 충돌 문제를 수정했습니다."
 }

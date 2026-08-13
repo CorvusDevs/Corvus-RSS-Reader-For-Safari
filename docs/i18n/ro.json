@@ -136,5 +136,12 @@
   "terms_contact": "Dacă aveți întrebări privind aceste Termene și condiții, contactați-ne la:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Mai multe de la CorvusDevs",
-  "carousel_sub": "Aplicații cu prioritate la confidențialitate pentru macOS, iOS și Safari."
+  "carousel_sub": "Aplicații cu prioritate la confidențialitate pentru macOS, iOS și Safari.",
+  "dialog_whats_new": "Ce e nou",
+  "btn_full_changelog": "Istoric complet",
+  "wn_2_8_0_title": "Un cititor mai bun pe iPhone",
+  "wn_2_8_0_mobile": "Noua navigare mobilă, Setări prietenoase pentru atingere și derulare fiabilă în fluxuri și Discover.",
+  "wn_2_8_0_onboarding": "Acum, procesul de introducere este un flux ghidat în trei pași, nu o listă lungă.",
+  "wn_2_8_0_appearance": "Un design editorial rafinat, culori temei Safari, un nou icon al aplicației și linii de accent personalizabile pentru articole.",
+  "wn_2_8_0_reliability": "Am corectat dialogurile blocate, navigația defectă, buclele de reîmprospătare și conflictele de scriere în stocare."
 }

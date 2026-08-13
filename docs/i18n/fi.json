@@ -136,5 +136,12 @@
   "terms_contact": "Jos sinulla on kysymyksiä näistä ehdoista, ota meihin yhteyttä osoitteessa:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Lisää CorvusDevs -sovelluksia",
-  "carousel_sub": "Yksityisyyteen keskittyvät sovellukset macOS-, iOS- ja Safari-käyttöjärjestelmille."
+  "carousel_sub": "Yksityisyyteen keskittyvät sovellukset macOS-, iOS- ja Safari-käyttöjärjestelmille.",
+  "dialog_whats_new": "Uudet ominaisuudet",
+  "btn_full_changelog": "Koko muutosloki",
+  "wn_2_8_0_title": "iPhone-lukija",
+  "wn_2_8_0_mobile": "Uusi mobiilinavigointi, kosketusystävälliset asetukset ja luotettava vieritys syötteissä ja Löydä-osiossa.",
+  "wn_2_8_0_onboarding": "Käyttöönotto on nyt ohjattu kolmivaiheinen prosessi yhden pitkän luettelon sijaan.",
+  "wn_2_8_0_appearance": "Refinoitu editori, Safari-teeman värit, uusi sovellikon ja valinnaiset säädettävät artikkelin korostusviivat.",
+  "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu."
 }

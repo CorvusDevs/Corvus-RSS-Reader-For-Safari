@@ -136,5 +136,12 @@
   "terms_contact": "Ha kérdése van ezekről a feltételekről, forduljon hozzánk:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Több a CorvusDevs-től",
-  "carousel_sub": "Apple-hez tartozó, az adatvédelemre fókuszáló alkalmazások macOS, iOS és Safari számára."
+  "carousel_sub": "Apple-hez tartozó, az adatvédelemre fókuszáló alkalmazások macOS, iOS és Safari számára.",
+  "dialog_whats_new": "Újítások",
+  "btn_full_changelog": "Teljes változásnapló",
+  "wn_2_8_0_title": "iPhone-en jobb olvasó",
+  "wn_2_8_0_mobile": "Új mobilos navigáció, érintésközpontú Beállítások és megbízható görgetés a hírfolyamokban és a Felfedezésben.",
+  "wn_2_8_0_onboarding": "A bevezetés most egy irányított, három lépéses folyamat, nem pedig egy hosszú lista.",
+  "wn_2_8_0_appearance": "Egy kifinomult szerkesztőségi elrendezés, Safari témájú színek, egy új alkalmazásikon és választható, testreszabható cikkkiemelők.",
+  "wn_2_8_0_reliability": "A ragadott párbeszédablakokat, a hibás navigációt, a frissítési hurkokat és a tárolási írási versenyeket javítottuk."
 }

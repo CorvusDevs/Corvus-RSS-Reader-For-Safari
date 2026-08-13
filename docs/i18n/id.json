@@ -136,5 +136,12 @@
   "terms_contact": "Jika Anda memiliki pertanyaan tentang Ketentuan ini, hubungi kami di:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Lebih banyak dari CorvusDevs",
-  "carousel_sub": "Aplikasi yang memprioritaskan privasi untuk macOS, iOS, dan Safari."
+  "carousel_sub": "Aplikasi yang memprioritaskan privasi untuk macOS, iOS, dan Safari.",
+  "dialog_whats_new": "Apa yang Baru",
+  "btn_full_changelog": "Riwayat Perubahan Lengkap",
+  "wn_2_8_0_title": "Pembaca iPhone yang lebih baik",
+  "wn_2_8_0_mobile": "Navigasi seluler baru, Pengaturan yang ramah sentuhan, dan guliran yang andal di Feed dan Discover.",
+  "wn_2_8_0_onboarding": "Onboarding kini merupakan alur tiga langkah yang dipandu, bukan daftar panjang.",
+  "wn_2_8_0_appearance": "Tata letakan editorial yang lebih rapi, tema warna Safari, ikon aplikasi baru, dan garis aksen artikel yang dapat disesuaikan secara opsional.",
+  "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan."
 }

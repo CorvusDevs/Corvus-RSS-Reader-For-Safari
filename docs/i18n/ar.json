@@ -136,5 +136,12 @@
   "terms_contact": "إذا كان لديك أي أسئلة حول هذه الشروط، تواصل معنا على:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "أكثر من CorvusDevs",
-  "carousel_sub": "تطبيقات تركز على الخصوصية لـ macOS و iOS و Safari."
+  "carousel_sub": "تطبيقات تركز على الخصوصية لـ macOS و iOS و Safari.",
+  "dialog_whats_new": "ما الجديد",
+  "btn_full_changelog": "سجل التغييرات الكامل",
+  "wn_2_8_0_title": "قارئ أفضل على iPhone",
+  "wn_2_8_0_mobile": "تصفح جديد للهاتف المحمول، إعدادات سهلة اللمس، وتصفح موثوق للتيارات والاكتشاف.",
+  "wn_2_8_0_onboarding": "أصبح الترحيب الآن تدفقًا موجهًا بثلاث خطوات بدلاً من قائمة طويلة.",
+  "wn_2_8_0_appearance": "تصميم تحريري منقّح مع ألوان موضوع Safari، وأيقونة تطبيق جديدة، وخطوط تمييز قابلة للتخصيص للمقالات.",
+  "wn_2_8_0_reliability": "تم إصلاح الحوارات المتجمدة، والملاحة المعطلة، ودورات التحديث، وتعارضات الكتابة في التخزين."
 }

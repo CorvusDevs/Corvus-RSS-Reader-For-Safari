@@ -136,5 +136,12 @@
   "terms_contact": "Har du spørsmål om disse vilkårene, kan du kontakte oss på:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Mer fra CorvusDevs",
-  "carousel_sub": "Privatfirst-apps for macOS, iOS og Safari."
+  "carousel_sub": "Privatfirst-apps for macOS, iOS og Safari.",
+  "dialog_whats_new": "Nyheter",
+  "btn_full_changelog": "Full endringslogg",
+  "wn_2_8_0_title": "iPhone-leser",
+  "wn_2_8_0_mobile": "Nytt mobilnavigasjon, berøringsoptimerte Innstillinger og pålitelig rulling i strømmene og Oppdag.",
+  "wn_2_8_0_onboarding": "Onboarding er nå en veiledet prosess med tre trinn i stedet for én lang liste.",
+  "wn_2_8_0_appearance": "Et raffinert editorielt layout, Safari-fargemalet, et nytt app-ikon, og valgfrie tilpassbare artikkel-akkentlinjer.",
+  "wn_2_8_0_reliability": "Fiksert dialoger som henger fast, borteblev navigasjon, oppdateringsløyper og konkurranse om skriveoperasjoner på lagring."
 }

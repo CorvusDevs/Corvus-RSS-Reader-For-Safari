@@ -649,6 +649,22 @@
             line-height: 1.6;
         }
 
+        .changelog-section { max-width: 960px; margin: 0 auto; padding: 40px 24px 100px; }
+        .changelog-box { max-width: 760px; margin: 0 auto; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: clip; }
+        .changelog-summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; min-height: 58px; padding: 16px 22px; font-size: 16px; font-weight: 700; color: var(--text); }
+        .changelog-summary::-webkit-details-marker { display: none; }
+        .changelog-summary::after { content: ""; margin-left: auto; width: 9px; height: 9px; border-right: 2px solid var(--text-secondary); border-bottom: 2px solid var(--text-secondary); transform: rotate(45deg); transition: transform 0.2s; }
+        .changelog-box[open] .changelog-summary::after { transform: rotate(-135deg); }
+        .changelog-box[open] .changelog-summary { border-bottom: 1px solid var(--border); }
+        .changelog-summary:hover { color: var(--accent-light); }
+        .changelog { padding: 22px; }
+        .release-ver { font-size: 14px; font-weight: 700; color: var(--accent-light); padding: 4px 12px; border: 1px solid var(--border); border-radius: 999px; display: inline-block; margin-bottom: 16px; }
+        .changelog-title { font-size: 20px; margin: 0 0 18px; }
+        .changelog-list { list-style: none; display: grid; gap: 14px; margin: 0; padding: 0; }
+        .changelog-list li { padding-left: 18px; border-left: 2px solid var(--accent); font-size: 14.5px; line-height: 1.6; color: var(--text-secondary); }
+        .changelog-link { display: inline-flex; margin-top: 20px; color: var(--accent-light); font-weight: 600; text-decoration: none; }
+        .changelog-link:hover { text-decoration: underline; }
+
         /* Requirements */
         .req {
             text-align: center;
@@ -1114,6 +1130,7 @@
                 <li><a href="#features" data-i18n="nav_features">Features</a></li>
                 <li><a href="#showcase" data-i18n="nav_showcase">Showcase</a></li>
                 <li><a href="#how" data-i18n="nav_how">How it works</a></li>
+                <li><a href="#whats-new" data-i18n="dialog_whats_new">What's New</a></li>
                 <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">Contact</a></li>
             </ul>
             <div class="lang-wrap" id="langWrap">
@@ -1371,6 +1388,24 @@
         </div>
     </section>
 
+    <section class="changelog-section" id="whats-new">
+        <div class="section-label fade-in" data-i18n="dialog_whats_new">What's New</div>
+        <details class="changelog-box fade-in" open>
+            <summary class="changelog-summary" data-i18n="dialog_whats_new">What's New</summary>
+            <div class="changelog">
+                <span class="release-ver">2.8.0</span>
+                <h2 class="changelog-title" data-i18n="wn_2_8_0_title">A better reader on iPhone</h2>
+                <ul class="changelog-list">
+                    <li data-i18n="wn_2_8_0_mobile">New mobile navigation, touch-friendly Settings, and reliable scrolling across feeds and Discover.</li>
+                    <li data-i18n="wn_2_8_0_onboarding">Onboarding is now a guided three-step flow instead of one long list.</li>
+                    <li data-i18n="wn_2_8_0_appearance">A refined editorial layout, Safari theme colors, a new app icon, and optional customizable article accent lines.</li>
+                    <li data-i18n="wn_2_8_0_reliability">Fixed stuck dialogs, broken navigation, refresh loops, and storage write races.</li>
+                </ul>
+                <a class="changelog-link" href="https://github.com/CorvusDevs/Corvus-RSS-Reader-For-Safari/commits/main/" data-i18n="btn_full_changelog">Full Changelog</a>
+            </div>
+        </details>
+    </section>
+
     <!-- Requirements -->
     <p class="req" data-i18n="req">Requires macOS 14.0 (Sonoma) or later, or iOS/iPadOS 17.0 or later. Works with Safari 17+.</p>
 
@@ -1417,7 +1452,7 @@
         </div>
     </footer>
 
-    <script src="../../translations.js"></script>
+    <script src="../../translations.js?v=280"></script>
     <script>window.__forceLang="it";</script>
     <script src="../../lang-picker.js"></script>
     <script>

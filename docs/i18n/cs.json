@@ -136,5 +136,12 @@
   "terms_contact": "Máte-li dotazy týkající se těchto podmínek, kontaktujte nás na:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Více od CorvusDevs",
-  "carousel_sub": "Aplikace s důrazem na ochranu soukromí pro macOS, iOS a Safari."
+  "carousel_sub": "Aplikace s důrazem na ochranu soukromí pro macOS, iOS a Safari.",
+  "dialog_whats_new": "Co je nové",
+  "btn_full_changelog": "Úplné záznamy o změnách",
+  "wn_2_8_0_title": "Lepší čtečka na iPhone",
+  "wn_2_8_0_mobile": "Nová mobilní navigace, nastavení přizpůsobené pro dotyk a spolehlivé scrollování v feedu a sekci Discover.",
+  "wn_2_8_0_onboarding": "Úvodní nastavení nyní probíhá ve třech řízených krocích místo dlouhého seznamu.",
+  "wn_2_8_0_appearance": "Vylepšené rozvržení čtečky, barvy motivu Safari, nová ikona aplikace a volitelné přizpůsobitelné zvýrazňující čáry článků.",
+  "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště."
 }

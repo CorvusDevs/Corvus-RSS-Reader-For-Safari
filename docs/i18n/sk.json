@@ -136,5 +136,12 @@
   "terms_contact": "Ak máte otázky týkajúce sa týchto podmienok, kontaktujte nás na:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Ďalšie od CorvusDevs",
-  "carousel_sub": "Aplikácie s dôrazom na ochranu súkromia pre macOS, iOS a Safari."
+  "carousel_sub": "Aplikácie s dôrazom na ochranu súkromia pre macOS, iOS a Safari.",
+  "dialog_whats_new": "Novinky",
+  "btn_full_changelog": "Plný zoznam zmien",
+  "wn_2_8_0_title": "Čítač na iPhone",
+  "wn_2_8_0_mobile": "Nová mobilná navigácia, nastavenia priateľské pre dotyk a spoľahlivé preklávanie v prúdoch a Discover.",
+  "wn_2_8_0_onboarding": "Onboarding sa teraz uskutočňuje ako tri kroky v návodnom postupe namiesto jedného dlhého zoznamu.",
+  "wn_2_8_0_appearance": "Refinovaný editor s témou Safari, novou ikonu aplikácie a možnosť prispôsobenia akcentných čiar článkov.",
+  "wn_2_8_0_reliability": "Opravené sú zaseknuté dialógové okná, porušovaná navigácia, slučky obnovenia a preteky zápisu do úložiska."
 }

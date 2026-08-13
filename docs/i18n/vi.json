@@ -136,5 +136,12 @@
   "terms_contact": "Nếu bạn có thắc mắc về các điều khoản này, hãy liên hệ với chúng tôi tại:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Thêm nữa từ CorvusDevs",
-  "carousel_sub": "Các ứng dụng ưu tiên quyền riêng tư cho macOS, iOS và Safari."
+  "carousel_sub": "Các ứng dụng ưu tiên quyền riêng tư cho macOS, iOS và Safari.",
+  "dialog_whats_new": "Tính năng mới",
+  "btn_full_changelog": "Biên sử dụng đầy đủ",
+  "wn_2_8_0_title": "Trình đọc tốt hơn trên iPhone",
+  "wn_2_8_0_mobile": "Thanh điều hướng di động mới, Cài đặt thân thiện với cảm ứng và cuộn mượt mà qua các dòng tin và Khám phá.",
+  "wn_2_8_0_onboarding": "Quy trình hướng dẫn nhập liệu giờ bao gồm ba bước thay vì một danh sách dài.",
+  "wn_2_8_0_appearance": "Bố cục chỉnh sửa tinh tế, màu sắc chủ đề Safari, biểu tượng ứng dụng mới và các đường viền nhấn mạnh bài viết tùy chỉnh tùy chọn.",
+  "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ."
 }

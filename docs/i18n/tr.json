@@ -136,5 +136,12 @@
   "terms_contact": "Bu Şartlar hakkında sorularınız varsa, bizimle iletişime geçin:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "CorvusDevs'ten daha fazlası",
-  "carousel_sub": "macOS, iOS ve Safari için gizlilik odaklı uygulamalar."
+  "carousel_sub": "macOS, iOS ve Safari için gizlilik odaklı uygulamalar.",
+  "dialog_whats_new": "Yenilikler",
+  "btn_full_changelog": "Tam Değişim Günlüğü",
+  "wn_2_8_0_title": "iPhone'da daha iyi bir okuyucu",
+  "wn_2_8_0_mobile": "Yeni mobil gezinme, dokunmatik dostu Ayarlar ve akış ile Keşfet'te güvenilir kaydırma.",
+  "wn_2_8_0_onboarding": "Onboarding artık tek uzun bir liste yerine, yönlendirilen üç adımlı bir akış olarak sunulmaktadır.",
+  "wn_2_8_0_appearance": "İnce ayarlanmış bir editorial düzeni, Safari temalı renkler, yeni bir uygulama ikonu ve isteğe bağlı özelleştirilebilir makale vurgu çizgileri.",
+  "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi."
 }

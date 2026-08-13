@@ -136,5 +136,12 @@
   "terms_contact": "Se você tiver dúvidas sobre estes Termos, entre em contato conosco em:",
   "terms_contact_block": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
   "carousel_title": "Mais do CorvusDevs",
-  "carousel_sub": "Apps com foco em privacidade para macOS, iOS e Safari."
+  "carousel_sub": "Apps com foco em privacidade para macOS, iOS e Safari.",
+  "dialog_whats_new": "O que há de novo",
+  "btn_full_changelog": "Histórico completo",
+  "wn_2_8_0_title": "Melhor leitor no iPhone",
+  "wn_2_8_0_mobile": "Nova navegação móvel, Ajustes amigáveis ao toque e rolagem confiável em feeds e Descubra.",
+  "wn_2_8_0_onboarding": "Agora, o onboarding é um fluxo guiado de três etapas, em vez de uma lista longa.",
+  "wn_2_8_0_appearance": "Um layout editorial refinado, cores do tema do Safari, um novo ícone do app e linhas de destaque personalizáveis para artigos.",
+  "wn_2_8_0_reliability": "Corrigidos diálogos travados, navegação quebrada, loops de atualização e conflitos de escrita no armazenamento."
 }
