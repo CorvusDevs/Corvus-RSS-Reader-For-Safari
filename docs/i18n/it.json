@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "La nuova navigazione mobile, le Impostazioni amichevoli al tocco e lo scorrimento affidabile nei Feed e su Discover.",
   "wn_2_8_0_onboarding": "L'onboarding è ora un flusso guidato in tre passaggi invece di un'unica lunga lista.",
   "wn_2_8_0_appearance": "Una layout editoriale raffinata, colori del tema Safari, una nuova icona dell'app e linee di accento personalizzabili per gli articoli.",
-  "wn_2_8_0_reliability": "Risolti dialoghi bloccati, navigazione interrotta, loop di aggiornamento e conflitti di scrittura su archivio."
+  "wn_2_8_0_reliability": "Risolti dialoghi bloccati, navigazione interrotta, loop di aggiornamento e conflitti di scrittura su archivio.",
+  "wn_2_8_1_title": "Migliore tempizzazione, più facile da trovare",
+  "wn_2_8_1_review": "Le richieste di recensione attendono ora che Corvus abbia fornito valore ripetuto tramite i feed e la lettura.",
+  "wn_2_8_1_search": "Migliorata la copertura della ricerca di App Store per notizie, blog, feed di YouTube, lettura offline, OPML e abbonamenti a Safari."
 }

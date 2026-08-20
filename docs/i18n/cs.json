@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Nová mobilní navigace, nastavení přizpůsobené pro dotyk a spolehlivé scrollování v feedu a sekci Discover.",
   "wn_2_8_0_onboarding": "Úvodní nastavení nyní probíhá ve třech řízených krocích místo dlouhého seznamu.",
   "wn_2_8_0_appearance": "Vylepšené rozvržení čtečky, barvy motivu Safari, nová ikona aplikace a volitelné přizpůsobitelné zvýrazňující čáry článků.",
-  "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště."
+  "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště.",
+  "wn_2_8_1_title": "Rychlejší, snadnojištější",
+  "wn_2_8_1_review": "Žádosti o hodnocení nyní čekají, až Corvus dodá opakovanou hodnotu prostřednictvím feedů a čtení.",
+  "wn_2_8_1_search": "Zlepšili jsme pokrytí vyhledávání App Store pro zprávy, blogy, YouTube kanály, čtení bez připojení, soubory OPML a předplatné Safari."
 }

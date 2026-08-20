@@ -578,5 +578,17 @@
   "wn_2_8_0_reliability": {
     "text": "Fixed stuck dialogs, broken navigation, refresh loops, and storage write races.",
     "context": "description"
+  },
+  "wn_2_8_1_title": {
+    "text": "Better timed, easier to find",
+    "context": "description"
+  },
+  "wn_2_8_1_review": {
+    "text": "Review requests now wait until Corvus has delivered repeat value through feeds and reading.",
+    "context": "description"
+  },
+  "wn_2_8_1_search": {
+    "text": "Improved App Store search coverage for news, blogs, YouTube feeds, offline reading, OPML, and Safari subscriptions.",
+    "context": "description"
   }
 }

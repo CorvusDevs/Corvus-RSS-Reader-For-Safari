@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Thanh điều hướng di động mới, Cài đặt thân thiện với cảm ứng và cuộn mượt mà qua các dòng tin và Khám phá.",
   "wn_2_8_0_onboarding": "Quy trình hướng dẫn nhập liệu giờ bao gồm ba bước thay vì một danh sách dài.",
   "wn_2_8_0_appearance": "Bố cục chỉnh sửa tinh tế, màu sắc chủ đề Safari, biểu tượng ứng dụng mới và các đường viền nhấn mạnh bài viết tùy chỉnh tùy chọn.",
-  "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ."
+  "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ.",
+  "wn_2_8_1_title": "Được đồng bộ hóa tốt hơn, dễ tìm hơn",
+  "wn_2_8_1_review": "Các yêu cầu đánh giá hiện sẽ được trì hoãn cho đến khi Corvus cung cấp giá trị lặp lại qua các luồng và bài đọc.",
+  "wn_2_8_1_search": "Đã cải thiện phạm vi tìm kiếm App Store cho tin tức, blog, các nguồn cấp dữ liệu YouTube, đọc ngoại tuyến, OPML và các đăng ký Safari."
 }

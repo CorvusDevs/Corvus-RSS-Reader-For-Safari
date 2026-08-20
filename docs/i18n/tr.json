@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Yeni mobil gezinme, dokunmatik dostu Ayarlar ve akış ile Keşfet'te güvenilir kaydırma.",
   "wn_2_8_0_onboarding": "Onboarding artık tek uzun bir liste yerine, yönlendirilen üç adımlı bir akış olarak sunulmaktadır.",
   "wn_2_8_0_appearance": "İnce ayarlanmış bir editorial düzeni, Safari temalı renkler, yeni bir uygulama ikonu ve isteğe bağlı özelleştirilebilir makale vurgu çizgileri.",
-  "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi."
+  "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi.",
+  "wn_2_8_1_title": "Daha iyi zamanlanmış, daha kolay bulunabilir",
+  "wn_2_8_1_review": "İnceleme istekleri artık, Corvus değerli okuyucular tarafından tekrar değerli içerik sunana kadar beklemektedir.",
+  "wn_2_8_1_search": "App Store'deki haber, blog, YouTube kanalları, çevrimdışı okuma, OPML ve Safari abonelikleri için App Store arama kapsamı iyileştirildi."
 }

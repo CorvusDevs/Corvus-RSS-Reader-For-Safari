@@ -145,7 +145,10 @@ var T = {
     "wn_2_8_0_mobile": "New mobile navigation, touch-friendly Settings, and reliable scrolling across feeds and Discover.",
     "wn_2_8_0_onboarding": "Onboarding is now a guided three-step flow instead of one long list.",
     "wn_2_8_0_appearance": "A refined editorial layout, Safari theme colors, a new app icon, and optional customizable article accent lines.",
-    "wn_2_8_0_reliability": "Fixed stuck dialogs, broken navigation, refresh loops, and storage write races."
+    "wn_2_8_0_reliability": "Fixed stuck dialogs, broken navigation, refresh loops, and storage write races.",
+    "wn_2_8_1_title": "Better timed, easier to find",
+    "wn_2_8_1_review": "Review requests now wait until Corvus has delivered repeat value through feeds and reading.",
+    "wn_2_8_1_search": "Improved App Store search coverage for news, blogs, YouTube feeds, offline reading, OPML, and Safari subscriptions."
   },
   "ar": {
     "nav_features": "الميزات",
@@ -292,7 +295,10 @@ var T = {
     "wn_2_8_0_mobile": "تصفح جديد للهاتف المحمول، إعدادات سهلة اللمس، وتصفح موثوق للتيارات والاكتشاف.",
     "wn_2_8_0_onboarding": "أصبح الترحيب الآن تدفقًا موجهًا بثلاث خطوات بدلاً من قائمة طويلة.",
     "wn_2_8_0_appearance": "تصميم تحريري منقّح مع ألوان موضوع Safari، وأيقونة تطبيق جديدة، وخطوط تمييز قابلة للتخصيص للمقالات.",
-    "wn_2_8_0_reliability": "تم إصلاح الحوارات المتجمدة، والملاحة المعطلة، ودورات التحديث، وتعارضات الكتابة في التخزين."
+    "wn_2_8_0_reliability": "تم إصلاح الحوارات المتجمدة، والملاحة المعطلة، ودورات التحديث، وتعارضات الكتابة في التخزين.",
+    "wn_2_8_1_title": "أوقات أفضل، أسهل في العثور عليها",
+    "wn_2_8_1_review": "الآن تنتظر طلبات التقييم حتى يقدم Corvus قيمة متكررة من خلال المقذفات والقراءة عبر Corvus.",
+    "wn_2_8_1_search": "تحسين تغطية بحث App Store للأخبار والمدونات، ورسائل YouTube، والقراءة دون اتصال، وملفات OPML، واشتراكات Safari."
   },
   "cs": {
     "nav_features": "Funkce",
@@ -439,7 +445,10 @@ var T = {
     "wn_2_8_0_mobile": "Nová mobilní navigace, nastavení přizpůsobené pro dotyk a spolehlivé scrollování v feedu a sekci Discover.",
     "wn_2_8_0_onboarding": "Úvodní nastavení nyní probíhá ve třech řízených krocích místo dlouhého seznamu.",
     "wn_2_8_0_appearance": "Vylepšené rozvržení čtečky, barvy motivu Safari, nová ikona aplikace a volitelné přizpůsobitelné zvýrazňující čáry článků.",
-    "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště."
+    "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště.",
+    "wn_2_8_1_title": "Rychlejší, snadnojištější",
+    "wn_2_8_1_review": "Žádosti o hodnocení nyní čekají, až Corvus dodá opakovanou hodnotu prostřednictvím feedů a čtení.",
+    "wn_2_8_1_search": "Zlepšili jsme pokrytí vyhledávání App Store pro zprávy, blogy, YouTube kanály, čtení bez připojení, soubory OPML a předplatné Safari."
   },
   "da": {
     "nav_features": "Funktioner",
@@ -586,7 +595,10 @@ var T = {
     "wn_2_8_0_mobile": "Ny mobilnavigation, berøringsvenlige Indstillinger og pålidelig scrolle gennem feeds og Discover.",
     "wn_2_8_0_onboarding": "Onboarding er nu en vejledende tre-trins proces i stedet for én lang liste.",
     "wn_2_8_0_appearance": "En raffineret redaktionel layout, Safari-temafarver, et nyt app-ikon og valgfrie tilpassede artikel-accentlinjer.",
-    "wn_2_8_0_reliability": "Korrigeret dialoger der hænger fast, brudt navigation, opdateringsløkker og konkurrence om skrivning til lagring."
+    "wn_2_8_0_reliability": "Korrigeret dialoger der hænger fast, brudt navigation, opdateringsløkker og konkurrence om skrivning til lagring.",
+    "wn_2_8_1_title": "Bedre tidsjusteret, nemmere at finde",
+    "wn_2_8_1_review": "Anmodninger om anmeldelser venter nu, indtil Corvus har leveret gentagen værdi gennem feeds og læsning.",
+    "wn_2_8_1_search": "Fremhævet App Store-søgeomfang for nyheder, blogs, YouTube-feeds, offline-læsning, OPML og Safari-abonnementer."
   },
   "de": {
     "nav_features": "Funktionen",
@@ -733,7 +745,10 @@ var T = {
     "wn_2_8_0_mobile": "Die neue mobile Navigation, die berührungsoptimierte Einstellungen und zuverlässiges Scrollen in Feeds und Discover.",
     "wn_2_8_0_onboarding": "Das Onboarding ist jetzt ein geführter dreistufiger Ablauf statt einer langen Liste.",
     "wn_2_8_0_appearance": "Eine verfeinerte editorielle Anordnung, Safari-Themenfarben, ein neues App-Symbol und optional anpassbare Artikel-Akzentlinien.",
-    "wn_2_8_0_reliability": "Die Dialoge, die Navigation, die Aktualisierungsschleifen und die Speicherzugriffsprobleme wurden behoben."
+    "wn_2_8_0_reliability": "Die Dialoge, die Navigation, die Aktualisierungsschleifen und die Speicherzugriffsprobleme wurden behoben.",
+    "wn_2_8_1_title": "Genauer getaktet, einfacher zu finden",
+    "wn_2_8_1_review": "Anfragen für Bewertungen warten nun, bis Corvus wiederkehrende Werte durch Feeds und das Lesen liefert.",
+    "wn_2_8_1_search": "Verbesserte App Store-Suchabdeckung für Nachrichten, Blogs, YouTube-Feeds, Offline-Lesemodus, OPML und Safari-Abonnements."
   },
   "el": {
     "nav_features": "Λειτουργίες",
@@ -880,7 +895,10 @@ var T = {
     "wn_2_8_0_mobile": "Νέα πλοήγηση για κινητά, ρυθμίσεις φιλικές στην αφή και αξιόπιστη κύλιση στις ροές και την Ανακάλυψη.",
     "wn_2_8_0_onboarding": "Η αρχική ρύθμιση είναι πλέον μια καθοδηγούμενη διαδικασία τριών βημάτων αντί για μια μεγάλη λίστα.",
     "wn_2_8_0_appearance": "Βελτιωμένη διάταξη ανάγνωσης, χρώματα θέματος Safari, νέο εικονίδιο εφαρμογής και προαιρετικές προσαρμόσιμες γραμμές έμφασης άρθρων.",
-    "wn_2_8_0_reliability": "Διόρθωση κολλημένων διαλόγων, σπασμένης πλοήγησης, βρόχων ανανέωσης και ανταγωνισμών συγγραφής σε αποθήκευση."
+    "wn_2_8_0_reliability": "Διόρθωση κολλημένων διαλόγων, σπασμένης πλοήγησης, βρόχων ανανέωσης και ανταγωνισμών συγγραφής σε αποθήκευση.",
+    "wn_2_8_1_title": "Βελτιωμένος χρόνος, ευκολότερη εύρεση",
+    "wn_2_8_1_review": "Τα αιτήματα αναθεώρησης αναμένουν πλέον έως ότου το Corvus παρέχει επαναλαμβανόμενη αξία μέσω των ροών και της ανάγνωσης.",
+    "wn_2_8_1_search": "Βελτιωμένη κάλυψη αναζήτησης στο App Store για ειδήσεις, blogs, ροές του YouTube, ανάγνωση εκτός σύνδεσης, αρχεία OPML και συνδρομές στο Safari."
   },
   "es": {
     "nav_features": "Características",
@@ -1027,7 +1045,10 @@ var T = {
     "wn_2_8_0_mobile": "Nueva navegación móvil, Ajustes amigables para el tacto y desplazamiento fiable en los feeds y Descubrir.",
     "wn_2_8_0_onboarding": "Ahora, la incorporación es un flujo guiado de tres pasos en lugar de una lista larga.",
     "wn_2_8_0_appearance": "Un diseño editorial refinado, los colores del tema de Safari, un nuevo icono de la aplicación y líneas de acento personalizables para los artículos.",
-    "wn_2_8_0_reliability": "Se han corregido los diálogos atascados, la navegación rota, los bucles de actualización y las carreras de escritura en el almacenamiento."
+    "wn_2_8_0_reliability": "Se han corregido los diálogos atascados, la navegación rota, los bucles de actualización y las carreras de escritura en el almacenamiento.",
+    "wn_2_8_1_title": "Mejor sincronizado, más fácil de encontrar",
+    "wn_2_8_1_review": "Las solicitudes de revisión ahora esperan hasta que Corvus haya entregado valor repetido a través de los feeds y la lectura.",
+    "wn_2_8_1_search": "Mejoramos la cobertura de búsqueda de App Store para noticias, blogs, suscripciones a YouTube, lectura offline, OPML y suscripciones a Safari."
   },
   "es-MX": {
     "nav_features": "Características",
@@ -1174,7 +1195,10 @@ var T = {
     "wn_2_8_0_mobile": "Nueva navegación móvil, Ajustes fáciles de tocar y desplazamiento fiable en los feeds y Descubrir.",
     "wn_2_8_0_onboarding": "La incorporación ahora es un flujo guiado de tres pasos en lugar de una lista larga.",
     "wn_2_8_0_appearance": "Un diseño editorial refinado, los colores del tema de Safari, un nuevo icono de la aplicación y líneas de acento personalizables para los artículos.",
-    "wn_2_8_0_reliability": "Se corrigieron diálogos atascados, navegación rota, bucles de actualización y carreras de escritura en el almacenamiento."
+    "wn_2_8_0_reliability": "Se corrigieron diálogos atascados, navegación rota, bucles de actualización y carreras de escritura en el almacenamiento.",
+    "wn_2_8_1_title": "Mejor sincronizado, más fácil de encontrar",
+    "wn_2_8_1_review": "Las solicitudes de revisión ahora esperan hasta que Corvus haya entregado valor repetido a través de los feeds y la lectura.",
+    "wn_2_8_1_search": "Mejoramos la cobertura de búsqueda de App Store para noticias, blogs, canales de YouTube, lectura sin conexión, archivos OPML y suscripciones a Safari."
   },
   "es_MX": {
     "nav_features": "Características",
@@ -1321,7 +1345,10 @@ var T = {
     "wn_2_8_0_mobile": "Nueva navegación móvil, Ajustes fáciles de tocar y desplazamiento fiable en los feeds y Descubrir.",
     "wn_2_8_0_onboarding": "La incorporación ahora es un flujo guiado de tres pasos en lugar de una lista larga.",
     "wn_2_8_0_appearance": "Un diseño editorial refinado, los colores del tema de Safari, un nuevo icono de la aplicación y líneas de acento personalizables para los artículos.",
-    "wn_2_8_0_reliability": "Se corrigieron diálogos atascados, navegación rota, bucles de actualización y carreras de escritura en el almacenamiento."
+    "wn_2_8_0_reliability": "Se corrigieron diálogos atascados, navegación rota, bucles de actualización y carreras de escritura en el almacenamiento.",
+    "wn_2_8_1_title": "Mejor sincronizado, más fácil de encontrar",
+    "wn_2_8_1_review": "Las solicitudes de revisión ahora esperan hasta que Corvus haya entregado valor repetido a través de los feeds y la lectura.",
+    "wn_2_8_1_search": "Mejoramos la cobertura de búsqueda de App Store para noticias, blogs, canales de YouTube, lectura sin conexión, archivos OPML y suscripciones a Safari."
   },
   "fi": {
     "nav_features": "Ominaisuudet",
@@ -1468,7 +1495,10 @@ var T = {
     "wn_2_8_0_mobile": "Uusi mobiilinavigointi, kosketusystävälliset asetukset ja luotettava vieritys syötteissä ja Löydä-osiossa.",
     "wn_2_8_0_onboarding": "Käyttöönotto on nyt ohjattu kolmivaiheinen prosessi yhden pitkän luettelon sijaan.",
     "wn_2_8_0_appearance": "Refinoitu editori, Safari-teeman värit, uusi sovellikon ja valinnaiset säädettävät artikkelin korostusviivat.",
-    "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu."
+    "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu.",
+    "wn_2_8_1_title": "Parempi ajoitus, helpompi löytää",
+    "wn_2_8_1_review": "Arvostelupyydöt odotetaan, kunnes Corvus on tuottanut toistuvaa arvoa syötteiden ja lukemisen kautta.",
+    "wn_2_8_1_search": "Parannettu App Store-haku uutisille, blogeille, YouTube-syötteille, offline-lukemiseen, OPML-tiedostoihin ja Safari-tilauksiin."
   },
   "fr": {
     "nav_features": "Fonctionnalités",
@@ -1615,7 +1645,10 @@ var T = {
     "wn_2_8_0_mobile": "Nouvelle navigation mobile, Réglages adaptés au tactile et défilement fiable dans les flux et la section Découvrir.",
     "wn_2_8_0_onboarding": "L'onboarding est désormais un flux guidé en trois étapes au lieu d'une longue liste.",
     "wn_2_8_0_appearance": "Une mise en page éditoriale raffinée, les couleurs du thème Safari, une nouvelle icône d'app et des lignes d'accentuation d'article personnalisables en option.",
-    "wn_2_8_0_reliability": "Corrigé les dialogues bloqués, la navigation cassée, les boucles de rafraîchissement et les conflits d'écriture sur le stockage."
+    "wn_2_8_0_reliability": "Corrigé les dialogues bloqués, la navigation cassée, les boucles de rafraîchissement et les conflits d'écriture sur le stockage.",
+    "wn_2_8_1_title": "Meilleur timing, plus facile à trouver",
+    "wn_2_8_1_review": "Les demandes de commentaires sont maintenant en attente jusqu'à ce que Corvus ait fourni une valeur ajoutée répétée via les flux et la lecture.",
+    "wn_2_8_1_search": "Amélioration de la couverture des recherches App Store pour les actualités, les blogs, les flux YouTube, la lecture hors ligne, les fichiers OPML et les abonnements Safari."
   },
   "he": {
     "nav_features": "תכונות",
@@ -1762,7 +1795,10 @@ var T = {
     "wn_2_8_0_mobile": "ניווט חדש למכשירים ניידים, הגדרות ידידותיות למגע וגלילה אמינה בפידים ובגילוי.",
     "wn_2_8_0_onboarding": "ההגדרה הראשונית היא כעת תהליך מודרך בן שלושה שלבים במקום רשימה ארוכה אחת.",
     "wn_2_8_0_appearance": "הגדרה מותאמת אישית של עיצוב עורכים, צבעי נושא של Safari, אייקון אפליקציה חדש וקווי דגש מותאמים אישית למאמרים.",
-    "wn_2_8_0_reliability": "תוקנו תיבות דו-שיח תקועות, ניווט פגום, לולאות רענון והתנגשויות כתיבה באחסון."
+    "wn_2_8_0_reliability": "תוקנו תיבות דו-שיח תקועות, ניווט פגום, לולאות רענון והתנגשויות כתיבה באחסון.",
+    "wn_2_8_1_title": "מועד טוב יותר, קל יותר למצוא",
+    "wn_2_8_1_review": "בקשות ביקורת עכשיו מחכות עד ש-Corvus יספק ערך חוזר דרך פידים וקריאה.",
+    "wn_2_8_1_search": "שיפור כיסוי חיפוש של App Store עבור חדשות, בלוגים, פידים של YouTube, קריאה ללא חיבור לאינטרנט, קבצי OPML ומונוטורים של Safari."
   },
   "hi": {
     "nav_features": "विशेषताएं",
@@ -1909,7 +1945,10 @@ var T = {
     "wn_2_8_0_mobile": "नया मोबाइल नेविगेशन, स्पर्श-अनुकूल सेटिंग्स और फीड और डिस्कवरी में भरोसेमंद स्क्रॉलिंग।",
     "wn_2_8_0_onboarding": "अब ऑनबोर्डिंग एक लंबी सूची के बजाय एक निर्देशित तीन-चरण प्रक्रिया है।",
     "wn_2_8_0_appearance": "सुधारित संपादकीय लेआउट, Safari थीम रंग, नया ऐप आइकन और वैकल्पिक अनुकूलनीय लेख प्रकाश रेखाएं।",
-    "wn_2_8_0_reliability": "में जमे हुए डायलॉग, टूटी हुई नेविगेशन, रिफ्रेश लूप्स और स्टोरेज राइस की समस्याओं को ठीक किया गया।"
+    "wn_2_8_0_reliability": "में जमे हुए डायलॉग, टूटी हुई नेविगेशन, रिफ्रेश लूप्स और स्टोरेज राइस की समस्याओं को ठीक किया गया।",
+    "wn_2_8_1_title": "समय पर बेहतर, आसानी से ढूंढा जा सकता है",
+    "wn_2_8_1_review": "अब समीक्षा अनुरोध तब तक प्रतीक्षा करेंगे जब तक कि Corvus फीड और पढ़ने के माध्यम से दोहरा मूल्य प्रदान नहीं करता।",
+    "wn_2_8_1_search": "App Store खबरों, ब्लॉग्स, YouTube फ़ीड्स, ऑफ़लाइन पढ़ने, OPML और Safari सब्सक्रिप्शन के लिए सुधारा गया App Store खोज कवरेज।"
   },
   "hu": {
     "nav_features": "Funkciók",
@@ -2056,7 +2095,10 @@ var T = {
     "wn_2_8_0_mobile": "Új mobilos navigáció, érintésközpontú Beállítások és megbízható görgetés a hírfolyamokban és a Felfedezésben.",
     "wn_2_8_0_onboarding": "A bevezetés most egy irányított, három lépéses folyamat, nem pedig egy hosszú lista.",
     "wn_2_8_0_appearance": "Egy kifinomult szerkesztőségi elrendezés, Safari témájú színek, egy új alkalmazásikon és választható, testreszabható cikkkiemelők.",
-    "wn_2_8_0_reliability": "A ragadott párbeszédablakokat, a hibás navigációt, a frissítési hurkokat és a tárolási írási versenyeket javítottuk."
+    "wn_2_8_0_reliability": "A ragadott párbeszédablakokat, a hibás navigációt, a frissítési hurkokat és a tárolási írási versenyeket javítottuk.",
+    "wn_2_8_1_title": "Jobb időzítés, könnyebben megtalálható",
+    "wn_2_8_1_review": "A felülvizsgálati kérések most addig várakoznak, amíg a Corvus ismétlődő értéket biztosít a feedek és az olvasás során.",
+    "wn_2_8_1_search": "A App Store keresési fedezetet bővítettük hírekhez, blogokhoz, YouTube hírcsatornákhoz, offline olvasáshoz, OPML fájlokhoz és Safari előfizetésekhez."
   },
   "id": {
     "nav_features": "Fitur",
@@ -2203,7 +2245,10 @@ var T = {
     "wn_2_8_0_mobile": "Navigasi seluler baru, Pengaturan yang ramah sentuhan, dan guliran yang andal di Feed dan Discover.",
     "wn_2_8_0_onboarding": "Onboarding kini merupakan alur tiga langkah yang dipandu, bukan daftar panjang.",
     "wn_2_8_0_appearance": "Tata letakan editorial yang lebih rapi, tema warna Safari, ikon aplikasi baru, dan garis aksen artikel yang dapat disesuaikan secara opsional.",
-    "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan."
+    "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan.",
+    "wn_2_8_1_title": "Lebih tepat waktu, lebih mudah ditemukan",
+    "wn_2_8_1_review": "Permintaan ulasan sekarang menunggu hingga Corvus telah memberikan nilai berulang melalui feed dan pembacaan.",
+    "wn_2_8_1_search": "Cakupan pencarian App Store yang ditingkatkan untuk berita, blog, YouTube feed, pembacaan offline, OPML, dan langganan Safari."
   },
   "it": {
     "nav_features": "Caratteristiche",
@@ -2350,7 +2395,10 @@ var T = {
     "wn_2_8_0_mobile": "La nuova navigazione mobile, le Impostazioni amichevoli al tocco e lo scorrimento affidabile nei Feed e su Discover.",
     "wn_2_8_0_onboarding": "L'onboarding è ora un flusso guidato in tre passaggi invece di un'unica lunga lista.",
     "wn_2_8_0_appearance": "Una layout editoriale raffinata, colori del tema Safari, una nuova icona dell'app e linee di accento personalizzabili per gli articoli.",
-    "wn_2_8_0_reliability": "Risolti dialoghi bloccati, navigazione interrotta, loop di aggiornamento e conflitti di scrittura su archivio."
+    "wn_2_8_0_reliability": "Risolti dialoghi bloccati, navigazione interrotta, loop di aggiornamento e conflitti di scrittura su archivio.",
+    "wn_2_8_1_title": "Migliore tempizzazione, più facile da trovare",
+    "wn_2_8_1_review": "Le richieste di recensione attendono ora che Corvus abbia fornito valore ripetuto tramite i feed e la lettura.",
+    "wn_2_8_1_search": "Migliorata la copertura della ricerca di App Store per notizie, blog, feed di YouTube, lettura offline, OPML e abbonamenti a Safari."
   },
   "ja": {
     "nav_features": "機能",
@@ -2497,7 +2545,10 @@ var T = {
     "wn_2_8_0_mobile": "新しいモバイルナビゲーション、タッチに最適化された設定、そしてフィードとディスカバリーでの信頼性の高いスクロールを実現します。",
     "wn_2_8_0_onboarding": "オンボーディングは、長いリストから 3 ステップのガイド付きフローに変更されました。",
     "wn_2_8_0_appearance": "洗練されたエディトリアルレイアウト、Safari のテーマカラー、新しいアプリアイコン、そしてオプションのカスタマイズ可能な記事アクセントラインを備えています。",
-    "wn_2_8_0_reliability": "スタックしたダイアログ、ナビゲーションの不具合、リフレッシュループ、ストレージ書き込み競合を修正しました。"
+    "wn_2_8_0_reliability": "スタックしたダイアログ、ナビゲーションの不具合、リフレッシュループ、ストレージ書き込み競合を修正しました。",
+    "wn_2_8_1_title": "より正確なタイミングで、見つけやすくなりました",
+    "wn_2_8_1_review": "レビューリクエストは、Corvus がフィードと読書を通じて繰り返し価値を提供するまで待機します。",
+    "wn_2_8_1_search": "App Store のニュース、ブログ、YouTube のフィード、オフライン読書、OPML、Safari の購読に対する検索範囲を拡大しました。"
   },
   "ko": {
     "nav_features": "기능",
@@ -2644,7 +2695,10 @@ var T = {
     "wn_2_8_0_mobile": "새 모바일 내비게이션, 터치에 최적화된 설정, 그리고 피드 및 Discover에서 안정적인 스크롤을 경험하세요.",
     "wn_2_8_0_onboarding": "이제 온보딩은 긴 목록 대신 안내되는 세 단계 흐름으로 변경되었습니다.",
     "wn_2_8_0_appearance": "다듬어진 읽기 레이아웃, Safari 테마 색상, 새로운 앱 아이콘과 선택적으로 맞춤 설정할 수 있는 기사 강조선을 제공합니다.",
-    "wn_2_8_0_reliability": "고정된 대화상자, 깨진 내비게이션, 새로고침 루프, 그리고 스토리지 쓰기 충돌 문제를 수정했습니다."
+    "wn_2_8_0_reliability": "고정된 대화상자, 깨진 내비게이션, 새로고침 루프, 그리고 스토리지 쓰기 충돌 문제를 수정했습니다.",
+    "wn_2_8_1_title": "더 정확한 타이밍, 찾기 쉬움",
+    "wn_2_8_1_review": "이제 리뷰 요청은 Corvus이 피드와 읽기 기능을 통해 반복적인 가치를 제공한 후 대기합니다.",
+    "wn_2_8_1_search": "App Store 검색 범위를 뉴스, 블로그, YouTube 피드, 오프라인 읽기, OPML, Safari 구독으로 확장했습니다."
   },
   "ms": {
     "nav_features": "Ciri-ciri",
@@ -2791,7 +2845,10 @@ var T = {
     "wn_2_8_0_mobile": "Navigasi mudah alih baharu, Tetapan mesra sentuhan dan penatalan yang boleh dipercayai dalam suapan dan Discover.",
     "wn_2_8_0_onboarding": "Onboarding kini merupakan aliran tiga langkah yang dipandu, bukannya senarai panjang.",
     "wn_2_8_0_appearance": "Tata letakan editorial yang diperhalusi, tema warna Safari, ikon aplikasi baru, dan garisan aksen artikel yang boleh disesuaikan secara pilihan.",
-    "wn_2_8_0_reliability": "Membaiki dialog yang tersangkut, pelayaran yang rosak, kitaran semula, dan konflik penulisan storan."
+    "wn_2_8_0_reliability": "Membaiki dialog yang tersangkut, pelayaran yang rosak, kitaran semula, dan konflik penulisan storan.",
+    "wn_2_8_1_title": "Lebih tepat masa, lebih mudah dicari",
+    "wn_2_8_1_review": "Permintaan ulasan kini menunggu sehingga Corvus telah memberikan nilai berulang melalui feed dan pembacaan.",
+    "wn_2_8_1_search": "Peningkatan liputan carian App Store untuk berita, blog, YouTube, bacaan tanpa talian, OPML, dan langganan Safari."
   },
   "nb": {
     "nav_features": "Funksjoner",
@@ -2938,7 +2995,10 @@ var T = {
     "wn_2_8_0_mobile": "Nytt mobilnavigasjon, berøringsoptimerte Innstillinger og pålitelig rulling i strømmene og Oppdag.",
     "wn_2_8_0_onboarding": "Onboarding er nå en veiledet prosess med tre trinn i stedet for én lang liste.",
     "wn_2_8_0_appearance": "Et raffinert editorielt layout, Safari-fargemalet, et nytt app-ikon, og valgfrie tilpassbare artikkel-akkentlinjer.",
-    "wn_2_8_0_reliability": "Fiksert dialoger som henger fast, borteblev navigasjon, oppdateringsløyper og konkurranse om skriveoperasjoner på lagring."
+    "wn_2_8_0_reliability": "Fiksert dialoger som henger fast, borteblev navigasjon, oppdateringsløyper og konkurranse om skriveoperasjoner på lagring.",
+    "wn_2_8_1_title": "Bättre tid, enklare å finne",
+    "wn_2_8_1_review": "Forespørsler om anmeldelser nå venter til Corvus har levert gjentatt verdi gjennom feeds og lesing.",
+    "wn_2_8_1_search": "Foreslått App Store-søking er nå forbedret for nyheter, bloggartikler, YouTube-strømmer, offline-lesing, OPML og Safari-abonnement."
   },
   "nl": {
     "nav_features": "Functies",
@@ -3085,7 +3145,10 @@ var T = {
     "wn_2_8_0_mobile": "Nieuwe mobiele navigatie, aanraakvriendelijke Instellingen en betrouwbaar scrollen door feeds en Ontdekking.",
     "wn_2_8_0_onboarding": "De onboarding is nu een geleide drie-stappenstroom in plaats van één lange lijst.",
     "wn_2_8_0_appearance": "Een verfijnd editoriaal layout, Safari-temakleuren, een nieuw app-icoon en optioneel aanpasbare artikelaccentlijnen.",
-    "wn_2_8_0_reliability": "Vastgelopen dialoogvensters, defecte navigatie, vernieuwingslussen en conflicten bij het opslaan zijn opgelost."
+    "wn_2_8_0_reliability": "Vastgelopen dialoogvensters, defecte navigatie, vernieuwingslussen en conflicten bij het opslaan zijn opgelost.",
+    "wn_2_8_1_title": "Beter getimed, eenvoudiger te vinden",
+    "wn_2_8_1_review": "Vraag nu om een review pas als Corvus herhaaldelijke waarde heeft geleverd via feeds en lezen.",
+    "wn_2_8_1_search": "Verbeterde App Store-zoekdekking voor nieuws, blogs, YouTube-feeds, offline-lezen, OPML en Safari-abonnementen."
   },
   "pl": {
     "nav_features": "Funkcje",
@@ -3232,7 +3295,10 @@ var T = {
     "wn_2_8_0_mobile": "Otrzymaj nową nawigację mobilną, przyjazne dotykowi Ustawienia oraz niezawodowe przewijanie w feedach i Discover.",
     "wn_2_8_0_onboarding": "Onboarding jest teraz prowadzonym, trzema krokami procesem, zamiast jednej długiej listy.",
     "wn_2_8_0_appearance": "Przedstawia ulepszony układ redakcyjny, kolory motywu Safari, nowy ikona aplikacji oraz opcjonalne, dostosowalne linie akcentu artykułów.",
-    "wn_2_8_0_reliability": "Naprawiono zablokowane okna dialogowe, uszkodzoną nawigację, pętle odświeżania oraz wyścigi zapisu do pamięci."
+    "wn_2_8_0_reliability": "Naprawiono zablokowane okna dialogowe, uszkodzoną nawigację, pętle odświeżania oraz wyścigi zapisu do pamięci.",
+    "wn_2_8_1_title": "Lepsze harmonogram, łatwiejsze do znalezienia",
+    "wn_2_8_1_review": "Zapytania o recenzje teraz czekają, aż Corvus dostarczy powtarzalną wartość poprzez kanały i czytanie.",
+    "wn_2_8_1_search": "Ulepszona obsługa wyszukiwania w App Store dla wiadomości, blogów, kanałów YouTube, odczytu offline, plików OPML oraz subskrypcji w Safari."
   },
   "pt-BR": {
     "nav_features": "Recursos",
@@ -3379,7 +3445,10 @@ var T = {
     "wn_2_8_0_mobile": "Nova navegação móvel, Ajustes amigáveis ao toque e rolagem confiável em feeds e Descubra.",
     "wn_2_8_0_onboarding": "Agora, o onboarding é um fluxo guiado de três etapas, em vez de uma lista longa.",
     "wn_2_8_0_appearance": "Um layout editorial refinado, cores do tema do Safari, um novo ícone do app e linhas de destaque personalizáveis para artigos.",
-    "wn_2_8_0_reliability": "Corrigidos diálogos travados, navegação quebrada, loops de atualização e conflitos de escrita no armazenamento."
+    "wn_2_8_0_reliability": "Corrigidos diálogos travados, navegação quebrada, loops de atualização e conflitos de escrita no armazenamento.",
+    "wn_2_8_1_title": "Melhor sincronizado, mais fácil de encontrar",
+    "wn_2_8_1_review": "Agora, os pedidos de revisão aguardam até que o Corvus tenha entregue valor repetido por meio de feeds e leitura.",
+    "wn_2_8_1_search": "Melhoramos a cobertura de pesquisa do App Store para notícias, blogs, feeds do YouTube, leitura offline, OPML e assinaturas do Safari."
   },
   "pt_BR": {
     "nav_features": "Recursos",
@@ -3526,7 +3595,10 @@ var T = {
     "wn_2_8_0_mobile": "Nova navegação móvel, Ajustes amigáveis ao toque e rolagem confiável em feeds e Descubra.",
     "wn_2_8_0_onboarding": "Agora, o onboarding é um fluxo guiado de três etapas, em vez de uma lista longa.",
     "wn_2_8_0_appearance": "Um layout editorial refinado, cores do tema do Safari, um novo ícone do app e linhas de destaque personalizáveis para artigos.",
-    "wn_2_8_0_reliability": "Corrigidos diálogos travados, navegação quebrada, loops de atualização e conflitos de escrita no armazenamento."
+    "wn_2_8_0_reliability": "Corrigidos diálogos travados, navegação quebrada, loops de atualização e conflitos de escrita no armazenamento.",
+    "wn_2_8_1_title": "Melhor sincronizado, mais fácil de encontrar",
+    "wn_2_8_1_review": "Agora, os pedidos de revisão aguardam até que o Corvus tenha entregue valor repetido por meio de feeds e leitura.",
+    "wn_2_8_1_search": "Melhoramos a cobertura de pesquisa do App Store para notícias, blogs, feeds do YouTube, leitura offline, OPML e assinaturas do Safari."
   },
   "pt-PT": {
     "nav_features": "Recursos",
@@ -3673,7 +3745,10 @@ var T = {
     "wn_2_8_0_mobile": "Nova navegação móvel, Definições amigáveis ao toque e rolagem fiável em feeds e no Discover.",
     "wn_2_8_0_onboarding": "A integração agora é um fluxo guiado de três etapas, em vez de uma longa lista.",
     "wn_2_8_0_appearance": "Um layout editorial refinado, cores do tema Safari, um novo ícone do app e linhas de destaque personalizáveis para artigos opcionais.",
-    "wn_2_8_0_reliability": "Corrigiu-se o travamento de janelas de diálogo, a navegação avariada, os loops de atualização e as colisões de escrita no armazenamento."
+    "wn_2_8_0_reliability": "Corrigiu-se o travamento de janelas de diálogo, a navegação avariada, os loops de atualização e as colisões de escrita no armazenamento.",
+    "wn_2_8_1_title": "Melhor sincronizado, mais fácil de encontrar",
+    "wn_2_8_1_review": "Os pedidos de avaliação agora aguardam até que o Corvus tenha entregue valor repetido através de feeds e leitura.",
+    "wn_2_8_1_search": "Melhorámos a cobertura de pesquisa do App Store para notícias, blogs, fluxos do YouTube, leitura offline, OPML e subscrições do Safari."
   },
   "pt_PT": {
     "nav_features": "Recursos",
@@ -3820,7 +3895,10 @@ var T = {
     "wn_2_8_0_mobile": "Nova navegação móvel, Definições amigáveis ao toque e rolagem fiável em feeds e no Discover.",
     "wn_2_8_0_onboarding": "A integração agora é um fluxo guiado de três etapas, em vez de uma longa lista.",
     "wn_2_8_0_appearance": "Um layout editorial refinado, cores do tema Safari, um novo ícone do app e linhas de destaque personalizáveis para artigos opcionais.",
-    "wn_2_8_0_reliability": "Corrigiu-se o travamento de janelas de diálogo, a navegação avariada, os loops de atualização e as colisões de escrita no armazenamento."
+    "wn_2_8_0_reliability": "Corrigiu-se o travamento de janelas de diálogo, a navegação avariada, os loops de atualização e as colisões de escrita no armazenamento.",
+    "wn_2_8_1_title": "Melhor sincronizado, mais fácil de encontrar",
+    "wn_2_8_1_review": "Os pedidos de avaliação agora aguardam até que o Corvus tenha entregue valor repetido através de feeds e leitura.",
+    "wn_2_8_1_search": "Melhorámos a cobertura de pesquisa do App Store para notícias, blogs, fluxos do YouTube, leitura offline, OPML e subscrições do Safari."
   },
   "ro": {
     "nav_features": "Funcții",
@@ -3967,7 +4045,10 @@ var T = {
     "wn_2_8_0_mobile": "Noua navigare mobilă, Setări prietenoase pentru atingere și derulare fiabilă în fluxuri și Discover.",
     "wn_2_8_0_onboarding": "Acum, procesul de introducere este un flux ghidat în trei pași, nu o listă lungă.",
     "wn_2_8_0_appearance": "Un design editorial rafinat, culori temei Safari, un nou icon al aplicației și linii de accent personalizabile pentru articole.",
-    "wn_2_8_0_reliability": "Am corectat dialogurile blocate, navigația defectă, buclele de reîmprospătare și conflictele de scriere în stocare."
+    "wn_2_8_0_reliability": "Am corectat dialogurile blocate, navigația defectă, buclele de reîmprospătare și conflictele de scriere în stocare.",
+    "wn_2_8_1_title": "Mai bine sincronizat, mai ușor de găsit",
+    "wn_2_8_1_review": "Cererile de evaluare acum așteaptă până când Corvus va oferi o valoare repetată prin fluxuri și citiri.",
+    "wn_2_8_1_search": "Am îmbunătățit acoperirea căutării în App Store pentru știri, bloguri, fluxuri de YouTube, citire offline, fișiere OPML și abonamentele Safari."
   },
   "ru": {
     "nav_features": "Функции",
@@ -4114,7 +4195,10 @@ var T = {
     "wn_2_8_0_mobile": "Новая мобильная навигация, удобные для касаний Настройки и надежная прокрутка в ленте и разделе «Открытия».",
     "wn_2_8_0_onboarding": "Теперь наставничество представляет собой управляемый трехшаговый процесс вместо одного длинного списка.",
     "wn_2_8_0_appearance": "Улучшенная редакторская верстка, цветовая схема Safari, новый значок приложения и настраиваемые акцентные линии для статей.",
-    "wn_2_8_0_reliability": "Исправлены зависшие диалоги, сломанная навигация, циклы обновления и гонки записи в хранилище."
+    "wn_2_8_0_reliability": "Исправлены зависшие диалоги, сломанная навигация, циклы обновления и гонки записи в хранилище.",
+    "wn_2_8_1_title": "Улучшенное время, проще найти",
+    "wn_2_8_1_review": "Запросы на обзор теперь будут ожидать, пока Corvus предоставит повторяемую ценность через ленту и чтение.",
+    "wn_2_8_1_search": "Улучшено покрытие поиска в App Store для новостей, блогов, лент YouTube, офлайн-чтения, импорта OPML и подписок Safari."
   },
   "sk": {
     "nav_features": "Funkcie",
@@ -4261,7 +4345,10 @@ var T = {
     "wn_2_8_0_mobile": "Nová mobilná navigácia, nastavenia priateľské pre dotyk a spoľahlivé preklávanie v prúdoch a Discover.",
     "wn_2_8_0_onboarding": "Onboarding sa teraz uskutočňuje ako tri kroky v návodnom postupe namiesto jedného dlhého zoznamu.",
     "wn_2_8_0_appearance": "Refinovaný editor s témou Safari, novou ikonu aplikácie a možnosť prispôsobenia akcentných čiar článkov.",
-    "wn_2_8_0_reliability": "Opravené sú zaseknuté dialógové okná, porušovaná navigácia, slučky obnovenia a preteky zápisu do úložiska."
+    "wn_2_8_0_reliability": "Opravené sú zaseknuté dialógové okná, porušovaná navigácia, slučky obnovenia a preteky zápisu do úložiska.",
+    "wn_2_8_1_title": "Rýchlejšie a ľahšie hľadateľné",
+    "wn_2_8_1_review": "Požiadavky na recenzie sa teraz čakajú, kým Corvus dodá opakovanú hodnotu prostredníctvom prúdov a čítania.",
+    "wn_2_8_1_search": "Vylepšená podpora vyhľadávania v App Store pre spravodajstvo, blogy, YouTube kanály, čítanie bez prístupu k internetu, súbory OPML a predplatné v Safari."
   },
   "sv": {
     "nav_features": "Funktioner",
@@ -4408,7 +4495,10 @@ var T = {
     "wn_2_8_0_mobile": "Nytt mobilnavigering, berörningsvänliga Inställningar och pålitlig scrollning över flöden och Upptäck.",
     "wn_2_8_0_onboarding": "Inledningsprocessen är nu en tre stegars process med stöd istället för en lång lista.",
     "wn_2_8_0_appearance": "En förfinad redaktionell layout, Safari-temafärger, en ny appikon och valfria anpassningsbara artikelaccentlinjer.",
-    "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing."
+    "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing.",
+    "wn_2_8_1_title": "Bättre tidsinställda, lättare att hitta",
+    "wn_2_8_1_review": "Begärda nu om omdömen först när Corvus har levererat upprepat värde genom flöden och läsning.",
+    "wn_2_8_1_search": "Förbättrad söckäckning för App Store på nyheter, bloggar, YouTube-flöden, offlineläsning, OPML och Safari-prenumerationer i App Store, YouTube och Safari."
   },
   "th": {
     "nav_features": "คุณสมบัติ",
@@ -4555,7 +4645,10 @@ var T = {
     "wn_2_8_0_mobile": "การนำทางบนมือถือแบบใหม่ การตั้งค่าที่รองรับการสัมผัส และการเลื่อนที่เชื่อถือได้ตลอดทั้งฟีดและการค้นพบ",
     "wn_2_8_0_onboarding": "การแนะนำตัวใหม่เป็นขั้นตอนที่นำทาง 3 ขั้นตอน แทนที่จะเป็นรายการยาว",
     "wn_2_8_0_appearance": "มีการจัดวางเนื้อหาแบบบรรณาธิการที่ปรับปรุงใหม่ สีสันตามธีมของ Safari ไอคอนแอปใหม่ และเส้นเน้นบทความที่ปรับแต่งได้ตามต้องการ",
-    "wn_2_8_0_reliability": "แก้ไขหน้าต่างที่ติดค้าง ปัญหาการนำทางที่เสียหาย วนรีเฟรช และปัญหาการเขียนข้อมูลพร้อมกัน"
+    "wn_2_8_0_reliability": "แก้ไขหน้าต่างที่ติดค้าง ปัญหาการนำทางที่เสียหาย วนรีเฟรช และปัญหาการเขียนข้อมูลพร้อมกัน",
+    "wn_2_8_1_title": "เวลาแม่นยำขึ้น ค้นหาได้ง่ายขึ้น",
+    "wn_2_8_1_review": "คำขอรีวิวจะรอจนกว่า Corvus จะส่งมอบคุณค่าที่ซ้ำผ่านฟีดและการอ่าน",
+    "wn_2_8_1_search": "ปรับปรุงการค้นหาคำสำคัญใน App Store สำหรับข่าว บล็อก YouTube การอ่านแบบออฟไลน์ OPML และ Safari"
   },
   "tr": {
     "nav_features": "Özellikler",
@@ -4702,7 +4795,10 @@ var T = {
     "wn_2_8_0_mobile": "Yeni mobil gezinme, dokunmatik dostu Ayarlar ve akış ile Keşfet'te güvenilir kaydırma.",
     "wn_2_8_0_onboarding": "Onboarding artık tek uzun bir liste yerine, yönlendirilen üç adımlı bir akış olarak sunulmaktadır.",
     "wn_2_8_0_appearance": "İnce ayarlanmış bir editorial düzeni, Safari temalı renkler, yeni bir uygulama ikonu ve isteğe bağlı özelleştirilebilir makale vurgu çizgileri.",
-    "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi."
+    "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi.",
+    "wn_2_8_1_title": "Daha iyi zamanlanmış, daha kolay bulunabilir",
+    "wn_2_8_1_review": "İnceleme istekleri artık, Corvus değerli okuyucular tarafından tekrar değerli içerik sunana kadar beklemektedir.",
+    "wn_2_8_1_search": "App Store'deki haber, blog, YouTube kanalları, çevrimdışı okuma, OPML ve Safari abonelikleri için App Store arama kapsamı iyileştirildi."
   },
   "uk": {
     "nav_features": "Функції",
@@ -4849,7 +4945,10 @@ var T = {
     "wn_2_8_0_mobile": "Нова мобільна навігація, зручні для торкання Налаштування та надійне прокручування стрінок та розділу «Відкриття».",
     "wn_2_8_0_onboarding": "Тепер наведення користувачів є орієнтованим процесом із трьох кроків замість одного довгого списку.",
     "wn_2_8_0_appearance": "Оновлений макет редакторської частини, кольори теми Safari, новий іконка додатка та опціональні налаштовувані акцентні лінії статей.",
-    "wn_2_8_0_reliability": "Виправлено завислі діалогові вікна, пошкоджену навігацію, циклічне оновлення та конфлікти при записі в сховище."
+    "wn_2_8_0_reliability": "Виправлено завислі діалогові вікна, пошкоджену навігацію, циклічне оновлення та конфлікти при записі в сховище.",
+    "wn_2_8_1_title": "Краще синхронізовано, легше знайти.",
+    "wn_2_8_1_review": "Запити на перегляд тепер чекають, доки Corvus не надасть повторну цінність через стрічку та читання.",
+    "wn_2_8_1_search": "Покращено пошук у App Store для новин, блогів, підписок на YouTube, офлайн-читання, OPML та підписок на Safari."
   },
   "vi": {
     "nav_features": "Tính năng",
@@ -4996,7 +5095,10 @@ var T = {
     "wn_2_8_0_mobile": "Thanh điều hướng di động mới, Cài đặt thân thiện với cảm ứng và cuộn mượt mà qua các dòng tin và Khám phá.",
     "wn_2_8_0_onboarding": "Quy trình hướng dẫn nhập liệu giờ bao gồm ba bước thay vì một danh sách dài.",
     "wn_2_8_0_appearance": "Bố cục chỉnh sửa tinh tế, màu sắc chủ đề Safari, biểu tượng ứng dụng mới và các đường viền nhấn mạnh bài viết tùy chỉnh tùy chọn.",
-    "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ."
+    "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ.",
+    "wn_2_8_1_title": "Được đồng bộ hóa tốt hơn, dễ tìm hơn",
+    "wn_2_8_1_review": "Các yêu cầu đánh giá hiện sẽ được trì hoãn cho đến khi Corvus cung cấp giá trị lặp lại qua các luồng và bài đọc.",
+    "wn_2_8_1_search": "Đã cải thiện phạm vi tìm kiếm App Store cho tin tức, blog, các nguồn cấp dữ liệu YouTube, đọc ngoại tuyến, OPML và các đăng ký Safari."
   },
   "zh-Hans": {
     "nav_features": "功能",
@@ -5143,7 +5245,10 @@ var T = {
     "wn_2_8_0_mobile": "新增移动导航、触控友好的设置，以及在订阅源和发现页面中的可靠滚动。",
     "wn_2_8_0_onboarding": "现在，入门流程已改为引导式三步流程，不再是一个长长的列表。",
     "wn_2_8_0_appearance": "经过优化的编辑版式、Safari 主题色、全新应用图标以及可选的自定义文章强调线。",
-    "wn_2_8_0_reliability": "修复了对话框卡死、导航损坏、刷新循环和存储写入冲突问题。"
+    "wn_2_8_0_reliability": "修复了对话框卡死、导航损坏、刷新循环和存储写入冲突问题。",
+    "wn_2_8_1_title": "更高效，更易查找",
+    "wn_2_8_1_review": "现在，审查请求将等待 Corvus 通过 Feed 和阅读功能持续提供重复价值后才会开始。",
+    "wn_2_8_1_search": "提升了 App Store 搜索覆盖范围，涵盖新闻、博客、YouTube 订阅源、离线阅读、OPML 以及 Safari 订阅。"
   },
   "zh_CN": {
     "nav_features": "功能",
@@ -5290,7 +5395,10 @@ var T = {
     "wn_2_8_0_mobile": "新增移动导航、触控友好的设置，以及在订阅源和发现页面中的可靠滚动。",
     "wn_2_8_0_onboarding": "现在，入门流程已改为引导式三步流程，不再是一个长长的列表。",
     "wn_2_8_0_appearance": "经过优化的编辑版式、Safari 主题色、全新应用图标以及可选的自定义文章强调线。",
-    "wn_2_8_0_reliability": "修复了对话框卡死、导航损坏、刷新循环和存储写入冲突问题。"
+    "wn_2_8_0_reliability": "修复了对话框卡死、导航损坏、刷新循环和存储写入冲突问题。",
+    "wn_2_8_1_title": "更高效，更易查找",
+    "wn_2_8_1_review": "现在，审查请求将等待 Corvus 通过 Feed 和阅读功能持续提供重复价值后才会开始。",
+    "wn_2_8_1_search": "提升了 App Store 搜索覆盖范围，涵盖新闻、博客、YouTube 订阅源、离线阅读、OPML 以及 Safari 订阅。"
   },
   "zh-Hant": {
     "nav_features": "功能",
@@ -5437,7 +5545,10 @@ var T = {
     "wn_2_8_0_mobile": "新增的移動式導覽、觸控友善的設定，以及在資訊流與「發現」中流暢可靠的滑動體驗。",
     "wn_2_8_0_onboarding": "現在，初始設定已改為引導式三步驟流程，而非冗長的清單。",
     "wn_2_8_0_appearance": "提供經過優化的閱讀版面、Safari 主題色系、全新應用程式圖示，以及可自訂的文章強調線。",
-    "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。"
+    "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。",
+    "wn_2_8_1_title": "更精準的時程，更容易找到",
+    "wn_2_8_1_review": "現在，評論請求會等待 Corvus 透過資訊流與閱讀功能提供重複價值後才會執行。",
+    "wn_2_8_1_search": "新增了對 App Store、YouTube 頻道、離線閱讀、OPML 以及 Safari 訂閱的搜尋覆蓋範圍。"
   },
   "zh_TW": {
     "nav_features": "功能",
@@ -5584,6 +5695,9 @@ var T = {
     "wn_2_8_0_mobile": "新增的移動式導覽、觸控友善的設定，以及在資訊流與「發現」中流暢可靠的滑動體驗。",
     "wn_2_8_0_onboarding": "現在，初始設定已改為引導式三步驟流程，而非冗長的清單。",
     "wn_2_8_0_appearance": "提供經過優化的閱讀版面、Safari 主題色系、全新應用程式圖示，以及可自訂的文章強調線。",
-    "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。"
+    "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。",
+    "wn_2_8_1_title": "更精準的時程，更容易找到",
+    "wn_2_8_1_review": "現在，評論請求會等待 Corvus 透過資訊流與閱讀功能提供重複價值後才會執行。",
+    "wn_2_8_1_search": "新增了對 App Store、YouTube 頻道、離線閱讀、OPML 以及 Safari 訂閱的搜尋覆蓋範圍。"
   }
 };

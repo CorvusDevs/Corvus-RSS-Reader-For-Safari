@@ -98,6 +98,11 @@ The same purchase supports Mac, iPhone, and iPad.
 
 ## What's new
 
+### 2.8.1
+
+- Review requests now wait until Corvus has delivered repeat value through feeds and reading.
+- Improved App Store search coverage for news, blogs, YouTube feeds, offline reading, OPML, and Safari subscriptions.
+
 ### 2.8.0
 
 - New mobile navigation, touch-friendly Settings, and reliable scrolling across feeds and Discover.

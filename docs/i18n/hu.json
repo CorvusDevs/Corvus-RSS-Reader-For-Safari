@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Új mobilos navigáció, érintésközpontú Beállítások és megbízható görgetés a hírfolyamokban és a Felfedezésben.",
   "wn_2_8_0_onboarding": "A bevezetés most egy irányított, három lépéses folyamat, nem pedig egy hosszú lista.",
   "wn_2_8_0_appearance": "Egy kifinomult szerkesztőségi elrendezés, Safari témájú színek, egy új alkalmazásikon és választható, testreszabható cikkkiemelők.",
-  "wn_2_8_0_reliability": "A ragadott párbeszédablakokat, a hibás navigációt, a frissítési hurkokat és a tárolási írási versenyeket javítottuk."
+  "wn_2_8_0_reliability": "A ragadott párbeszédablakokat, a hibás navigációt, a frissítési hurkokat és a tárolási írási versenyeket javítottuk.",
+  "wn_2_8_1_title": "Jobb időzítés, könnyebben megtalálható",
+  "wn_2_8_1_review": "A felülvizsgálati kérések most addig várakoznak, amíg a Corvus ismétlődő értéket biztosít a feedek és az olvasás során.",
+  "wn_2_8_1_search": "A App Store keresési fedezetet bővítettük hírekhez, blogokhoz, YouTube hírcsatornákhoz, offline olvasáshoz, OPML fájlokhoz és Safari előfizetésekhez."
 }

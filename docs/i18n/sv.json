@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Nytt mobilnavigering, berörningsvänliga Inställningar och pålitlig scrollning över flöden och Upptäck.",
   "wn_2_8_0_onboarding": "Inledningsprocessen är nu en tre stegars process med stöd istället för en lång lista.",
   "wn_2_8_0_appearance": "En förfinad redaktionell layout, Safari-temafärger, en ny appikon och valfria anpassningsbara artikelaccentlinjer.",
-  "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing."
+  "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing.",
+  "wn_2_8_1_title": "Bättre tidsinställda, lättare att hitta",
+  "wn_2_8_1_review": "Begärda nu om omdömen först när Corvus har levererat upprepat värde genom flöden och läsning.",
+  "wn_2_8_1_search": "Förbättrad söckäckning för App Store på nyheter, bloggar, YouTube-flöden, offlineläsning, OPML och Safari-prenumerationer i App Store, YouTube och Safari."
 }

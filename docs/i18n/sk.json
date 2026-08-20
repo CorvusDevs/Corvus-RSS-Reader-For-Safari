@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Nová mobilná navigácia, nastavenia priateľské pre dotyk a spoľahlivé preklávanie v prúdoch a Discover.",
   "wn_2_8_0_onboarding": "Onboarding sa teraz uskutočňuje ako tri kroky v návodnom postupe namiesto jedného dlhého zoznamu.",
   "wn_2_8_0_appearance": "Refinovaný editor s témou Safari, novou ikonu aplikácie a možnosť prispôsobenia akcentných čiar článkov.",
-  "wn_2_8_0_reliability": "Opravené sú zaseknuté dialógové okná, porušovaná navigácia, slučky obnovenia a preteky zápisu do úložiska."
+  "wn_2_8_0_reliability": "Opravené sú zaseknuté dialógové okná, porušovaná navigácia, slučky obnovenia a preteky zápisu do úložiska.",
+  "wn_2_8_1_title": "Rýchlejšie a ľahšie hľadateľné",
+  "wn_2_8_1_review": "Požiadavky na recenzie sa teraz čakajú, kým Corvus dodá opakovanú hodnotu prostredníctvom prúdov a čítania.",
+  "wn_2_8_1_search": "Vylepšená podpora vyhľadávania v App Store pre spravodajstvo, blogy, YouTube kanály, čítanie bez prístupu k internetu, súbory OPML a predplatné v Safari."
 }

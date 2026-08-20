@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Uusi mobiilinavigointi, kosketusystävälliset asetukset ja luotettava vieritys syötteissä ja Löydä-osiossa.",
   "wn_2_8_0_onboarding": "Käyttöönotto on nyt ohjattu kolmivaiheinen prosessi yhden pitkän luettelon sijaan.",
   "wn_2_8_0_appearance": "Refinoitu editori, Safari-teeman värit, uusi sovellikon ja valinnaiset säädettävät artikkelin korostusviivat.",
-  "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu."
+  "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu.",
+  "wn_2_8_1_title": "Parempi ajoitus, helpompi löytää",
+  "wn_2_8_1_review": "Arvostelupyydöt odotetaan, kunnes Corvus on tuottanut toistuvaa arvoa syötteiden ja lukemisen kautta.",
+  "wn_2_8_1_search": "Parannettu App Store-haku uutisille, blogeille, YouTube-syötteille, offline-lukemiseen, OPML-tiedostoihin ja Safari-tilauksiin."
 }

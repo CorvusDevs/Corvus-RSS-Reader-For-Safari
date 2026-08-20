@@ -143,5 +143,8 @@
   "wn_2_8_0_mobile": "Navigasi seluler baru, Pengaturan yang ramah sentuhan, dan guliran yang andal di Feed dan Discover.",
   "wn_2_8_0_onboarding": "Onboarding kini merupakan alur tiga langkah yang dipandu, bukan daftar panjang.",
   "wn_2_8_0_appearance": "Tata letakan editorial yang lebih rapi, tema warna Safari, ikon aplikasi baru, dan garis aksen artikel yang dapat disesuaikan secara opsional.",
-  "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan."
+  "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan.",
+  "wn_2_8_1_title": "Lebih tepat waktu, lebih mudah ditemukan",
+  "wn_2_8_1_review": "Permintaan ulasan sekarang menunggu hingga Corvus telah memberikan nilai berulang melalui feed dan pembacaan.",
+  "wn_2_8_1_search": "Cakupan pencarian App Store yang ditingkatkan untuk berita, blog, YouTube feed, pembacaan offline, OPML, dan langganan Safari."
 }
