@@ -29,7 +29,7 @@
 
 ---
 
-Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Subscribe from the page you are visiting, find new sources in a directory of more than 5,000 feeds, and read everything in a focused interface. There is no account, cloud service, analytics, or tracking.
+Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Discover a source, subscribe from the page you are visiting, and read everything in one focused interface. There is no account, cloud service, analytics, or tracking.
 
 <div align="center">
 
@@ -62,6 +62,7 @@ Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Subscribe from th
 
 ## Features
 
+- **Follow the web without an algorithm.** Bring websites, blogs, news, and YouTube channels into one reader you control.
 - **Subscribe without hunting for URLs.** Corvus finds RSS and Atom feeds on the page you are visiting, including YouTube channel feeds.
 - **Discover something new.** Browse more than 5,000 curated feeds across 34 categories and 47 countries.
 - **Read your way.** Switch between magazine, list, card, expanded, and full-view layouts, with seven themes and custom accents.
