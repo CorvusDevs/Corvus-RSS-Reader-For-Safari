@@ -5,6 +5,7 @@
 (function () {
     if (typeof T !== 'object' || !T.en) return;  // translations file not loaded
     const LS_KEY = 'amt-lang';
+    const ASSET_BASE = new URL('.', document.currentScript?.src || location.href);
 
     // [code, native endonym, flag iso2]. `auto` first, picks via navigator.language.
     const LANGS = [
@@ -80,7 +81,7 @@
             if (lang.code !== 'auto') {
                 const img = document.createElement('img');
                 img.className = 'lang-flag';
-                img.src = 'flags/' + lang.flag + '.svg';
+                img.src = new URL('flags/' + lang.flag + '.svg', ASSET_BASE).href;
                 img.width = 18; img.height = 13; img.alt = '';
                 container.appendChild(img);
             }
@@ -99,7 +100,7 @@
         } else {
             const img = document.createElement('img');
             img.className = 'lang-flag';
-            img.src = 'flags/' + lang.flag + '.svg';
+            img.src = new URL('flags/' + lang.flag + '.svg', ASSET_BASE).href;
             img.width = 18; img.height = 13; img.alt = '';
             container.appendChild(img);
         }
