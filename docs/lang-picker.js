@@ -4,7 +4,7 @@
  * applies translations, and persists the user's choice. */
 (function () {
     if (typeof T !== 'object' || !T.en) return;  // translations file not loaded
-    const LS_KEY = 'amt-lang';
+    const LS_KEY = 'corvusrss-lang';
     const ASSET_BASE = new URL('.', document.currentScript?.src || location.href);
 
     // [code, native endonym, flag iso2]. `auto` first, picks via navigator.language.
