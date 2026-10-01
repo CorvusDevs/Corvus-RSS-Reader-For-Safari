@@ -86,7 +86,7 @@
   "privacy_commitment": "Corvus RSS Reader er designet til at fungere udelukkende på dit enhed. Vi indsamler, opbevarer eller transmitterer ingen personlige data.",
   "privacy_h_collection": "Dataindsamling",
   "privacy_collection_intro": "Corvus RSS Reader indsamler ingen data. Konkret:",
-  "privacy_collection_li_analytics": "<strong>Ingen analyser eller telemetri</strong> – vi registrerer ikke, hvordan du bruger udvidelsen",
+  "privacy_collection_li_analytics": "<strong>Ingen analyser eller telemetri</strong>, vi registrerer ikke, hvordan du bruger udvidelsen",
   "privacy_collection_li_personal": "<strong>Ingen personlige oplysninger</strong>: Vi indsamler ikke navne, e-mailadresser, IP-adresser eller enhedsidentifikatorer",
   "privacy_collection_li_thirdparty": "<strong>Ingen overvågning fra tredjepart</strong>. Vi indkæder ikke reklame-SDK'er, analyseframeworker eller sporingspixels.",
   "privacy_collection_li_local": "<strong>Udelukkende lokal opbevaring</strong>: Dine feeds, artikler, mapper og præferencer gemmes lokalt på din enhed ved hjælp af Safari's udvidelsesopbevaring og sendes aldrig til nogen server.",
@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Korrigeret dialoger der hænger fast, brudt navigation, opdateringsløkker og konkurrence om skrivning til lagring.",
   "wn_2_8_1_title": "Bedre tidsjusteret, nemmere at finde",
   "wn_2_8_1_review": "Anmodninger om anmeldelser venter nu, indtil Corvus har leveret gentagen værdi gennem feeds og læsning.",
-  "wn_2_8_1_search": "Fremhævet App Store-søgeomfang for nyheder, blogs, YouTube-feeds, offline-læsning, OPML og Safari-abonnementer."
+  "wn_2_8_1_search": "Fremhævet App Store-søgeomfang for nyheder, blogs, YouTube-feeds, offline-læsning, OPML og Safari-abonnementer.",
+  "wn_2_8_4_export": "Eksportér til en mappe, du vælger",
+  "wn_2_8_4_import": "Importer backups fra et mappe, du vælger",
+  "wn_2_8_4_cancel": "Afbryd import af sikkerhedskopieringer pålideligt",
+  "wn_2_8_5_badge": "Vælg, om mærket på værktøjslinjen skal vises",
+  "wn_2_8_5_folders": "Mappemenuer forbliver åbne og fungerer pålideligt"
 }

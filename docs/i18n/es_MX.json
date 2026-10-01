@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Se corrigieron diálogos atascados, navegación rota, bucles de actualización y carreras de escritura en el almacenamiento.",
   "wn_2_8_1_title": "Mejor sincronizado, más fácil de encontrar",
   "wn_2_8_1_review": "Las solicitudes de revisión ahora esperan hasta que Corvus haya entregado valor repetido a través de los feeds y la lectura.",
-  "wn_2_8_1_search": "Mejoramos la cobertura de búsqueda de App Store para noticias, blogs, canales de YouTube, lectura sin conexión, archivos OPML y suscripciones a Safari."
+  "wn_2_8_1_search": "Mejoramos la cobertura de búsqueda de App Store para noticias, blogs, canales de YouTube, lectura sin conexión, archivos OPML y suscripciones a Safari.",
+  "wn_2_8_4_export": "Exportar a la carpeta que elija",
+  "wn_2_8_4_import": "Importe copias de seguridad de una carpeta que elija.",
+  "wn_2_8_4_cancel": "Cancelar la importación de copias de seguridad",
+  "wn_2_8_5_badge": "Elige si mostrar el contador de la barra de herramientas",
+  "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien"
 }

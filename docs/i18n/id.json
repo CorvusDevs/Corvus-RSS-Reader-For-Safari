@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Memperbaiki dialog yang macet, navigasi yang rusak, loop refresh, dan konflik penulisan penyimpanan.",
   "wn_2_8_1_title": "Lebih tepat waktu, lebih mudah ditemukan",
   "wn_2_8_1_review": "Permintaan ulasan sekarang menunggu hingga Corvus telah memberikan nilai berulang melalui feed dan pembacaan.",
-  "wn_2_8_1_search": "Cakupan pencarian App Store yang ditingkatkan untuk berita, blog, YouTube feed, pembacaan offline, OPML, dan langganan Safari."
+  "wn_2_8_1_search": "Cakupan pencarian App Store yang ditingkatkan untuk berita, blog, YouTube feed, pembacaan offline, OPML, dan langganan Safari.",
+  "wn_2_8_4_export": "Ekspor ke folder pilihan Anda",
+  "wn_2_8_4_import": "Impor cadangan dari folder pilihan Anda",
+  "wn_2_8_4_cancel": "Batal impor cadangan secara andal",
+  "wn_2_8_5_badge": "Pilih apakah lencana bilah alat ditampilkan",
+  "wn_2_8_5_folders": "Menu folder tetap terbuka dan berfungsi dengan baik"
 }

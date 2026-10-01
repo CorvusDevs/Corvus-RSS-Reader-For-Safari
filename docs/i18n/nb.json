@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Fiksert dialoger som henger fast, borteblev navigasjon, oppdateringsløyper og konkurranse om skriveoperasjoner på lagring.",
   "wn_2_8_1_title": "Bättre tid, enklare å finne",
   "wn_2_8_1_review": "Forespørsler om anmeldelser nå venter til Corvus har levert gjentatt verdi gjennom feeds og lesing.",
-  "wn_2_8_1_search": "Foreslått App Store-søking er nå forbedret for nyheter, bloggartikler, YouTube-strømmer, offline-lesing, OPML og Safari-abonnement."
+  "wn_2_8_1_search": "Foreslått App Store-søking er nå forbedret for nyheter, bloggartikler, YouTube-strømmer, offline-lesing, OPML og Safari-abonnement.",
+  "wn_2_8_4_export": "Eksporter til en mappe du velger",
+  "wn_2_8_4_import": "Importer sikkerhetskopier fra en mappe du velger",
+  "wn_2_8_4_cancel": "Avbryt import av sikkerhetskopier pålitelig",
+  "wn_2_8_5_badge": "Velg om merket på verktøylinjen skal vises",
+  "wn_2_8_5_folders": "Mappemenyer forblir åpne og fungerer pålitelig"
 }

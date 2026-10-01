@@ -86,7 +86,7 @@
   "privacy_commitment": "Corvus RSS Reader wurde entwickelt, um vollständig auf Ihrem Gerät zu funktionieren. Wir sammeln, speichern oder übertragen keine persönlichen Daten.",
   "privacy_h_collection": "Datensammlung",
   "privacy_collection_intro": "Corvus RSS Reader sammelt keine Daten. Konkret:",
-  "privacy_collection_li_analytics": "<strong>Keine Analyse oder Telemetrie</strong> – Wir verfolgen nicht, wie Sie die Erweiterung verwenden",
+  "privacy_collection_li_analytics": "<strong>Keine Analyse oder Telemetrie</strong>, Wir verfolgen nicht, wie Sie die Erweiterung verwenden",
   "privacy_collection_li_personal": "<strong>Keine persönlichen Daten</strong>: Wir sammeln keine Namen, E-Mail-Adressen, IP-Adressen oder Geräte-Identifikatoren.",
   "privacy_collection_li_thirdparty": "<strong>Keine Drittanbieter-Tracking</strong>: Wir integrieren keine Werbesoftware-SDKs, Analyse-Frameworks oder Tracking-Pixel",
   "privacy_collection_li_local": "<strong>Nur lokale Speicherung</strong>: Ihre Feeds, Artikel, Ordner und Einstellungen werden lokal auf Ihrem Gerät unter Verwendung des Erweiterungs-Speicherplatzes von Safari gespeichert und werden niemals an einen Server gesendet",
@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Die Dialoge, die Navigation, die Aktualisierungsschleifen und die Speicherzugriffsprobleme wurden behoben.",
   "wn_2_8_1_title": "Genauer getaktet, einfacher zu finden",
   "wn_2_8_1_review": "Anfragen für Bewertungen warten nun, bis Corvus wiederkehrende Werte durch Feeds und das Lesen liefert.",
-  "wn_2_8_1_search": "Verbesserte App Store-Suchabdeckung für Nachrichten, Blogs, YouTube-Feeds, Offline-Lesemodus, OPML und Safari-Abonnements."
+  "wn_2_8_1_search": "Verbesserte App Store-Suchabdeckung für Nachrichten, Blogs, YouTube-Feeds, Offline-Lesemodus, OPML und Safari-Abonnements.",
+  "wn_2_8_4_export": "Exportieren Sie in einen von Ihnen gewählten Ordner.",
+  "wn_2_8_4_import": "Importieren Sie Sicherungen aus einem Ordner.",
+  "wn_2_8_4_cancel": "Backup-Imports zuverlässig abbrechen",
+  "wn_2_8_5_badge": "Symbolzähler nach Wunsch ein- oder ausblenden",
+  "wn_2_8_5_folders": "Ordnermenüs bleiben offen und funktionieren zuverlässig"
 }

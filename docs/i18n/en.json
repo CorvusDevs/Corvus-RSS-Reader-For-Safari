@@ -590,5 +590,25 @@
   "wn_2_8_1_search": {
     "text": "Improved App Store search coverage for news, blogs, YouTube feeds, offline reading, OPML, and Safari subscriptions.",
     "context": "description"
+  },
+  "wn_2_8_4_export": {
+    "text": "Export to a folder you choose",
+    "context": "description"
+  },
+  "wn_2_8_4_import": {
+    "text": "Import backups from a folder you choose",
+    "context": "description"
+  },
+  "wn_2_8_4_cancel": {
+    "text": "Cancel backup imports reliably",
+    "context": "description"
+  },
+  "wn_2_8_5_badge": {
+    "text": "Choose whether to show the toolbar badge",
+    "context": "description"
+  },
+  "wn_2_8_5_folders": {
+    "text": "Folder menus stay open and work reliably",
+    "context": "description"
   }
 }

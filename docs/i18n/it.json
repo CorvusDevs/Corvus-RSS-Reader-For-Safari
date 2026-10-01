@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Risolti dialoghi bloccati, navigazione interrotta, loop di aggiornamento e conflitti di scrittura su archivio.",
   "wn_2_8_1_title": "Migliore tempizzazione, più facile da trovare",
   "wn_2_8_1_review": "Le richieste di recensione attendono ora che Corvus abbia fornito valore ripetuto tramite i feed e la lettura.",
-  "wn_2_8_1_search": "Migliorata la copertura della ricerca di App Store per notizie, blog, feed di YouTube, lettura offline, OPML e abbonamenti a Safari."
+  "wn_2_8_1_search": "Migliorata la copertura della ricerca di App Store per notizie, blog, feed di YouTube, lettura offline, OPML e abbonamenti a Safari.",
+  "wn_2_8_4_export": "Esporta in una cartella scelta",
+  "wn_2_8_4_import": "Importa backup dalla cartella scelta",
+  "wn_2_8_4_cancel": "Annulla l'importazione affidabile delle copie di backup",
+  "wn_2_8_5_badge": "Scegli se mostrare il contatore della barra strumenti",
+  "wn_2_8_5_folders": "I menu delle cartelle restano aperti e funzionano bene"
 }

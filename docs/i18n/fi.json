@@ -113,7 +113,7 @@
   "terms_h_restrictions": "2. Rajoitukset",
   "terms_restrictions_intro": "Voit",
   "terms_restrictions_li_redistribute": "Järjestelmän uudelleenjakaminen, myynti tai aliluovutus on kiellettyä.",
-  "terms_restrictions_li_reverse": "Kääntämällä, purkamalla tai hajottamalla laajennus, ellei sitä sallita lain mukaan.",
+  "terms_restrictions_li_reverse": "Laajennuksen takaisinmallintaminen, dekompilointi tai purkaminen, ellei sovellettava laki salli sitä",
   "terms_restrictions_li_branding": "Poista tai muokkaa tekijänoikeusvaroja tai brändäystä.",
   "terms_restrictions_li_unlawful": "Älä käytä laajennusta lainvastaisiin tarkoituksiin",
   "terms_h_thirdparty": "3. Kolmannen osapuolen sisältö",
@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Korjattiin jumittuneet ikkunat, viallinen navigaatio, päivityssilmukat ja tallennusoperaatioiden kilpailu.",
   "wn_2_8_1_title": "Parempi ajoitus, helpompi löytää",
   "wn_2_8_1_review": "Arvostelupyydöt odotetaan, kunnes Corvus on tuottanut toistuvaa arvoa syötteiden ja lukemisen kautta.",
-  "wn_2_8_1_search": "Parannettu App Store-haku uutisille, blogeille, YouTube-syötteille, offline-lukemiseen, OPML-tiedostoihin ja Safari-tilauksiin."
+  "wn_2_8_1_search": "Parannettu App Store-haku uutisille, blogeille, YouTube-syötteille, offline-lukemiseen, OPML-tiedostoihin ja Safari-tilauksiin.",
+  "wn_2_8_4_export": "Viee valittuun kansioon",
+  "wn_2_8_4_import": "Tuo valitsemasi kansion varmuuskopiot",
+  "wn_2_8_4_cancel": "Peruuta varmuuskopioimista luotettavasti",
+  "wn_2_8_5_badge": "Valitse, näytetäänkö työkalupalkin laskuri",
+  "wn_2_8_5_folders": "Kansiovalikot pysyvät auki ja toimivat luotettavasti"
 }

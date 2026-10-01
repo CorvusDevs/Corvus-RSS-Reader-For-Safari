@@ -87,8 +87,8 @@
   "privacy_h_collection": "Sběr dat",
   "privacy_collection_intro": "Corvus RSS Reader nesbírá žádné údaje. Konkrétně:",
   "privacy_collection_li_analytics": "<strong>Žádná analýza ani telemetrie</strong>, Nezaznamenáváme, jak používáte rozšíření",
-  "privacy_collection_li_personal": "<strong>Žádné osobní údaje</strong> – nesbíráme jména, e-mailové adresy, IP adresy ani identifikátory zařízení",
-  "privacy_collection_li_thirdparty": "<strong>Žádné sledování třetích stran</strong> – Nezařazujeme reklamní SDK, analytické frameworky ani sledovací pixely",
+  "privacy_collection_li_personal": "<strong>Žádné osobní údaje</strong>, nesbíráme jména, e-mailové adresy, IP adresy ani identifikátory zařízení",
+  "privacy_collection_li_thirdparty": "<strong>Žádné sledování třetích stran</strong>, Nezařazujeme reklamní SDK, analytické frameworky ani sledovací pixely",
   "privacy_collection_li_local": "<strong>Pouze lokální úložiště</strong>, Vaše kanály, články, složky a předvolby jsou ukládány lokálně na vašem zařízení pomocí rozšíření pro úložiště v Safari a nikdy nejsou odeslány na žádný server",
   "privacy_h_network": "Network Requests",
   "privacy_network_intro": "Corvus RSS Reader pro funkční chování vykonává následující síťové požadavky:",
@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Opraveny jsou zaseknuté dialogy, nefunkční navigace, smyčky obnovy a závodní podmínky při zápisu do úložiště.",
   "wn_2_8_1_title": "Rychlejší, snadnojištější",
   "wn_2_8_1_review": "Žádosti o hodnocení nyní čekají, až Corvus dodá opakovanou hodnotu prostřednictvím feedů a čtení.",
-  "wn_2_8_1_search": "Zlepšili jsme pokrytí vyhledávání App Store pro zprávy, blogy, YouTube kanály, čtení bez připojení, soubory OPML a předplatné Safari."
+  "wn_2_8_1_search": "Zlepšili jsme pokrytí vyhledávání App Store pro zprávy, blogy, YouTube kanály, čtení bez připojení, soubory OPML a předplatné Safari.",
+  "wn_2_8_4_export": "Exportujte do složky, kterou si vyberete.",
+  "wn_2_8_4_import": "Importujte zálohy z vybraného složky.",
+  "wn_2_8_4_cancel": "Spolehlitelné zrušení importu záloh",
+  "wn_2_8_5_badge": "Zvolte, zda zobrazovat odznak na panelu nástrojů",
+  "wn_2_8_5_folders": "Nabídky složek zůstávají otevřené a fungují spolehlivě"
 }

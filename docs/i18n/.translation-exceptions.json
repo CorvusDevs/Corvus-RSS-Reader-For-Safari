@@ -1,0 +1,178 @@
+[
+  {
+    "locale": "ar",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ar",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "el",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "el",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "he",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "he",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "hi",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "hi",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ja",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ja",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ko",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ko",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ru",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "ru",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "th",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "th",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "uk",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "uk",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "zh_CN",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "zh_CN",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "zh_TW",
+    "key": "privacy_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  },
+  {
+    "locale": "zh_TW",
+    "key": "terms_contact_block",
+    "kind": "untranslated",
+    "source": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "target": "<strong>CorvusDevs</strong><br><a href=\"mailto:corvusdevs@outlook.com\">corvusdevs@outlook.com</a>",
+    "reason": "Reviewed contact-only markup: CorvusDevs and its email address are proper identifiers, not translatable prose."
+  }
+]

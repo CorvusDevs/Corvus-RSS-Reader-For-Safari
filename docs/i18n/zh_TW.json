@@ -15,7 +15,7 @@
   "f2_t": "YouTube 頻道",
   "f2_d": "直接在 YouTube 頻道頁面訂閱，自動解析 @handle，並從資訊流中隱藏 Shorts，專注於完整影片。",
   "f3_t": "資料夾組織",
-  "f3_d": "將您的播客分組至資料夾及嵌套子資料夾，讓科技、新聞、YouTube 與設計內容整齊分隔。",
+  "f3_d": "將訂閱來源整理到資料夾及巢狀子資料夾中，讓科技、新聞、YouTube 與設計內容各自井然有序。",
   "f4_t": "5 種檢視模式",
   "f4_d": "雜誌、列表、卡片、展開式及全螢幕佈局。選擇最適合您的閱讀體驗。",
   "f5_t": "Star、Pin 及 Read Later",
@@ -35,7 +35,7 @@
   "f12_t": "離線閱讀",
   "f12_d": "儲存內嵌圖片的文章，以便在無網路環境下閱讀。您的已儲存內容隨時可用。",
   "f13_t": "Feed 健康儀表板",
-  "f13_d": "一覽監控損壞、過期及易出錯的播客。輕觸一下即可批量停用無效播客並重試已停用的播客。",
+  "f13_d": "一眼掌握失效、過期及經常出錯的訂閱來源。只要輕點一下，就能批次停用無效的訂閱來源，並重試已停用的來源。",
   "f14_t": "自動動作規則",
   "f14_d": "建立規則，根據關鍵字、來源或作者自動將文章標記為收藏、加標籤、靜音或歸檔。您的收件匣，由您掌控規則。",
   "f15_t": "智慧濾鏡",
@@ -93,7 +93,7 @@
   "privacy_h_network": "網路請求",
   "privacy_network_intro": "Corvus RSS Reader 需要執行以下網路請求才能正常運作：",
   "privacy_network_li_feed": "<strong>RSS/Atom 訂閱串流擷取</strong>，Corvus RSS Reader 會擷取您訂閱的串流 URL 以取得新文章。這些請求會直接從您的瀏覽器傳送至串流發布者的伺服器。",
-  "privacy_network_li_favicon": "<strong>Favicon 載入</strong>，Corvus RSS Reader 透過 DuckDuckGo 的圖示服務 (icons.duckduckgo.com) 載入網站圖示以顯示播客圖示，不會傳送任何個人資料。",
+  "privacy_network_li_favicon": "<strong>網站圖示載入</strong>, Corvus RSS Reader 透過 DuckDuckGo 的圖示服務 (icons.duckduckgo.com) 載入網站圖示，用於顯示訂閱來源圖示。不會傳送任何個人資料。",
   "privacy_network_li_youtube": "<strong>YouTube 頻道解析度</strong>，在訂閱 YouTube 頻道時，Corvus RSS Reader 可能會使用 YouTube 的 InnerTube API 來解析頻道 ID，此過程不涉及任何認證或個人資料。",
   "privacy_network_outro": "所有請求均直接從您的瀏覽器發出。我們不會代理、記錄或攔截任何網路流量。",
   "privacy_h_website": "網站",
@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "修復了卡住的對話框、損壞的導航、刷新循環以及存儲寫入競爭。",
   "wn_2_8_1_title": "更精準的時程，更容易找到",
   "wn_2_8_1_review": "現在，評論請求會等待 Corvus 透過資訊流與閱讀功能提供重複價值後才會執行。",
-  "wn_2_8_1_search": "新增了對 App Store、YouTube 頻道、離線閱讀、OPML 以及 Safari 訂閱的搜尋覆蓋範圍。"
+  "wn_2_8_1_search": "新增了對 App Store、YouTube 頻道、離線閱讀、OPML 以及 Safari 訂閱的搜尋覆蓋範圍。",
+  "wn_2_8_4_export": "匯出至您選擇的資料夾",
+  "wn_2_8_4_import": "從您選擇的資料夾匯入備份",
+  "wn_2_8_4_cancel": "可靠地取消备份导入",
+  "wn_2_8_5_badge": "選擇是否顯示工具列標記",
+  "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作"
 }

@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Vastgelopen dialoogvensters, defecte navigatie, vernieuwingslussen en conflicten bij het opslaan zijn opgelost.",
   "wn_2_8_1_title": "Beter getimed, eenvoudiger te vinden",
   "wn_2_8_1_review": "Vraag nu om een review pas als Corvus herhaaldelijke waarde heeft geleverd via feeds en lezen.",
-  "wn_2_8_1_search": "Verbeterde App Store-zoekdekking voor nieuws, blogs, YouTube-feeds, offline-lezen, OPML en Safari-abonnementen."
+  "wn_2_8_1_search": "Verbeterde App Store-zoekdekking voor nieuws, blogs, YouTube-feeds, offline-lezen, OPML en Safari-abonnementen.",
+  "wn_2_8_4_export": "Exporteer naar een map van uw keuze",
+  "wn_2_8_4_import": "Importeer back-ups van een map van uw keuze",
+  "wn_2_8_4_cancel": "Annuleer back-ups betrouwbaar",
+  "wn_2_8_5_badge": "Kies of de teller op de werkbalk wordt getoond",
+  "wn_2_8_5_folders": "Mapmenu’s blijven open en werken betrouwbaar"
 }

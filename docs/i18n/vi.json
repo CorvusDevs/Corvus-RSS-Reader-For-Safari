@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Đã khắc phục các lỗi cửa sổ hội thoại bị treo, điều hướng bị hỏng, vòng lặp làm mới và xung đột ghi dữ liệu vào bộ nhớ lưu trữ.",
   "wn_2_8_1_title": "Được đồng bộ hóa tốt hơn, dễ tìm hơn",
   "wn_2_8_1_review": "Các yêu cầu đánh giá hiện sẽ được trì hoãn cho đến khi Corvus cung cấp giá trị lặp lại qua các luồng và bài đọc.",
-  "wn_2_8_1_search": "Đã cải thiện phạm vi tìm kiếm App Store cho tin tức, blog, các nguồn cấp dữ liệu YouTube, đọc ngoại tuyến, OPML và các đăng ký Safari."
+  "wn_2_8_1_search": "Đã cải thiện phạm vi tìm kiếm App Store cho tin tức, blog, các nguồn cấp dữ liệu YouTube, đọc ngoại tuyến, OPML và các đăng ký Safari.",
+  "wn_2_8_4_export": "Xuất vào thư mục bạn chọn",
+  "wn_2_8_4_import": "Nhập bản sao lưu từ thư mục bạn chọn",
+  "wn_2_8_4_cancel": "Hủy nhập khẩu sao lưu một cách đáng tin cậy",
+  "wn_2_8_5_badge": "Chọn có hiển thị số đếm trên thanh công cụ hay không",
+  "wn_2_8_5_folders": "Menu thư mục luôn mở và hoạt động ổn định"
 }

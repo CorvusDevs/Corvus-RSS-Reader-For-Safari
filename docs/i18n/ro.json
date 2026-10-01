@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Am corectat dialogurile blocate, navigația defectă, buclele de reîmprospătare și conflictele de scriere în stocare.",
   "wn_2_8_1_title": "Mai bine sincronizat, mai ușor de găsit",
   "wn_2_8_1_review": "Cererile de evaluare acum așteaptă până când Corvus va oferi o valoare repetată prin fluxuri și citiri.",
-  "wn_2_8_1_search": "Am îmbunătățit acoperirea căutării în App Store pentru știri, bloguri, fluxuri de YouTube, citire offline, fișiere OPML și abonamentele Safari."
+  "wn_2_8_1_search": "Am îmbunătățit acoperirea căutării în App Store pentru știri, bloguri, fluxuri de YouTube, citire offline, fișiere OPML și abonamentele Safari.",
+  "wn_2_8_4_export": "Exportați într-un folder ales de dumneavoastră",
+  "wn_2_8_4_import": "Importați back-ups dintr-un folder ales",
+  "wn_2_8_4_cancel": "Anulează importurile de rezervă în mod fiabil",
+  "wn_2_8_5_badge": "Alegeți dacă se afișează contorul din bara de instrumente",
+  "wn_2_8_5_folders": "Meniurile dosarelor rămân deschise și funcționează corect"
 }

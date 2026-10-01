@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Kilitli iletişim kutuları, bozuk gezinme, yenileme döngüleri ve depolama yazma yarışı sorunları düzeltildi.",
   "wn_2_8_1_title": "Daha iyi zamanlanmış, daha kolay bulunabilir",
   "wn_2_8_1_review": "İnceleme istekleri artık, Corvus değerli okuyucular tarafından tekrar değerli içerik sunana kadar beklemektedir.",
-  "wn_2_8_1_search": "App Store'deki haber, blog, YouTube kanalları, çevrimdışı okuma, OPML ve Safari abonelikleri için App Store arama kapsamı iyileştirildi."
+  "wn_2_8_1_search": "App Store'deki haber, blog, YouTube kanalları, çevrimdışı okuma, OPML ve Safari abonelikleri için App Store arama kapsamı iyileştirildi.",
+  "wn_2_8_4_export": "Seçtiğiniz bir klasöre aktarın.",
+  "wn_2_8_4_import": "Seçtiğiniz klasörden yedekleri içe aktarın",
+  "wn_2_8_4_cancel": "Yedekleme içe aktarmayı güvenilir şekilde iptal edin",
+  "wn_2_8_5_badge": "Araç çubuğu rozetinin gösterilip gösterilmeyeceğini seçin",
+  "wn_2_8_5_folders": "Klasör menüleri açık kalır ve güvenilir şekilde çalışır"
 }

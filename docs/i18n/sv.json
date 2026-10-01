@@ -146,5 +146,10 @@
   "wn_2_8_0_reliability": "Korrigerade fastna dialoger, felaktig navigering, uppdateringsloopar och lagringsracing.",
   "wn_2_8_1_title": "Bättre tidsinställda, lättare att hitta",
   "wn_2_8_1_review": "Begärda nu om omdömen först när Corvus har levererat upprepat värde genom flöden och läsning.",
-  "wn_2_8_1_search": "Förbättrad söckäckning för App Store på nyheter, bloggar, YouTube-flöden, offlineläsning, OPML och Safari-prenumerationer i App Store, YouTube och Safari."
+  "wn_2_8_1_search": "Förbättrad söckäckning för App Store på nyheter, bloggar, YouTube-flöden, offlineläsning, OPML och Safari-prenumerationer i App Store, YouTube och Safari.",
+  "wn_2_8_4_export": "Exportera till en mapp du väljer",
+  "wn_2_8_4_import": "Importera säkerhetskopior från ett vald mapp.",
+  "wn_2_8_4_cancel": "Avsluta import av säkerhetskopior pålitligt",
+  "wn_2_8_5_badge": "Välj om räknaren i verktygsfältet ska visas",
+  "wn_2_8_5_folders": "Mappmenyer förblir öppna och fungerar tillförlitligt"
 }
