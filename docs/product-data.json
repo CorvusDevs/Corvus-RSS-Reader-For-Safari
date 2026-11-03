@@ -1,0 +1,25 @@
+{
+  "slug": "Corvus-RSS-Reader-For-Safari",
+  "name": "Corvus RSS Reader",
+  "appStoreId": 6761442829,
+  "version": "2.8.5",
+  "releaseDate": "2026-10-01T18:47:46Z",
+  "originalReleaseDate": "2026-04-09T07:00:00Z",
+  "platforms": [
+    "macOS",
+    "iPhone",
+    "iPad"
+  ],
+  "requirements": {
+    "macOS": "12.0",
+    "iOS": "15.0",
+    "iPadOS": "15.0"
+  },
+  "store": {
+    "kind": "app-store",
+    "label": "App Store",
+    "url": "https://apps.apple.com/app/id6761442829"
+  },
+  "metadataSource": "https://itunes.apple.com/lookup?id=6761442829&country=us",
+  "sourceCatalog": "https://corvusdevs.github.io/apps.json"
+}

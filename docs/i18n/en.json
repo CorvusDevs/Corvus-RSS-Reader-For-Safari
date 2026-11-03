@@ -32,7 +32,7 @@
     "context": "label"
   },
   "hero_req": {
-    "text": "iOS 17.0+ · macOS 14.0+",
+    "text": "iOS 15.0+ · macOS 12.0+",
     "context": "label"
   },
   "sec_features": {
@@ -292,7 +292,7 @@
     "context": "description"
   },
   "req": {
-    "text": "Requires macOS 14.0 (Sonoma) or later, or iOS/iPadOS 17.0 or later. Works with Safari 17+.",
+    "text": "Requires macOS 12.0 (Monterey) or later, or iOS/iPadOS 15.0 or later. Works with Safari.",
     "context": "description"
   },
   "f_brand": {
