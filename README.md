@@ -7,9 +7,9 @@
 **Your websites, blogs, and YouTube channels in one private Safari reader.**
 
 <p>
-  <img src="https://img.shields.io/badge/macOS-14.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 14.0+">
-  <img src="https://img.shields.io/badge/iOS-17.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS 17.0+">
-  <img src="https://img.shields.io/badge/iPadOS-17.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="iPadOS 17.0+">
+  <img src="https://img.shields.io/badge/macOS-12.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 12.0+">
+  <img src="https://img.shields.io/badge/iOS-15.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS 15.0+">
+  <img src="https://img.shields.io/badge/iPadOS-15.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="iPadOS 15.0+">
   <img src="https://img.shields.io/badge/Languages-33-EE802F?style=flat-square" alt="33 languages">
   <img src="https://img.shields.io/badge/Privacy-zero%20tracking-4CAF50?style=flat-square" alt="Zero tracking">
 </p>
@@ -64,7 +64,7 @@ Corvus is a Safari-first RSS reader for iPhone, iPad, and Mac. Discover a source
 
 - **Follow the web without an algorithm.** Bring websites, blogs, news, and YouTube channels into one reader you control.
 - **Subscribe without hunting for URLs.** Corvus finds RSS and Atom feeds on the page you are visiting, including YouTube channel feeds.
-- **Discover something new.** Browse more than 5,000 curated feeds across 34 categories and 47 countries.
+- **Discover something new.** Browse 450+ international feeds plus regional catalogs from 47 countries across 34 topics. Availability depends on each publisher.
 - **Read your way.** Switch between magazine, list, card, expanded, and full-view layouts, with seven themes and custom accents.
 - **Keep a large library tidy.** Use folders, nested folders, smart filters, tags, full-text search, and automatic categorization.
 - **Let rules handle repetitive work.** Automatically star, tag, mute, or archive matching articles.
@@ -125,9 +125,10 @@ See the [website changelog](https://corvusdevs.github.io/Corvus-RSS-Reader-For-S
 
 ## Requirements
 
-- iPhone or iPad with iOS or iPadOS 17 or later
-- Mac with macOS 14 or later
+- iPhone or iPad with iOS or iPadOS 15 or later
+- Mac with macOS 12 or later
 - Safari
+- Optional widgets require iOS or iPadOS 17 or later
 
 ## Built with
 
