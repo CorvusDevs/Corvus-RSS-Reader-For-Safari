@@ -80,7 +80,7 @@
   "f_connect": "Připojit",
   "legal_back": "&larr; Návrat k Corvus RSS čteči",
   "privacy_title": "Zásady ochrany soukromí",
-  "privacy_date": "Datum účinnosti: 6. dubna 2026 &middot; Poslední aktualizace: 6. dubna 2026",
+  "privacy_date": "Datum účinnosti: 6. dubna 2026 &middot; Poslední aktualizace: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"my\", \"we\", \"us\", \"our\") vyvíjí a publikuje softwarové aplikace. Tato Ochrana soukromí vysvětluje, jak zpracováváme data v Corvus RSS Reader pro Safari.",
   "privacy_h_commitment": "Náš závazek",
   "privacy_commitment": "Corvus RSS Reader je navržen tak, aby fungoval zcela na vašem zařízení. Nesbíráme, neskladujeme ani neposíláme žádné osobní údaje.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Žádná analýza ani telemetrie</strong>, Nezaznamenáváme, jak používáte rozšíření",
   "privacy_collection_li_personal": "<strong>Žádné osobní údaje</strong>, nesbíráme jména, e-mailové adresy, IP adresy ani identifikátory zařízení",
   "privacy_collection_li_thirdparty": "<strong>Žádné sledování třetích stran</strong>, Nezařazujeme reklamní SDK, analytické frameworky ani sledovací pixely",
-  "privacy_collection_li_local": "<strong>Pouze lokální úložiště</strong>, Vaše kanály, články, složky a předvolby jsou ukládány lokálně na vašem zařízení pomocí rozšíření pro úložiště v Safari a nikdy nejsou odeslány na žádný server",
+  "privacy_collection_li_local": "Vaše kanály, články, složky a předvolby jsou uloženy ve vašem zařízení. CorvusDevs vaši knihovnu nepřijímá.",
   "privacy_h_network": "Network Requests",
   "privacy_network_intro": "Corvus RSS Reader pro funkční chování vykonává následující síťové požadavky:",
   "privacy_network_li_feed": "<strong>Načítání RSS/Atom feedů</strong>: Corvus RSS Reader získává URL adresy feedů, ke kterým se přihlašujete, aby mohl stahovat nové články. Tyto požadavky jsou odesílány přímo z vašeho prohlížeče na server poskytovatele feedu.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importujte zálohy z vybraného složky.",
   "wn_2_8_4_cancel": "Spolehlitelné zrušení importu záloh",
   "wn_2_8_5_badge": "Zvolte, zda zobrazovat odznak na panelu nástrojů",
-  "wn_2_8_5_folders": "Nabídky složek zůstávají otevřené a fungují spolehlivě"
+  "wn_2_8_5_folders": "Nabídky složek zůstávají otevřené a fungují spolehlivě",
+  "privacy_network_li_bluesky": "Bluesky: U odebíraných kanálů Bluesky se identifikátory veřejných příspěvků odesílají na public.api.bsky.app za účelem načtení příspěvků, citací a obrázků. Požadavky API neobsahují cookies a nepoužívají přihlášení k Bluesky. Obrázky se načítají z cdn.bsky.app. Stejně jako u jiných síťových požadavků dostávají tito poskytovatelé informace o připojení včetně vaší IP adresy."
 }

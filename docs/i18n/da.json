@@ -80,7 +80,7 @@
   "f_connect": "Forbind",
   "legal_back": "&larr; Tilbage til Corvus RSS Reader",
   "privacy_title": "Privatlivspolitik",
-  "privacy_date": "Gældende fra: 6. april 2026 &middot; Sidst opdateret: 6. april 2026",
+  "privacy_date": "Gældende fra: 6. april 2026 &middot; Sidst opdateret: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"vi\", \"os\", \"vores\") udvikler og udgiver softwareapplikationer. Denne privatlivspolitik forklarer, hvordan vi håndterer data i Corvus RSS Reader til Safari.",
   "privacy_h_commitment": "Vores forpligtelse",
   "privacy_commitment": "Corvus RSS Reader er designet til at fungere udelukkende på dit enhed. Vi indsamler, opbevarer eller transmitterer ingen personlige data.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Ingen analyser eller telemetri</strong>, vi registrerer ikke, hvordan du bruger udvidelsen",
   "privacy_collection_li_personal": "<strong>Ingen personlige oplysninger</strong>: Vi indsamler ikke navne, e-mailadresser, IP-adresser eller enhedsidentifikatorer",
   "privacy_collection_li_thirdparty": "<strong>Ingen overvågning fra tredjepart</strong>. Vi indkæder ikke reklame-SDK'er, analyseframeworker eller sporingspixels.",
-  "privacy_collection_li_local": "<strong>Udelukkende lokal opbevaring</strong>: Dine feeds, artikler, mapper og præferencer gemmes lokalt på din enhed ved hjælp af Safari's udvidelsesopbevaring og sendes aldrig til nogen server.",
+  "privacy_collection_li_local": "Dine feeds, artikler, mapper og indstillinger gemmes på din enhed. CorvusDevs modtager ikke dit bibliotek.",
   "privacy_h_network": "Netværksforespørgsler",
   "privacy_network_intro": "Corvus RSS Reader udfører følgende netværksanmodninger for at fungere:",
   "privacy_network_li_feed": "<strong>RSS/Atom-feedhentning</strong>: Corvus RSS Reader henter feed-URL'er, du er abonnent på, for at hente nye artikler. Disse anmodninger går direkte fra din browser til serveren hos feed-udbyderen.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importer backups fra et mappe, du vælger",
   "wn_2_8_4_cancel": "Afbryd import af sikkerhedskopieringer pålideligt",
   "wn_2_8_5_badge": "Vælg, om mærket på værktøjslinjen skal vises",
-  "wn_2_8_5_folders": "Mappemenuer forbliver åbne og fungerer pålideligt"
+  "wn_2_8_5_folders": "Mappemenuer forbliver åbne og fungerer pålideligt",
+  "privacy_network_li_bluesky": "Bluesky: For Bluesky-feeds, du abonnerer på, sendes identifikatorer for offentlige opslag til public.api.bsky.app for at hente opslag, citater og billeder. API-anmodninger indeholder ikke cookies og bruger ikke et Bluesky-login. Billeder indlæses fra cdn.bsky.app. Som ved andre netværksanmodninger modtager disse udbydere forbindelsesoplysninger, herunder din IP-adresse."
 }

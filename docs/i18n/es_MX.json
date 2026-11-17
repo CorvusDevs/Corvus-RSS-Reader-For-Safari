@@ -80,7 +80,7 @@
   "f_connect": "Conectar",
   "legal_back": "&larr; Volver a Corvus RSS Reader",
   "privacy_title": "Política de privacidad",
-  "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 6 de abril de 2026",
+  "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"nosotros\", \"nuestro\") desarrolla y publica aplicaciones de software. Esta Política de Privacidad explica cómo manejamos los datos en Corvus RSS Reader para Safari.",
   "privacy_h_commitment": "Nuestro Compromiso",
   "privacy_commitment": "Corvus RSS Reader está diseñado para funcionar completamente en tu dispositivo. No recopilamos, almacenamos ni transmitimos ningún dato personal.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Sin análisis ni telemetría</strong>; no rastreamos cómo utilizas la extensión",
   "privacy_collection_li_personal": "<strong>No se recopila información personal</strong>; no recopilamos nombres, correos electrónicos, direcciones IP ni identificadores de dispositivo",
   "privacy_collection_li_thirdparty": "<strong>Sin rastreo de terceros</strong>; no incorporamos SDKs de publicidad, marcos de análisis o píxeles de rastreo",
-  "privacy_collection_li_local": "<strong>Solo almacenamiento local</strong>: Tus fuentes de alimentación, artículos, carpetas y preferencias se almacenan localmente en tu dispositivo utilizando el almacenamiento de extensiones de Safari y nunca se envían a ningún servidor.",
+  "privacy_collection_li_local": "Tus fuentes, artículos, carpetas y preferencias se guardan en tu dispositivo. CorvusDevs no recibe tu biblioteca.",
   "privacy_h_network": "Solicitudes de red",
   "privacy_network_intro": "Corvus RSS Reader realiza las siguientes solicitudes de red para funcionar:",
   "privacy_network_li_feed": "<strong>Obtención de fuentes RSS/Atom</strong>, Corvus RSS Reader descarga las URL de las fuentes a las que te suscribes para recuperar nuevos artículos. Estas solicitudes se envían directamente desde tu navegador al servidor del editor de la fuente.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importe copias de seguridad de una carpeta que elija.",
   "wn_2_8_4_cancel": "Cancelar la importación de copias de seguridad",
   "wn_2_8_5_badge": "Elige si mostrar el contador de la barra de herramientas",
-  "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien"
+  "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien",
+  "privacy_network_li_bluesky": "Bluesky: Para las fuentes de Bluesky a las que te suscribes, se envían identificadores de publicaciones públicas a public.api.bsky.app para obtener publicaciones, citas e imágenes. Las solicitudes a la API omiten las cookies y no utilizan una sesión de Bluesky. Las imágenes se cargan desde cdn.bsky.app. Como en otras solicitudes de red, estos proveedores reciben información de conexión, incluida tu dirección IP."
 }

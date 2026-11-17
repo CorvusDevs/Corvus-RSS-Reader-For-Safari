@@ -80,7 +80,7 @@
   "f_connect": "Verbinden",
   "legal_back": "&larr; Terug naar Corvus RSS Reader",
   "privacy_title": "Privacybeleid",
-  "privacy_date": "Effectieve datum: 6 april 2026 &middot; Laatst bijgewerkt: 6 april 2026",
+  "privacy_date": "Effectieve datum: 6 april 2026 &middot; Laatst bijgewerkt: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"wij\", \"ons\", \"onze\") ontwikkelt en publiceert softwaretoepassingen. Dit privacybeleid legt uit hoe wij gegevens verwerken in Corvus RSS Reader voor Safari.",
   "privacy_h_commitment": "Onze Toezegging",
   "privacy_commitment": "Corvus RSS Reader is ontworpen om volledig op uw apparaat te werken. We verzamelen, slaan of verzenden geen persoonlijke gegevens.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Geen analytics of telemetrie</strong>, we volgen niet hoe u de extensie gebruikt",
   "privacy_collection_li_personal": "<strong>Geen persoonlijke gegevens</strong>. Wij verzamelen geen namen, e-mailadressen, IP-adressen of apparaatidentificatoren.",
   "privacy_collection_li_thirdparty": "<strong>Geen tracking door derden</strong>. Wij gebruiken geen advertentie-SDK's, analyse-frameworks of tracking-pixels.",
-  "privacy_collection_li_local": "<strong>Alleen lokale opslag</strong>: Uw feeds, artikelen, mappen en voorkeuren worden lokaal op uw apparaat opgeslagen via de extensie-opslag van Safari en worden nooit naar een server verzonden.",
+  "privacy_collection_li_local": "Uw feeds, artikelen, mappen en voorkeuren worden op uw apparaat opgeslagen. CorvusDevs ontvangt uw bibliotheek niet.",
   "privacy_h_network": "Netwerkverzoeken",
   "privacy_network_intro": "Corvus RSS Reader voert de volgende netwerkverzoeken uit om te functioneren:",
   "privacy_network_li_feed": "<strong>RSS/Atom-feedophalen</strong>: Corvus RSS Reader haalt de URL's van uw geabonneerde feeds op om nieuwe artikelen op te halen. Deze verzoeken gaan direct van uw browser naar de server van de feeduitgever.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importeer back-ups van een map van uw keuze",
   "wn_2_8_4_cancel": "Annuleer back-ups betrouwbaar",
   "wn_2_8_5_badge": "Kies of de teller op de werkbalk wordt getoond",
-  "wn_2_8_5_folders": "Mapmenu’s blijven open en werken betrouwbaar"
+  "wn_2_8_5_folders": "Mapmenu’s blijven open en werken betrouwbaar",
+  "privacy_network_li_bluesky": "Bluesky: Voor Bluesky-feeds waarop u bent geabonneerd, worden identificatoren van openbare berichten naar public.api.bsky.app gestuurd om berichten, citaten en afbeeldingen op te halen. API-verzoeken bevatten geen cookies en gebruiken geen Bluesky-aanmelding. Afbeeldingen worden geladen vanaf cdn.bsky.app. Net als bij andere netwerkverzoeken ontvangen deze aanbieders verbindingsinformatie, waaronder uw IP-adres."
 }

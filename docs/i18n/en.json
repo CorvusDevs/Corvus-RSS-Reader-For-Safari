@@ -324,7 +324,7 @@
     "context": "name"
   },
   "privacy_date": {
-    "text": "Effective Date: April 6, 2026 &middot; Last Updated: April 6, 2026",
+    "text": "Effective Date: April 6, 2026 &middot; Last Updated: 2026-11-17",
     "context": "description"
   },
   "privacy_intro": {
@@ -360,7 +360,7 @@
     "context": "description"
   },
   "privacy_collection_li_local": {
-    "text": "<strong>Local storage only</strong>, Your feeds, articles, folders, and preferences are stored locally on your device using Safari's extension storage and are never sent to any server",
+    "text": "Your feeds, articles, folders and preferences are stored on your device. CorvusDevs does not receive your library.",
     "context": "description"
   },
   "privacy_h_network": {
@@ -609,6 +609,10 @@
   },
   "wn_2_8_5_folders": {
     "text": "Folder menus stay open and work reliably",
+    "context": "description"
+  },
+  "privacy_network_li_bluesky": {
+    "text": "Bluesky: For subscribed Bluesky feeds, public post identifiers are sent to public.api.bsky.app to retrieve posts, quotes and images. API requests omit cookies and do not use a Bluesky login. Images load from cdn.bsky.app. As with other network requests, these providers receive connection information, including your IP address.",
     "context": "description"
   }
 }

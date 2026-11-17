@@ -80,7 +80,7 @@
   "f_connect": "Connectez-vous",
   "legal_back": "&larr; Retour à Corvus RSS Reader",
   "privacy_title": "Politique de confidentialité",
-  "privacy_date": "Date d'entrée en vigueur : 6 avril 2026 &middot; Dernière mise à jour : 6 avril 2026",
+  "privacy_date": "Date d'entrée en vigueur : 6 avril 2026 &middot; Dernière mise à jour : 2026-11-17",
   "privacy_intro": "CorvusDevs (« nous », « notre », « nos ») développe et publie des applications logicielles. Cette politique de confidentialité explique la manière dont nous traitons les données dans Corvus RSS Reader pour Safari.",
   "privacy_h_commitment": "Notre engagement",
   "privacy_commitment": "Corvus RSS Reader est conçu pour fonctionner entièrement sur votre appareil. Nous ne collectons, ne stockons ni ne transmettons aucune donnée personnelle.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Aucune analyse ni télémétrie</strong>, nous ne suivons pas la façon dont vous utilisez l'extension",
   "privacy_collection_li_personal": "<strong>Aucune information personnelle</strong> : nous ne collectons pas de noms, d'adresses e-mail, d'adresses IP ou d'identifiants d'appareil.",
   "privacy_collection_li_thirdparty": "<strong>Aucun suivi par des tiers</strong>, nous n'intégrons pas de SDK publicitaires, de frameworks d'analyse ou de pixels de suivi",
-  "privacy_collection_li_local": "<strong>Stockage local uniquement</strong>, Vos flux, articles, dossiers et préférences sont stockés localement sur votre appareil via le stockage des extensions de Safari et ne sont jamais envoyés à aucun serveur.",
+  "privacy_collection_li_local": "Vos flux, articles, dossiers et préférences sont stockés sur votre appareil. CorvusDevs ne reçoit pas votre bibliothèque.",
   "privacy_h_network": "Requêtes réseau",
   "privacy_network_intro": "Corvus RSS Reader effectue les requêtes réseau suivantes pour fonctionner :",
   "privacy_network_li_feed": "<strong>Récupération des flux RSS/Atom</strong> : Corvus RSS Reader récupère les URL des flux auxquels vous êtes abonné afin de récupérer les nouveaux articles. Ces requêtes sont envoyées directement depuis votre navigateur vers le serveur de l'éditeur du flux.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importez des sauvegardes depuis un dossier choisi.",
   "wn_2_8_4_cancel": "Annuler les importations de sauvegarde",
   "wn_2_8_5_badge": "Choisissez d’afficher ou non le compteur de la barre d’outils",
-  "wn_2_8_5_folders": "Les menus des dossiers restent ouverts et fonctionnent bien"
+  "wn_2_8_5_folders": "Les menus des dossiers restent ouverts et fonctionnent bien",
+  "privacy_network_li_bluesky": "Bluesky : Pour les flux Bluesky auxquels vous êtes abonné, les identifiants des publications publiques sont envoyés à public.api.bsky.app pour récupérer les publications, citations et images. Les requêtes API n'incluent pas de cookies et n'utilisent pas de connexion à un compte Bluesky. Les images sont chargées depuis cdn.bsky.app. Comme pour les autres requêtes réseau, ces fournisseurs reçoivent des informations de connexion, dont votre adresse IP."
 }

@@ -80,7 +80,7 @@
   "f_connect": "Conectează-te",
   "legal_back": "&larr; Înapoi la Corvus RSS Reader",
   "privacy_title": "Politica de confidențialitate",
-  "privacy_date": "Data eficientă: 6 aprilie 2026 &middot; Data ultimei actualizări: 6 aprilie 2026",
+  "privacy_date": "Data eficientă: 6 aprilie 2026 &middot; Data ultimei actualizări: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"noi\", \"ne\", \"noastră\") dezvoltă și publică aplicații de software. Această Politică de Confidențialitate explică modul în care procesăm datele în Corvus RSS Reader pentru Safari.",
   "privacy_h_commitment": "Angajamentul Nostru",
   "privacy_commitment": "Corvus RSS Reader este conceput să funcționeze integral pe dispozitivul dumneavoastră. Nu colectăm, stocăm sau transmitem nicio date personale.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Fără analitică sau telemetrie</strong>. Nu urmărim modul în care utilizați extensia",
   "privacy_collection_li_personal": "<strong>Nu există informații personale</strong>. Nu colectăm nume, adrese de e-mail, adrese IP sau identificatori de dispozitive.",
   "privacy_collection_li_thirdparty": "<strong>Fără urmărirea de către terți</strong>. Nu încorporăm SDK-uri de publicitate, cadre de analiză sau pixeli de urmărire",
-  "privacy_collection_li_local": "<strong>Doar stocare locală</strong>. Fluxurile, articolele, dosarele și preferințele dumneavoastră sunt stocate local pe dispozitivul dumneavoastră folosind stocarea extensiilor din Safari și nu sunt trimise niciodată către niciun server.",
+  "privacy_collection_li_local": "Fluxurile, articolele, dosarele și preferințele dvs. sunt stocate pe dispozitiv. CorvusDevs nu primește biblioteca dvs.",
   "privacy_h_network": "Cereri de rețea",
   "privacy_network_intro": "Corvus RSS Reader face următoarele cereri de rețea pentru a funcționa:",
   "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader preia URL-urile feed-urilor la care sunteți abonat pentru a obține articolele noi. Aceste cereri sunt trimise direct de la browserul dumneavoastră către serverul editorului feed-ului.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importați back-ups dintr-un folder ales",
   "wn_2_8_4_cancel": "Anulează importurile de rezervă în mod fiabil",
   "wn_2_8_5_badge": "Alegeți dacă se afișează contorul din bara de instrumente",
-  "wn_2_8_5_folders": "Meniurile dosarelor rămân deschise și funcționează corect"
+  "wn_2_8_5_folders": "Meniurile dosarelor rămân deschise și funcționează corect",
+  "privacy_network_li_bluesky": "Bluesky: Pentru fluxurile Bluesky la care vă abonați, identificatorii postărilor publice sunt trimiși la public.api.bsky.app pentru a prelua postări, citate și imagini. Cererile API nu includ cookie-uri și nu folosesc autentificarea Bluesky. Imaginile sunt încărcate de pe cdn.bsky.app. Ca în cazul altor cereri de rețea, acești furnizori primesc informații despre conexiune, inclusiv adresa dvs. IP."
 }

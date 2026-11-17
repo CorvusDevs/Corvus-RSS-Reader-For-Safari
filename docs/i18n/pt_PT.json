@@ -80,7 +80,7 @@
   "f_connect": "Conectar",
   "legal_back": "&larr; Voltar ao Corvus RSS Reader",
   "privacy_title": "Política de Privacidade",
-  "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 6 de abril de 2026",
+  "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 2026-11-17",
   "privacy_intro": "A CorvusDevs (\"nós\", \"nos\", \"nosso\") desenvolve e publica aplicações de software. Esta Política de Privacidade explica como tratamos os dados no Corvus RSS Reader para o Safari.",
   "privacy_h_commitment": "O Nosso Compromisso",
   "privacy_commitment": "O Corvus RSS Reader está projetado para funcionar inteiramente no seu dispositivo. Não coletamos, armazenamos ou transmitimos quaisquer dados pessoais.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Sem analytics nem telemetria</strong>, não rastreamos como usa a extensão",
   "privacy_collection_li_personal": "<strong>Sem informações pessoais</strong>: não recolhemos nomes, endereços de e-mail, endereços IP ou identificadores de dispositivo",
   "privacy_collection_li_thirdparty": "<strong>Sem rastreamento de terceiros</strong>: não incorporamos SDKs de publicidade, frameworks de análise ou pixels de rastreamento",
-  "privacy_collection_li_local": "<strong>Apenas armazenamento local</strong>, as suas feeds, artigos, pastas e preferências são guardados localmente no seu dispositivo através do armazenamento de extensões do Safari e nunca são enviados para qualquer servidor",
+  "privacy_collection_li_local": "Os seus feeds, artigos, pastas e preferências são guardados no seu dispositivo. A CorvusDevs não recebe a sua biblioteca.",
   "privacy_h_network": "Pedidos de Rede",
   "privacy_network_intro": "O Corvus RSS Reader realiza as seguintes requisições à rede para funcionar:",
   "privacy_network_li_feed": "<strong>Leitura de feeds RSS/Atom</strong>, o Corvus RSS Reader obtém as URLs dos feeds aos quais se subscreve para recuperar novos artigos. Estas requisições são enviadas diretamente do seu navegador para o servidor do editor do feed.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importe backups de uma pasta que escolher",
   "wn_2_8_4_cancel": "Cancelar importações de backup com fiabilidade",
   "wn_2_8_5_badge": "Escolha se pretende mostrar o contador na barra",
-  "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem"
+  "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem",
+  "privacy_network_li_bluesky": "Bluesky: Para os feeds do Bluesky que subscreve, os identificadores de publicações públicas são enviados para public.api.bsky.app para obter publicações, citações e imagens. Os pedidos à API não incluem cookies nem utilizam uma sessão do Bluesky. As imagens são carregadas de cdn.bsky.app. Tal como noutros pedidos de rede, estes fornecedores recebem informações de ligação, incluindo o seu endereço IP."
 }

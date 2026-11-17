@@ -80,7 +80,7 @@
   "f_connect": "Verbinden",
   "legal_back": "&larr; Zurück zu Corvus RSS Reader",
   "privacy_title": "Datenschutzrichtlinie",
-  "privacy_date": "Gültig ab: 6. April 2026 &middot; Zuletzt aktualisiert: 6. April 2026",
+  "privacy_date": "Gültig ab: 6. April 2026 &middot; Zuletzt aktualisiert: 2026-11-17",
   "privacy_intro": "CorvusDevs (wir, uns, unser) entwickelt und veröffentlicht Softwareanwendungen. Diese Datenschutzerklärung erläutert, wie wir Daten im Corvus RSS Reader für Safari verarbeiten.",
   "privacy_h_commitment": "Unser Engagement",
   "privacy_commitment": "Corvus RSS Reader wurde entwickelt, um vollständig auf Ihrem Gerät zu funktionieren. Wir sammeln, speichern oder übertragen keine persönlichen Daten.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Keine Analyse oder Telemetrie</strong>, Wir verfolgen nicht, wie Sie die Erweiterung verwenden",
   "privacy_collection_li_personal": "<strong>Keine persönlichen Daten</strong>: Wir sammeln keine Namen, E-Mail-Adressen, IP-Adressen oder Geräte-Identifikatoren.",
   "privacy_collection_li_thirdparty": "<strong>Keine Drittanbieter-Tracking</strong>: Wir integrieren keine Werbesoftware-SDKs, Analyse-Frameworks oder Tracking-Pixel",
-  "privacy_collection_li_local": "<strong>Nur lokale Speicherung</strong>: Ihre Feeds, Artikel, Ordner und Einstellungen werden lokal auf Ihrem Gerät unter Verwendung des Erweiterungs-Speicherplatzes von Safari gespeichert und werden niemals an einen Server gesendet",
+  "privacy_collection_li_local": "Ihre Feeds, Artikel, Ordner und Einstellungen werden auf Ihrem Gerät gespeichert. CorvusDevs erhält Ihre Bibliothek nicht.",
   "privacy_h_network": "Netzwerk-Anfragen",
   "privacy_network_intro": "Corvus RSS Reader sendet folgende Netzwerkanfragen, um zu funktionieren:",
   "privacy_network_li_feed": "<strong>RSS/Atom-Feedabruf</strong>: Der Corvus RSS Reader holt die URLs der abonnierten Feeds ab, um neue Artikel zu laden. Diese Anfragen werden direkt von Ihrem Browser zum Server des Feed-Anbieters gesendet.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importieren Sie Sicherungen aus einem Ordner.",
   "wn_2_8_4_cancel": "Backup-Imports zuverlässig abbrechen",
   "wn_2_8_5_badge": "Symbolzähler nach Wunsch ein- oder ausblenden",
-  "wn_2_8_5_folders": "Ordnermenüs bleiben offen und funktionieren zuverlässig"
+  "wn_2_8_5_folders": "Ordnermenüs bleiben offen und funktionieren zuverlässig",
+  "privacy_network_li_bluesky": "Bluesky: Für abonnierte Bluesky-Feeds werden Kennungen öffentlicher Beiträge an public.api.bsky.app gesendet, um Beiträge, Zitate und Bilder abzurufen. API-Anfragen enthalten keine Cookies und verwenden keine Bluesky-Anmeldung. Bilder werden von cdn.bsky.app geladen. Wie bei anderen Netzwerkanfragen erhalten diese Anbieter Verbindungsinformationen einschließlich Ihrer IP-Adresse."
 }

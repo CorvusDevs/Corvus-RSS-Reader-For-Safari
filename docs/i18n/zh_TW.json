@@ -80,7 +80,7 @@
   "f_connect": "連接",
   "legal_back": "&larr; 返回 Corvus RSS 閱讀器",
   "privacy_title": "隱私權政策",
-  "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期：2026 年 4 月 6 日",
+  "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期： 2026-11-17",
   "privacy_intro": "CorvusDevs（「我們」、「我們」、「我們的」）開發並發布軟體應用程式。本隱私權政策說明我們如何在 Safari 中的 Corvus RSS Reader 處理資料。",
   "privacy_h_commitment": "我們的承諾",
   "privacy_commitment": "Corvus RSS Reader 專為在您的裝置上完全運作而設計。我們不會收集、儲存或傳輸任何個人資料。",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>無分析或遥測</strong>，我們不會追蹤您如何使用此延伸功能",
   "privacy_collection_li_personal": "<strong>內無個人資訊</strong>，我們不會收集姓名、電子郵件、IP 位址或裝置識別碼",
   "privacy_collection_li_thirdparty": "<strong>無第三方追蹤</strong>，我們未內嵌廣告 SDK、分析框架或追蹤像素",
-  "privacy_collection_li_local": "<strong>僅使用本地儲存</strong>，您的訂閱、文章、資料夾和偏好設定會使用 Safari 的延伸功能儲存空間，儲存在您的裝置上，絕不會傳送到任何伺服器。",
+  "privacy_collection_li_local": "您的訂閱來源、文章、資料夾和偏好設定儲存在您的裝置上。CorvusDevs 不會收到您的資料庫。",
   "privacy_h_network": "網路請求",
   "privacy_network_intro": "Corvus RSS Reader 需要執行以下網路請求才能正常運作：",
   "privacy_network_li_feed": "<strong>RSS/Atom 訂閱串流擷取</strong>，Corvus RSS Reader 會擷取您訂閱的串流 URL 以取得新文章。這些請求會直接從您的瀏覽器傳送至串流發布者的伺服器。",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "從您選擇的資料夾匯入備份",
   "wn_2_8_4_cancel": "可靠地取消备份导入",
   "wn_2_8_5_badge": "選擇是否顯示工具列標記",
-  "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作"
+  "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作",
+  "privacy_network_li_bluesky": "Bluesky：對於您訂閱的 Bluesky 來源，公開貼文的識別碼會傳送至 public.api.bsky.app，以取得貼文、引用和圖片。API 請求不包含 Cookie，也不使用 Bluesky 登入。圖片從 cdn.bsky.app 載入。與其他網路請求一樣，這些供應商會收到連線資訊，包括您的 IP 位址。"
 }

@@ -80,7 +80,7 @@
   "f_connect": "Sambungkan",
   "legal_back": "&larr; Kembali ke Corvus RSS Reader",
   "privacy_title": "Kebijakan Privasi",
-  "privacy_date": "Tarikh Berkuat Daya: 6 April 2026 &middot; Terakhir Diperbaharui: 6 April 2026",
+  "privacy_date": "Tarikh Berkuat Daya: 6 April 2026 &middot; Terakhir Diperbaharui: 2026-11-17",
   "privacy_intro": "CorvusDevs (\"kami\", \"kita\", \"kami\") mengembangkan dan menerbitkan aplikasi perisian. Dasar Privasi ini menerangkan bagaimana kami mengendalikan data dalam Corvus RSS Reader untuk Safari.",
   "privacy_h_commitment": "Komitmen Kami",
   "privacy_commitment": "Corvus RSS Reader direka untuk berfungsi sepenuhnya pada peranti anda. Kami tidak mengumpul, menyimpan, atau menghantar sebarang data peribadi.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Tanpa analisis atau telemetri</strong>; kami tidak melacak bagaimana Anda menggunakan ekstensi",
   "privacy_collection_li_personal": "<strong>Tanpa maklumat peribadi</strong>; kami tidak mengumpul nama, alamat e-mel, alamat IP, atau pengenal pasti peranti",
   "privacy_collection_li_thirdparty": "<strong>Tanpa pelacakan pihak ketiga</strong>; kami tidak menyematkan SDK periklanan, kerangka kerja analisis, atau piksel pelacakan",
-  "privacy_collection_li_local": "<strong>Penyimpanan tempatan sahaja</strong>, Saluran, artikel, folder, dan tetapan anda disimpan secara tempatan pada peranti anda menggunakan penyimpanan sambungan Safari dan tidak pernah dihantar ke mana-mana pelayan",
+  "privacy_collection_li_local": "Suapan, artikel, folder dan pilihan anda disimpan pada peranti anda. CorvusDevs tidak menerima pustaka anda.",
   "privacy_h_network": "Permintaan Rangkaian",
   "privacy_network_intro": "Corvus RSS Reader melakukan permintaan rangkaian berikut untuk berfungsi:",
   "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader mengambil URL feed yang anda langgan untuk mendapatkan artikel baharu. Permintaan ini dihantar terus dari pelayar anda ke pelayan penerbit feed.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Importkan sandaran dari folder pilihan anda.",
   "wn_2_8_4_cancel": "Batalkan import cadangan dengan boleh dipercayai",
   "wn_2_8_5_badge": "Pilih sama ada lencana bar alat dipaparkan",
-  "wn_2_8_5_folders": "Menu folder kekal terbuka dan berfungsi dengan baik"
+  "wn_2_8_5_folders": "Menu folder kekal terbuka dan berfungsi dengan baik",
+  "privacy_network_li_bluesky": "Bluesky: Bagi suapan Bluesky yang anda langgani, pengecam siaran awam dihantar ke public.api.bsky.app untuk mendapatkan siaran, petikan dan imej. Permintaan API tidak menyertakan kuki dan tidak menggunakan log masuk Bluesky. Imej dimuatkan daripada cdn.bsky.app. Seperti permintaan rangkaian lain, penyedia ini menerima maklumat sambungan, termasuk alamat IP anda."
 }

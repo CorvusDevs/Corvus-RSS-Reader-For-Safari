@@ -82,7 +82,7 @@ var T = {
     "f_connect": "اتصل",
     "legal_back": "&larr; العودة إلى Corvus RSS Reader",
     "privacy_title": "سياسة الخصوصية",
-    "privacy_date": "تاريخ الفعالية: 6 أبريل 2026 &middot; آخر تحديث: 6 أبريل 2026",
+    "privacy_date": "تاريخ الفعالية: 6 أبريل 2026 &middot; آخر تحديث: 2026-11-17",
     "privacy_intro": "تقوم CorvusDevs (\"نحن\"، \"نا\"، \"ممتلكاتنا\") بتطوير ونشر تطبيقات البرمجيات. يشرح هذا سياسة الخصوصية كيفية تعاملنا مع البيانات في Corvus RSS Reader for Safari.",
     "privacy_h_commitment": "التزامنا",
     "privacy_commitment": "يُصمم قورص قارئ RSS للعمل بالكامل على جهازك. نحن لا نجمع، ولا نخزن، ولا ننقل أي بيانات شخصية.",
@@ -91,7 +91,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>بدون تحليلات أو telemetry</strong>، نحن لا نتتبع كيفية استخدامك للتوسعة",
     "privacy_collection_li_personal": "<strong>لا توجد معلومات شخصية</strong>، نحن لا نجمع الأسماء أو العناوين البريدية أو عناوين IP أو معرفات الأجهزة",
     "privacy_collection_li_thirdparty": "<strong>لا توجد مراقبة من جهات خارجية</strong>، نحن لا نضمّن أدوات SDK للإعلانات، أو أطر التحليلات، أو بكسلات التتبع",
-    "privacy_collection_li_local": "<strong>تخزين محلي فقط</strong>، يتم تخزين قناتك، مقالاتك، مجلداتك، وتفضيلاتك محليًا على جهازك باستخدام مساحة تخزين الإضافات في Safari، ولن يتم إرسالها أبدًا إلى أي خادم",
+    "privacy_collection_li_local": "تُحفظ خلاصاتك ومقالاتك ومجلداتك وتفضيلاتك على جهازك. لا تتلقى CorvusDevs مكتبتك.",
     "privacy_h_network": "الطلبات الشبكية",
     "privacy_network_intro": "يتطلب Corvus RSS Reader تنفيذ الطلبات التالية على الشبكة للعمل:",
     "privacy_network_li_feed": "<strong>جلب قوالب RSS/Atom</strong>، يقوم قارئ قوالب Corvus RSS Reader بجلب عناوين القوالب التي اشتراك بها لاسترداد المقالات الجديدة. تُرسل هذه الطلبات مباشرة من متصفحك إلى خادم الناشر.",
@@ -153,7 +153,8 @@ var T = {
     "wn_2_8_4_import": "استيراد النسخ الاحتياطية من المجلد الذي تختاره",
     "wn_2_8_4_cancel": "إلغاء استيراد النسخ الاحتياطية بشكل موثوق",
     "wn_2_8_5_badge": "اختر إظهار شارة شريط الأدوات أو إخفاءها",
-    "wn_2_8_5_folders": "تبقى قوائم المجلدات مفتوحة وتعمل بشكل موثوق"
+    "wn_2_8_5_folders": "تبقى قوائم المجلدات مفتوحة وتعمل بشكل موثوق",
+    "privacy_network_li_bluesky": "Bluesky: بالنسبة إلى خلاصات Bluesky التي تشترك فيها، تُرسل معرّفات المنشورات العامة إلى public.api.bsky.app لاسترجاع المنشورات والاقتباسات والصور. لا تتضمن طلبات API ملفات تعريف الارتباط ولا تستخدم تسجيل الدخول إلى Bluesky. تُحمّل الصور من cdn.bsky.app. كما في طلبات الشبكة الأخرى، يتلقى هؤلاء المزوّدون معلومات الاتصال، بما فيها عنوان IP الخاص بك."
   },
   "cs": {
     "nav_features": "Funkce",
@@ -237,7 +238,7 @@ var T = {
     "f_connect": "Připojit",
     "legal_back": "&larr; Návrat k Corvus RSS čteči",
     "privacy_title": "Zásady ochrany soukromí",
-    "privacy_date": "Datum účinnosti: 6. dubna 2026 &middot; Poslední aktualizace: 6. dubna 2026",
+    "privacy_date": "Datum účinnosti: 6. dubna 2026 &middot; Poslední aktualizace: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"my\", \"we\", \"us\", \"our\") vyvíjí a publikuje softwarové aplikace. Tato Ochrana soukromí vysvětluje, jak zpracováváme data v Corvus RSS Reader pro Safari.",
     "privacy_h_commitment": "Náš závazek",
     "privacy_commitment": "Corvus RSS Reader je navržen tak, aby fungoval zcela na vašem zařízení. Nesbíráme, neskladujeme ani neposíláme žádné osobní údaje.",
@@ -246,7 +247,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Žádná analýza ani telemetrie</strong>, Nezaznamenáváme, jak používáte rozšíření",
     "privacy_collection_li_personal": "<strong>Žádné osobní údaje</strong>, nesbíráme jména, e-mailové adresy, IP adresy ani identifikátory zařízení",
     "privacy_collection_li_thirdparty": "<strong>Žádné sledování třetích stran</strong>, Nezařazujeme reklamní SDK, analytické frameworky ani sledovací pixely",
-    "privacy_collection_li_local": "<strong>Pouze lokální úložiště</strong>, Vaše kanály, články, složky a předvolby jsou ukládány lokálně na vašem zařízení pomocí rozšíření pro úložiště v Safari a nikdy nejsou odeslány na žádný server",
+    "privacy_collection_li_local": "Vaše kanály, články, složky a předvolby jsou uloženy ve vašem zařízení. CorvusDevs vaši knihovnu nepřijímá.",
     "privacy_h_network": "Network Requests",
     "privacy_network_intro": "Corvus RSS Reader pro funkční chování vykonává následující síťové požadavky:",
     "privacy_network_li_feed": "<strong>Načítání RSS/Atom feedů</strong>: Corvus RSS Reader získává URL adresy feedů, ke kterým se přihlašujete, aby mohl stahovat nové články. Tyto požadavky jsou odesílány přímo z vašeho prohlížeče na server poskytovatele feedu.",
@@ -308,7 +309,8 @@ var T = {
     "wn_2_8_4_import": "Importujte zálohy z vybraného složky.",
     "wn_2_8_4_cancel": "Spolehlitelné zrušení importu záloh",
     "wn_2_8_5_badge": "Zvolte, zda zobrazovat odznak na panelu nástrojů",
-    "wn_2_8_5_folders": "Nabídky složek zůstávají otevřené a fungují spolehlivě"
+    "wn_2_8_5_folders": "Nabídky složek zůstávají otevřené a fungují spolehlivě",
+    "privacy_network_li_bluesky": "Bluesky: U odebíraných kanálů Bluesky se identifikátory veřejných příspěvků odesílají na public.api.bsky.app za účelem načtení příspěvků, citací a obrázků. Požadavky API neobsahují cookies a nepoužívají přihlášení k Bluesky. Obrázky se načítají z cdn.bsky.app. Stejně jako u jiných síťových požadavků dostávají tito poskytovatelé informace o připojení včetně vaší IP adresy."
   },
   "da": {
     "nav_features": "Funktioner",
@@ -392,7 +394,7 @@ var T = {
     "f_connect": "Forbind",
     "legal_back": "&larr; Tilbage til Corvus RSS Reader",
     "privacy_title": "Privatlivspolitik",
-    "privacy_date": "Gældende fra: 6. april 2026 &middot; Sidst opdateret: 6. april 2026",
+    "privacy_date": "Gældende fra: 6. april 2026 &middot; Sidst opdateret: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"vi\", \"os\", \"vores\") udvikler og udgiver softwareapplikationer. Denne privatlivspolitik forklarer, hvordan vi håndterer data i Corvus RSS Reader til Safari.",
     "privacy_h_commitment": "Vores forpligtelse",
     "privacy_commitment": "Corvus RSS Reader er designet til at fungere udelukkende på dit enhed. Vi indsamler, opbevarer eller transmitterer ingen personlige data.",
@@ -401,7 +403,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Ingen analyser eller telemetri</strong>, vi registrerer ikke, hvordan du bruger udvidelsen",
     "privacy_collection_li_personal": "<strong>Ingen personlige oplysninger</strong>: Vi indsamler ikke navne, e-mailadresser, IP-adresser eller enhedsidentifikatorer",
     "privacy_collection_li_thirdparty": "<strong>Ingen overvågning fra tredjepart</strong>. Vi indkæder ikke reklame-SDK'er, analyseframeworker eller sporingspixels.",
-    "privacy_collection_li_local": "<strong>Udelukkende lokal opbevaring</strong>: Dine feeds, artikler, mapper og præferencer gemmes lokalt på din enhed ved hjælp af Safari's udvidelsesopbevaring og sendes aldrig til nogen server.",
+    "privacy_collection_li_local": "Dine feeds, artikler, mapper og indstillinger gemmes på din enhed. CorvusDevs modtager ikke dit bibliotek.",
     "privacy_h_network": "Netværksforespørgsler",
     "privacy_network_intro": "Corvus RSS Reader udfører følgende netværksanmodninger for at fungere:",
     "privacy_network_li_feed": "<strong>RSS/Atom-feedhentning</strong>: Corvus RSS Reader henter feed-URL'er, du er abonnent på, for at hente nye artikler. Disse anmodninger går direkte fra din browser til serveren hos feed-udbyderen.",
@@ -463,7 +465,8 @@ var T = {
     "wn_2_8_4_import": "Importer backups fra et mappe, du vælger",
     "wn_2_8_4_cancel": "Afbryd import af sikkerhedskopieringer pålideligt",
     "wn_2_8_5_badge": "Vælg, om mærket på værktøjslinjen skal vises",
-    "wn_2_8_5_folders": "Mappemenuer forbliver åbne og fungerer pålideligt"
+    "wn_2_8_5_folders": "Mappemenuer forbliver åbne og fungerer pålideligt",
+    "privacy_network_li_bluesky": "Bluesky: For Bluesky-feeds, du abonnerer på, sendes identifikatorer for offentlige opslag til public.api.bsky.app for at hente opslag, citater og billeder. API-anmodninger indeholder ikke cookies og bruger ikke et Bluesky-login. Billeder indlæses fra cdn.bsky.app. Som ved andre netværksanmodninger modtager disse udbydere forbindelsesoplysninger, herunder din IP-adresse."
   },
   "de": {
     "nav_features": "Funktionen",
@@ -547,7 +550,7 @@ var T = {
     "f_connect": "Verbinden",
     "legal_back": "&larr; Zurück zu Corvus RSS Reader",
     "privacy_title": "Datenschutzrichtlinie",
-    "privacy_date": "Gültig ab: 6. April 2026 &middot; Zuletzt aktualisiert: 6. April 2026",
+    "privacy_date": "Gültig ab: 6. April 2026 &middot; Zuletzt aktualisiert: 2026-11-17",
     "privacy_intro": "CorvusDevs (wir, uns, unser) entwickelt und veröffentlicht Softwareanwendungen. Diese Datenschutzerklärung erläutert, wie wir Daten im Corvus RSS Reader für Safari verarbeiten.",
     "privacy_h_commitment": "Unser Engagement",
     "privacy_commitment": "Corvus RSS Reader wurde entwickelt, um vollständig auf Ihrem Gerät zu funktionieren. Wir sammeln, speichern oder übertragen keine persönlichen Daten.",
@@ -556,7 +559,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Keine Analyse oder Telemetrie</strong>, Wir verfolgen nicht, wie Sie die Erweiterung verwenden",
     "privacy_collection_li_personal": "<strong>Keine persönlichen Daten</strong>: Wir sammeln keine Namen, E-Mail-Adressen, IP-Adressen oder Geräte-Identifikatoren.",
     "privacy_collection_li_thirdparty": "<strong>Keine Drittanbieter-Tracking</strong>: Wir integrieren keine Werbesoftware-SDKs, Analyse-Frameworks oder Tracking-Pixel",
-    "privacy_collection_li_local": "<strong>Nur lokale Speicherung</strong>: Ihre Feeds, Artikel, Ordner und Einstellungen werden lokal auf Ihrem Gerät unter Verwendung des Erweiterungs-Speicherplatzes von Safari gespeichert und werden niemals an einen Server gesendet",
+    "privacy_collection_li_local": "Ihre Feeds, Artikel, Ordner und Einstellungen werden auf Ihrem Gerät gespeichert. CorvusDevs erhält Ihre Bibliothek nicht.",
     "privacy_h_network": "Netzwerk-Anfragen",
     "privacy_network_intro": "Corvus RSS Reader sendet folgende Netzwerkanfragen, um zu funktionieren:",
     "privacy_network_li_feed": "<strong>RSS/Atom-Feedabruf</strong>: Der Corvus RSS Reader holt die URLs der abonnierten Feeds ab, um neue Artikel zu laden. Diese Anfragen werden direkt von Ihrem Browser zum Server des Feed-Anbieters gesendet.",
@@ -618,7 +621,8 @@ var T = {
     "wn_2_8_4_import": "Importieren Sie Sicherungen aus einem Ordner.",
     "wn_2_8_4_cancel": "Backup-Imports zuverlässig abbrechen",
     "wn_2_8_5_badge": "Symbolzähler nach Wunsch ein- oder ausblenden",
-    "wn_2_8_5_folders": "Ordnermenüs bleiben offen und funktionieren zuverlässig"
+    "wn_2_8_5_folders": "Ordnermenüs bleiben offen und funktionieren zuverlässig",
+    "privacy_network_li_bluesky": "Bluesky: Für abonnierte Bluesky-Feeds werden Kennungen öffentlicher Beiträge an public.api.bsky.app gesendet, um Beiträge, Zitate und Bilder abzurufen. API-Anfragen enthalten keine Cookies und verwenden keine Bluesky-Anmeldung. Bilder werden von cdn.bsky.app geladen. Wie bei anderen Netzwerkanfragen erhalten diese Anbieter Verbindungsinformationen einschließlich Ihrer IP-Adresse."
   },
   "el": {
     "nav_features": "Λειτουργίες",
@@ -702,7 +706,7 @@ var T = {
     "f_connect": "Σύνδεση",
     "legal_back": "&larr; Επιστροφή στον Corvus RSS Reader",
     "privacy_title": "Πολιτική Απορρήτου",
-    "privacy_date": "Ημερομηνία Ενεργότητας: 6 Απριλίου 2026 &middot; Ημερομηνία Τελευταίας Ενημέρωσης: 6 Απριλίου 2026",
+    "privacy_date": "Ημερομηνία Ενεργότητας: 6 Απριλίου 2026 &middot; Ημερομηνία Τελευταίας Ενημέρωσης: 2026-11-17",
     "privacy_intro": "Η εταιρεία CorvusDevs («εμείς», «μας», «το δικό μας») αναπτύσσει και δημοσιεύει λογισμικό εφαρμογών. Η παρούσα Πολιτική Απορρήτου εξηγεί πώς διαχειριζόμαστε τα δεδομένα στο Corvus RSS Reader για το Safari.",
     "privacy_h_commitment": "Η Δέσμευσή μας",
     "privacy_commitment": "Το Corvus RSS Reader σχεδιάστηκε για να λειτουργεί αποκλειστικά στη συσκευή σας. Δεν συλλέγουμε, αποθηκεύουμε ή μεταδίδουμε οποιαδήποτε προσωπικά δεδομένα.",
@@ -711,7 +715,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Χωρίς αναλυτικά ή τηλεμετρία</strong>: Δεν παρακολουθούμε τον τρόπο που χρησιμοποιείτε την επέκταση.",
     "privacy_collection_li_personal": "<strong>Δεν υπάρχουν προσωπικά στοιχεία</strong>: Δεν συλλέγουμε ονόματα, emails, IP addresses ή αναγνωριστικά συσκευών.",
     "privacy_collection_li_thirdparty": "<strong>Χωρίς παρακολούθηση από τρίτους</strong>: Δεν ενσωματώνουμε SDK διαφημίσεων, πλαισίων αναλυτικών δεδομένων ή πιξέλς παρακολούθησης",
-    "privacy_collection_li_local": "<strong>Μόνο τοπική αποθήκευση</strong>, Οι ροές, τα άρθρα, οι φακέλοι και οι προτιμήσεις σας αποθηκεύονται τοπικά στη συσκευή σας χρησιμοποιώντας την αποθήκευση επεκτάσεων του Safari και ποτέ δεν στέλνονται σε κάποιο διακομιστή.",
+    "privacy_collection_li_local": "Οι ροές, τα άρθρα, οι φάκελοι και οι προτιμήσεις σας αποθηκεύονται στη συσκευή σας. Η CorvusDevs δεν λαμβάνει τη βιβλιοθήκη σας.",
     "privacy_h_network": "Αιτήματα Δικτύου",
     "privacy_network_intro": "Το Corvus RSS Reader πραγματοποιεί τις ακόλουθες αιτήσεις δικτύου για να λειτουργήσει:",
     "privacy_network_li_feed": "<strong>Λήψη συνδέσμων RSS/Atom</strong>, ο Corvus RSS αναγνώστης αναζητά τους συνδέσμους συνδρομής σας για να ανακτήσει νέα άρθρα. Αυτοί οι αιτημάτων γίνονται απευθείας από τον περιηγητή σας στον διακομιστή του εκδότη του συνδέσμου.",
@@ -773,7 +777,8 @@ var T = {
     "wn_2_8_4_import": "Εισαγωγή αντιγράφων ασφαλείας από φάκελο που επιλέγετε",
     "wn_2_8_4_cancel": "Ακύρωση εισαγωγής αντιγράφων ασφαλείας",
     "wn_2_8_5_badge": "Επιλέξτε αν θα εμφανίζεται το σήμα της γραμμής εργαλείων",
-    "wn_2_8_5_folders": "Τα μενού φακέλων παραμένουν ανοιχτά και λειτουργούν αξιόπιστα"
+    "wn_2_8_5_folders": "Τα μενού φακέλων παραμένουν ανοιχτά και λειτουργούν αξιόπιστα",
+    "privacy_network_li_bluesky": "Bluesky: Για τις ροές Bluesky στις οποίες έχετε εγγραφεί, τα αναγνωριστικά δημόσιων αναρτήσεων αποστέλλονται στο public.api.bsky.app για ανάκτηση αναρτήσεων, παραθέσεων και εικόνων. Τα αιτήματα API δεν περιλαμβάνουν cookies και δεν χρησιμοποιούν σύνδεση σε λογαριασμό Bluesky. Οι εικόνες φορτώνονται από το cdn.bsky.app. Όπως και με άλλα αιτήματα δικτύου, αυτοί οι πάροχοι λαμβάνουν πληροφορίες σύνδεσης, συμπεριλαμβανομένης της διεύθυνσης IP σας."
   },
   "en": {
     "nav_features": "Features",
@@ -857,7 +862,7 @@ var T = {
     "f_connect": "Connect",
     "legal_back": "&larr; Back to Corvus RSS Reader",
     "privacy_title": "Privacy Policy",
-    "privacy_date": "Effective Date: April 6, 2026 &middot; Last Updated: April 6, 2026",
+    "privacy_date": "Effective Date: April 6, 2026 &middot; Last Updated: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"we\", \"us\", \"our\") develops and publishes software applications. This Privacy Policy explains how we handle data in Corvus RSS Reader for Safari.",
     "privacy_h_commitment": "Our Commitment",
     "privacy_commitment": "Corvus RSS Reader is designed to work entirely on your device. We do not collect, store, or transmit any personal data.",
@@ -866,7 +871,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>No analytics or telemetry</strong>, We do not track how you use the extension",
     "privacy_collection_li_personal": "<strong>No personal information</strong>, We do not collect names, emails, IP addresses, or device identifiers",
     "privacy_collection_li_thirdparty": "<strong>No third-party tracking</strong>, We do not embed advertising SDKs, analytics frameworks, or tracking pixels",
-    "privacy_collection_li_local": "<strong>Local storage only</strong>, Your feeds, articles, folders, and preferences are stored locally on your device using Safari's extension storage and are never sent to any server",
+    "privacy_collection_li_local": "Your feeds, articles, folders and preferences are stored on your device. CorvusDevs does not receive your library.",
     "privacy_h_network": "Network Requests",
     "privacy_network_intro": "Corvus RSS Reader makes the following network requests to function:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader fetches feed URLs that you subscribe to in order to retrieve new articles. These requests go directly from your browser to the feed publisher's server.",
@@ -928,7 +933,8 @@ var T = {
     "wn_2_8_4_import": "Import backups from a folder you choose",
     "wn_2_8_4_cancel": "Cancel backup imports reliably",
     "wn_2_8_5_badge": "Choose whether to show the toolbar badge",
-    "wn_2_8_5_folders": "Folder menus stay open and work reliably"
+    "wn_2_8_5_folders": "Folder menus stay open and work reliably",
+    "privacy_network_li_bluesky": "Bluesky: For subscribed Bluesky feeds, public post identifiers are sent to public.api.bsky.app to retrieve posts, quotes and images. API requests omit cookies and do not use a Bluesky login. Images load from cdn.bsky.app. As with other network requests, these providers receive connection information, including your IP address."
   },
   "es": {
     "nav_features": "Características",
@@ -1012,7 +1018,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Volver a Corvus RSS Reader",
     "privacy_title": "Política de Privacidad",
-    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 6 de abril de 2026",
+    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"nosotros\", \"nuestro\", \"nuestra\") desarrolla y publica aplicaciones de software. Esta Política de Privacidad explica cómo tratamos los datos en Corvus RSS Reader para Safari.",
     "privacy_h_commitment": "Nuestro Compromiso",
     "privacy_commitment": "Corvus RSS Reader está diseñado para funcionar completamente en tu dispositivo. No recopilamos, almacenamos ni transmitimos ningún dato personal.",
@@ -1021,7 +1027,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sin análisis ni telemetría</strong>: no rastreamos cómo utilizas la extensión",
     "privacy_collection_li_personal": "<strong>No información personal</strong>: no recopilamos nombres, correos electrónicos, direcciones IP ni identificadores de dispositivos",
     "privacy_collection_li_thirdparty": "<strong>Sin rastreo de terceros</strong>, no incorporamos SDKs de publicidad, marcos de análisis o píxeles de rastreo",
-    "privacy_collection_li_local": "<strong>Solo almacenamiento local</strong>: Sus canales, artículos, carpetas y preferencias se guardan localmente en su dispositivo utilizando el almacenamiento de extensiones de Safari y nunca se envían a ningún servidor.",
+    "privacy_collection_li_local": "Tus fuentes, artículos, carpetas y preferencias se guardan en tu dispositivo. CorvusDevs no recibe tu biblioteca.",
     "privacy_h_network": "Solicitudes de red",
     "privacy_network_intro": "Corvus RSS Reader realiza las siguientes solicitudes de red para funcionar:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader obtiene las URL de los feeds a los que está suscrito para recuperar los nuevos artículos. Estas solicitudes se envían directamente desde su navegador al servidor del editor del feed.",
@@ -1083,7 +1089,8 @@ var T = {
     "wn_2_8_4_import": "Importe copias de seguridad de la carpeta que elija",
     "wn_2_8_4_cancel": "Cancelar importaciones de copia de seguridad",
     "wn_2_8_5_badge": "Elige si mostrar el contador de la barra de herramientas",
-    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien"
+    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien",
+    "privacy_network_li_bluesky": "Bluesky: Para las fuentes de Bluesky a las que te suscribes, se envían identificadores de publicaciones públicas a public.api.bsky.app para obtener publicaciones, citas e imágenes. Las solicitudes a la API omiten las cookies y no utilizan una sesión de Bluesky. Las imágenes se cargan desde cdn.bsky.app. Como en otras solicitudes de red, estos proveedores reciben información de conexión, incluida tu dirección IP."
   },
   "es-MX": {
     "nav_features": "Características",
@@ -1167,7 +1174,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Volver a Corvus RSS Reader",
     "privacy_title": "Política de privacidad",
-    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 6 de abril de 2026",
+    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"nosotros\", \"nuestro\") desarrolla y publica aplicaciones de software. Esta Política de Privacidad explica cómo manejamos los datos en Corvus RSS Reader para Safari.",
     "privacy_h_commitment": "Nuestro Compromiso",
     "privacy_commitment": "Corvus RSS Reader está diseñado para funcionar completamente en tu dispositivo. No recopilamos, almacenamos ni transmitimos ningún dato personal.",
@@ -1176,7 +1183,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sin análisis ni telemetría</strong>; no rastreamos cómo utilizas la extensión",
     "privacy_collection_li_personal": "<strong>No se recopila información personal</strong>; no recopilamos nombres, correos electrónicos, direcciones IP ni identificadores de dispositivo",
     "privacy_collection_li_thirdparty": "<strong>Sin rastreo de terceros</strong>; no incorporamos SDKs de publicidad, marcos de análisis o píxeles de rastreo",
-    "privacy_collection_li_local": "<strong>Solo almacenamiento local</strong>: Tus fuentes de alimentación, artículos, carpetas y preferencias se almacenan localmente en tu dispositivo utilizando el almacenamiento de extensiones de Safari y nunca se envían a ningún servidor.",
+    "privacy_collection_li_local": "Tus fuentes, artículos, carpetas y preferencias se guardan en tu dispositivo. CorvusDevs no recibe tu biblioteca.",
     "privacy_h_network": "Solicitudes de red",
     "privacy_network_intro": "Corvus RSS Reader realiza las siguientes solicitudes de red para funcionar:",
     "privacy_network_li_feed": "<strong>Obtención de fuentes RSS/Atom</strong>, Corvus RSS Reader descarga las URL de las fuentes a las que te suscribes para recuperar nuevos artículos. Estas solicitudes se envían directamente desde tu navegador al servidor del editor de la fuente.",
@@ -1238,7 +1245,8 @@ var T = {
     "wn_2_8_4_import": "Importe copias de seguridad de una carpeta que elija.",
     "wn_2_8_4_cancel": "Cancelar la importación de copias de seguridad",
     "wn_2_8_5_badge": "Elige si mostrar el contador de la barra de herramientas",
-    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien"
+    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien",
+    "privacy_network_li_bluesky": "Bluesky: Para las fuentes de Bluesky a las que te suscribes, se envían identificadores de publicaciones públicas a public.api.bsky.app para obtener publicaciones, citas e imágenes. Las solicitudes a la API omiten las cookies y no utilizan una sesión de Bluesky. Las imágenes se cargan desde cdn.bsky.app. Como en otras solicitudes de red, estos proveedores reciben información de conexión, incluida tu dirección IP."
   },
   "es_MX": {
     "nav_features": "Características",
@@ -1322,7 +1330,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Volver a Corvus RSS Reader",
     "privacy_title": "Política de privacidad",
-    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 6 de abril de 2026",
+    "privacy_date": "Fecha de vigencia: 6 de abril de 2026 &middot; Última actualización: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"nosotros\", \"nuestro\") desarrolla y publica aplicaciones de software. Esta Política de Privacidad explica cómo manejamos los datos en Corvus RSS Reader para Safari.",
     "privacy_h_commitment": "Nuestro Compromiso",
     "privacy_commitment": "Corvus RSS Reader está diseñado para funcionar completamente en tu dispositivo. No recopilamos, almacenamos ni transmitimos ningún dato personal.",
@@ -1331,7 +1339,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sin análisis ni telemetría</strong>; no rastreamos cómo utilizas la extensión",
     "privacy_collection_li_personal": "<strong>No se recopila información personal</strong>; no recopilamos nombres, correos electrónicos, direcciones IP ni identificadores de dispositivo",
     "privacy_collection_li_thirdparty": "<strong>Sin rastreo de terceros</strong>; no incorporamos SDKs de publicidad, marcos de análisis o píxeles de rastreo",
-    "privacy_collection_li_local": "<strong>Solo almacenamiento local</strong>: Tus fuentes de alimentación, artículos, carpetas y preferencias se almacenan localmente en tu dispositivo utilizando el almacenamiento de extensiones de Safari y nunca se envían a ningún servidor.",
+    "privacy_collection_li_local": "Tus fuentes, artículos, carpetas y preferencias se guardan en tu dispositivo. CorvusDevs no recibe tu biblioteca.",
     "privacy_h_network": "Solicitudes de red",
     "privacy_network_intro": "Corvus RSS Reader realiza las siguientes solicitudes de red para funcionar:",
     "privacy_network_li_feed": "<strong>Obtención de fuentes RSS/Atom</strong>, Corvus RSS Reader descarga las URL de las fuentes a las que te suscribes para recuperar nuevos artículos. Estas solicitudes se envían directamente desde tu navegador al servidor del editor de la fuente.",
@@ -1393,7 +1401,8 @@ var T = {
     "wn_2_8_4_import": "Importe copias de seguridad de una carpeta que elija.",
     "wn_2_8_4_cancel": "Cancelar la importación de copias de seguridad",
     "wn_2_8_5_badge": "Elige si mostrar el contador de la barra de herramientas",
-    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien"
+    "wn_2_8_5_folders": "Los menús de carpetas permanecen abiertos y funcionan bien",
+    "privacy_network_li_bluesky": "Bluesky: Para las fuentes de Bluesky a las que te suscribes, se envían identificadores de publicaciones públicas a public.api.bsky.app para obtener publicaciones, citas e imágenes. Las solicitudes a la API omiten las cookies y no utilizan una sesión de Bluesky. Las imágenes se cargan desde cdn.bsky.app. Como en otras solicitudes de red, estos proveedores reciben información de conexión, incluida tu dirección IP."
   },
   "fi": {
     "nav_features": "Ominaisuudet",
@@ -1477,7 +1486,7 @@ var T = {
     "f_connect": "Yhdistä",
     "legal_back": "&larr; Takaisin sovellukseen Corvus RSS Reader",
     "privacy_title": "Yksityisyyspolitiikka",
-    "privacy_date": "Voimassaoloaika: 6. huhtikuuta 2026 &middot; Viimeisin päivitys: 6. huhtikuuta 2026",
+    "privacy_date": "Voimassaoloaika: 6. huhtikuuta 2026 &middot; Viimeisin päivitys: 2026-11-17",
     "privacy_intro": "CorvusDevs (me, meidän, meidän) kehittää ja julkaisee ohjelmistoja. Tämä tietosuojakäytäntö selittää, miten käsittelemme dataa sovelluksessa Corvus RSS Reader for Safari.",
     "privacy_h_commitment": "Meidän sitoutumiskohdumme",
     "privacy_commitment": "Corvus RSS Reader on suunniteltu toimimaan kokonaan laitteellasi. Emme kerää, tallenna tai lähetä mitään henkilökohtaista dataa.",
@@ -1486,7 +1495,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Ei analytiikkaa eikä telemetriaa</strong>; emme seurata, miten käytät laajennusta",
     "privacy_collection_li_personal": "<strong>Ei henkilökohtaista tietoa</strong>. Me emme kerää nimiä, sähköpostiosoitteita, IP-osoitteita tai laitteiden tunnisteita.",
     "privacy_collection_li_thirdparty": "<strong>Ei kolmansien osapuolten seurannaa</strong>; emme sisällytä mainospalvelun SDK:ja, analytiikkakehyksiä tai seuranta-pikseleitä",
-    "privacy_collection_li_local": "<strong>Vain paikallinen tallennus</strong>. Syötteesi, artikkelisi, kansiosi ja asetuksesi tallennetaan paikallisesti laitteellesi käyttäen Safari-laajennusten tallennustilaa, eikä niitä lähetetä mihinkään palvelimeen.",
+    "privacy_collection_li_local": "Syötteesi, artikkelisi, kansiosi ja asetuksesi tallennetaan laitteellesi. CorvusDevs ei saa kirjastoasi.",
     "privacy_h_network": "Verkkopyynnöt",
     "privacy_network_intro": "Corvus RSS Reader tarvitsee seuraavat verkkopyynnöt toimiakseen:",
     "privacy_network_li_feed": "<strong>RSS/Atom-luettelon lataaminen</strong>: Corvus RSS Reader lataaa lueteltasi luentouritteiden URL-osoitteet uusien artikkelien hakuun. Nämä pyynnöt lähtevät suoraan selaimestasi luentolähteen palvelimelle.",
@@ -1548,7 +1557,8 @@ var T = {
     "wn_2_8_4_import": "Tuo valitsemasi kansion varmuuskopiot",
     "wn_2_8_4_cancel": "Peruuta varmuuskopioimista luotettavasti",
     "wn_2_8_5_badge": "Valitse, näytetäänkö työkalupalkin laskuri",
-    "wn_2_8_5_folders": "Kansiovalikot pysyvät auki ja toimivat luotettavasti"
+    "wn_2_8_5_folders": "Kansiovalikot pysyvät auki ja toimivat luotettavasti",
+    "privacy_network_li_bluesky": "Bluesky: Tilaamiesi Bluesky-syötteiden julkisten julkaisujen tunnisteet lähetetään osoitteeseen public.api.bsky.app julkaisujen, lainausten ja kuvien hakemiseksi. API-pyynnöissä ei lähetetä evästeitä eikä käytetä Bluesky-kirjautumista. Kuvat ladataan osoitteesta cdn.bsky.app. Kuten muissakin verkkopyynnöissä, nämä palveluntarjoajat saavat yhteystietoja, mukaan lukien IP-osoitteesi."
   },
   "fr": {
     "nav_features": "Fonctionnalités",
@@ -1632,7 +1642,7 @@ var T = {
     "f_connect": "Connectez-vous",
     "legal_back": "&larr; Retour à Corvus RSS Reader",
     "privacy_title": "Politique de confidentialité",
-    "privacy_date": "Date d'entrée en vigueur : 6 avril 2026 &middot; Dernière mise à jour : 6 avril 2026",
+    "privacy_date": "Date d'entrée en vigueur : 6 avril 2026 &middot; Dernière mise à jour : 2026-11-17",
     "privacy_intro": "CorvusDevs (« nous », « notre », « nos ») développe et publie des applications logicielles. Cette politique de confidentialité explique la manière dont nous traitons les données dans Corvus RSS Reader pour Safari.",
     "privacy_h_commitment": "Notre engagement",
     "privacy_commitment": "Corvus RSS Reader est conçu pour fonctionner entièrement sur votre appareil. Nous ne collectons, ne stockons ni ne transmettons aucune donnée personnelle.",
@@ -1641,7 +1651,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Aucune analyse ni télémétrie</strong>, nous ne suivons pas la façon dont vous utilisez l'extension",
     "privacy_collection_li_personal": "<strong>Aucune information personnelle</strong> : nous ne collectons pas de noms, d'adresses e-mail, d'adresses IP ou d'identifiants d'appareil.",
     "privacy_collection_li_thirdparty": "<strong>Aucun suivi par des tiers</strong>, nous n'intégrons pas de SDK publicitaires, de frameworks d'analyse ou de pixels de suivi",
-    "privacy_collection_li_local": "<strong>Stockage local uniquement</strong>, Vos flux, articles, dossiers et préférences sont stockés localement sur votre appareil via le stockage des extensions de Safari et ne sont jamais envoyés à aucun serveur.",
+    "privacy_collection_li_local": "Vos flux, articles, dossiers et préférences sont stockés sur votre appareil. CorvusDevs ne reçoit pas votre bibliothèque.",
     "privacy_h_network": "Requêtes réseau",
     "privacy_network_intro": "Corvus RSS Reader effectue les requêtes réseau suivantes pour fonctionner :",
     "privacy_network_li_feed": "<strong>Récupération des flux RSS/Atom</strong> : Corvus RSS Reader récupère les URL des flux auxquels vous êtes abonné afin de récupérer les nouveaux articles. Ces requêtes sont envoyées directement depuis votre navigateur vers le serveur de l'éditeur du flux.",
@@ -1703,7 +1713,8 @@ var T = {
     "wn_2_8_4_import": "Importez des sauvegardes depuis un dossier choisi.",
     "wn_2_8_4_cancel": "Annuler les importations de sauvegarde",
     "wn_2_8_5_badge": "Choisissez d’afficher ou non le compteur de la barre d’outils",
-    "wn_2_8_5_folders": "Les menus des dossiers restent ouverts et fonctionnent bien"
+    "wn_2_8_5_folders": "Les menus des dossiers restent ouverts et fonctionnent bien",
+    "privacy_network_li_bluesky": "Bluesky : Pour les flux Bluesky auxquels vous êtes abonné, les identifiants des publications publiques sont envoyés à public.api.bsky.app pour récupérer les publications, citations et images. Les requêtes API n'incluent pas de cookies et n'utilisent pas de connexion à un compte Bluesky. Les images sont chargées depuis cdn.bsky.app. Comme pour les autres requêtes réseau, ces fournisseurs reçoivent des informations de connexion, dont votre adresse IP."
   },
   "he": {
     "nav_features": "תכונות",
@@ -1787,7 +1798,7 @@ var T = {
     "f_connect": "התחבר",
     "legal_back": "&larr; חזרה לקורא RSS של Corvus",
     "privacy_title": "מדיניות פרטיות",
-    "privacy_date": "תאריך יעילות: 6 באפריל 2026 &middot; תאריך עדכון אחרון: 6 באפריל 2026",
+    "privacy_date": "תאריך יעילות: 6 באפריל 2026 &middot; תאריך עדכון אחרון: 2026-11-17",
     "privacy_intro": "חברת CorvusDevs (\"אנו\", \"אנחנו\", \"שלנו\") פותחת ומפרסמת אפליקציות תוכנה. מדיניות הפרטיות זו מסבירה כיצד אנו מטפלים במידות באפליקציית Corvus RSS Reader עבור Safari.",
     "privacy_h_commitment": "ההתחייבות שלנו",
     "privacy_commitment": "Corvus RSS Reader מעוצב כדי לעבוד לחלוטין במכשיר שלך. אנו איננו אוספים, מאגרים או מעבירים נתונים אישיים כלשהם.",
@@ -1796,7 +1807,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>ללא ניתוח שימוש או טלמטריה</strong>, איננו עוקבים אחר אופן השימוש שלכם בתוסף",
     "privacy_collection_li_personal": "<strong>אין מידע אישי</strong>. אנו איננו אוספים שמות, דוא\"ל, כתובות IP או מזהי מכשירים.",
     "privacy_collection_li_thirdparty": "<strong>ללא מעקב של צדדים שלישיים</strong>, איננו כוללים ערכות SDK לפרסום, כלי ניתוח או פיקסלים למעקב",
-    "privacy_collection_li_local": "<strong>אחסון מקומי בלבד</strong>. המזנונים, המאמרים, התיקיות וההעדפות שלכם מאוחסנים באופן מקומי במכשיר שלכם באמצעות אחסון הרחבות של Safari, ולא נשלחים לעולם לשום שרת.",
+    "privacy_collection_li_local": "העדכונים, המאמרים, התיקיות וההעדפות שלך נשמרים במכשיר שלך. CorvusDevs אינה מקבלת את הספרייה שלך.",
     "privacy_h_network": "בקשות רשת",
     "privacy_network_intro": "Corvus RSS Reader מבצע את בקשות הרשת הבאות כדי לפעול:",
     "privacy_network_li_feed": "<strong>שליפת תוכן מערוצי RSS/Atom</strong>, Corvus RSS Reader שולף תוכן מכתובות ה-URL של הערוצים שאליהם אתם מנויים כדי לקבל מאמרים חדשים. הבקשות נשלחות ישירות מהדפדפן שלכם לשרת של מפרסם הערוץ.",
@@ -1858,7 +1869,8 @@ var T = {
     "wn_2_8_4_import": "ייבוא גיבויים מתיקייה שתבחרו",
     "wn_2_8_4_cancel": "ביטול יבוא גיבוי באופן אמיין",
     "wn_2_8_5_badge": "בחרו אם להציג את התג בסרגל הכלים",
-    "wn_2_8_5_folders": "תפריטי התיקיות נשארים פתוחים ופועלים באופן אמין"
+    "wn_2_8_5_folders": "תפריטי התיקיות נשארים פתוחים ופועלים באופן אמין",
+    "privacy_network_li_bluesky": "Bluesky: עבור ערוצי Bluesky שאליהם נרשמת, מזהי פוסטים ציבוריים נשלחים אל public.api.bsky.app כדי להביא פוסטים, ציטוטים ותמונות. בקשות API אינן כוללות עוגיות ואינן משתמשות בהתחברות ל-Bluesky. תמונות נטענות מ-cdn.bsky.app. כמו בבקשות רשת אחרות, ספקים אלה מקבלים מידע על החיבור, כולל כתובת ה-IP שלך."
   },
   "hi": {
     "nav_features": "विशेषताएं",
@@ -1942,7 +1954,7 @@ var T = {
     "f_connect": "संयोजित करें",
     "legal_back": "&larr; Corvus RSS Reader पर वापस जाएं",
     "privacy_title": "गोपनीयता नीति",
-    "privacy_date": "प्रभावी तिथि: 6 अप्रैल 2026 &middot; अंतिम अपडेट: 6 अप्रैल 2026",
+    "privacy_date": "प्रभावी तिथि: 6 अप्रैल 2026 &middot; अंतिम अपडेट: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"हम\", \"हमारा\", \"हमारे\") सॉफ़्टवेयर अनुप्रयोगों को विकसित और प्रकाशित करता है। यह गोपनीयता नीति बताती है कि हम Corvus RSS Reader for Safari में डेटा को कैसे संभालते हैं।",
     "privacy_h_commitment": "हमारा प्रतिबद्धता",
     "privacy_commitment": "Corvus RSS Reader पूरी तरह से आपके डिवाइस पर काम करने के लिए डिज़ाइन किया गया है। हम कोई भी व्यक्तिगत डेटा संग्रहीत नहीं करते, प्राप्त नहीं करते, या भेजते हैं।",
@@ -1951,7 +1963,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>को कोई विश्लेषण या टेलीमेट्री नहीं</strong>, हम यह नहीं ट्रैक करते कि आप एक्सटेंशन कैसे उपयोग करते हैं",
     "privacy_collection_li_personal": "<strong>को कोई व्यक्तिगत जानकारी</strong> नहीं, हम नाम, ईमेल, IP पते या डिवाइस पहचानकर्ताओं का संग्रह नहीं करते हैं",
     "privacy_collection_li_thirdparty": "<strong>को कोई तीसरी पक्ष की निगरानी नहीं</strong>; हम विज्ञापन SDKs, विश्लेषण फ्रेमवर्क, या निगरानी पिक्सल एम्बेड नहीं करते",
-    "privacy_collection_li_local": "<strong>केवल स्थानीय भंडारण</strong>: आपके फ़ीड, लेख, फ़ोल्डर और प्राथमिकताओं को Safari के एक्सटेंशन स्टोरेज का उपयोग करके आपके डिवाइस पर स्थानीय रूप से संग्रहीत किया जाता है और वे किसी सर्वर पर कभी नहीं भेजे जाते।",
+    "privacy_collection_li_local": "आपके फ़ीड, लेख, फ़ोल्डर और प्राथमिकताएँ आपके डिवाइस पर संग्रहीत रहती हैं। CorvusDevs को आपकी लाइब्रेरी नहीं मिलती।",
     "privacy_h_network": "नेटवर्क अनुरोध",
     "privacy_network_intro": "Corvus RSS Reader को कार्य करने के लिए निम्नलिखित नेटवर्क अनुरोध करता है:",
     "privacy_network_li_feed": "<strong>RSS/Atom फ़ीड प्राप्त करना</strong>, Corvus RSS Reader आपके द्वारा सब्सक्राइब किए गए फ़ीड URL को प्राप्त करता है ताकि नए लेखों को डाउनलोड किया जा सके। ये अनुरोध सीधे आपके ब्राउज़र से फ़ीड प्रकाशक के सर्वर तक जाते हैं।",
@@ -2013,7 +2025,8 @@ var T = {
     "wn_2_8_4_import": "संरक्षणों को आप चुने हुए फ़ोल्डर से आयात करें",
     "wn_2_8_4_cancel": "अनुकूलन प्रक्रिया को रद्द करें",
     "wn_2_8_5_badge": "चुनें कि टूलबार बैज दिखाना है या नहीं",
-    "wn_2_8_5_folders": "फ़ोल्डर मेन्यू खुले रहते हैं और भरोसेमंद ढंग से काम करते हैं"
+    "wn_2_8_5_folders": "फ़ोल्डर मेन्यू खुले रहते हैं और भरोसेमंद ढंग से काम करते हैं",
+    "privacy_network_li_bluesky": "Bluesky: आपके सब्सक्राइब किए गए Bluesky फ़ीड के सार्वजनिक पोस्ट पहचानकर्ता, पोस्ट, उद्धरण और चित्र प्राप्त करने के लिए public.api.bsky.app को भेजे जाते हैं। API अनुरोधों में कुकीज़ शामिल नहीं होतीं और Bluesky लॉगिन का उपयोग नहीं होता। चित्र cdn.bsky.app से लोड होते हैं। अन्य नेटवर्क अनुरोधों की तरह, इन प्रदाताओं को आपके IP पते सहित कनेक्शन की जानकारी मिलती है।"
   },
   "hu": {
     "nav_features": "Funkciók",
@@ -2097,7 +2110,7 @@ var T = {
     "f_connect": "Csatlakozás",
     "legal_back": "&larr; Vissza a Corvus RSS Olvasóhoz",
     "privacy_title": "Adatvédelmi tájékoztató",
-    "privacy_date": "Hatályba lépés: 2026. április 6. &middot; Utolsó frissítés: 2026. április 6.",
+    "privacy_date": "Hatályba lépés: 2026. április 6. &middot; Utolsó frissítés: 2026-11-17",
     "privacy_intro": "A CorvusDevs (\"mi\", \"mink\", \"ink\") szoftveralkalmazásokat fejleszt és publikál. Ez a Adatvédelmi Politikai magyarázza, hogyan kezeljük az adatokat a Corvus RSS Reader a Safari-ban.",
     "privacy_h_commitment": "Közvetlen elérés",
     "privacy_commitment": "A Corvus RSS Reader kifejezetten arra lett tervezve, hogy teljesen a készülékén működjön. Nem gyűjtünk, tárolunk vagy továbbítunk személyes adatokat.",
@@ -2106,7 +2119,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Nincs analitika vagy telemetria</strong>: nem követjük, hogy hogyan használja a bővítményt",
     "privacy_collection_li_personal": "<strong>Nincs személyes adat</strong>: Nem gyűjtünk neveket, e-mail címeket, IP-címeket vagy eszközazonosítókat.",
     "privacy_collection_li_thirdparty": "<strong>Nincs harmadik féltől származó követés</strong>, nem ágyazunk be hirdetési SDK-kat, analitikai keretrendszereket vagy követési pixeleket",
-    "privacy_collection_li_local": "<strong>Csak helyi tárhely</strong>, A hírfolyamok, cikkek, mappák és beállítások kizárólag az eszközén maradnak a Safari bővítménytárhelyén, és soha nem kerülnek szerverre",
+    "privacy_collection_li_local": "Hírfolyamai, cikkei, mappái és beállításai az eszközén tárolódnak. A CorvusDevs nem kapja meg a könyvtárát.",
     "privacy_h_network": "Hálózati kérések",
     "privacy_network_intro": "A Corvus RSS Reader működéséhez a következő hálózati kéréseket küldi:",
     "privacy_network_li_feed": "<strong>RSS/Atom táplékányok lekérése</strong>: a Corvus RSS Reader lekéri azokat a táplékány URL-eket, amelyekre feliratkozt, hogy lekérje a friss cikkeket. Ezek a kérések közvetlenül a böngészőből a táplékány kiadójának szerveréhez kerülnek.",
@@ -2168,7 +2181,8 @@ var T = {
     "wn_2_8_4_import": "Válasszon egy mappát a mentések importálásához.",
     "wn_2_8_4_cancel": "A mentési importok megbízhatóan megszüntetése",
     "wn_2_8_5_badge": "Válassza ki, megjelenjen-e az eszköztárjelvény",
-    "wn_2_8_5_folders": "A mappamenük nyitva maradnak és megbízhatóan működnek"
+    "wn_2_8_5_folders": "A mappamenük nyitva maradnak és megbízhatóan működnek",
+    "privacy_network_li_bluesky": "Bluesky: Az előfizetett Bluesky-hírfolyamok nyilvános bejegyzésazonosítói a public.api.bsky.app címre kerülnek a bejegyzések, idézetek és képek lekéréséhez. Az API-kérések nem tartalmaznak sütiket, és nem használnak Bluesky-bejelentkezést. A képek a cdn.bsky.app címről töltődnek be. Más hálózati kérésekhez hasonlóan e szolgáltatók megkapják a kapcsolati adatokat, köztük az IP-címét."
   },
   "id": {
     "nav_features": "Fitur",
@@ -2252,7 +2266,7 @@ var T = {
     "f_connect": "Hubungkan",
     "legal_back": "&larr; Kembali ke Corvus RSS Reader",
     "privacy_title": "Kebijakan Privasi",
-    "privacy_date": "Tanggal Efektif: 6 April 2026 &middot; Terakhir Diperbarui: 6 April 2026",
+    "privacy_date": "Tanggal Efektif: 6 April 2026 &middot; Terakhir Diperbarui: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"kami\", \"kita\", \"kami\") mengembangkan dan menerbitkan aplikasi perangkat lunak. Kebijakan Privasi ini menjelaskan bagaimana kami mengelola data di Corvus RSS Reader untuk Safari.",
     "privacy_h_commitment": "Komitmen Kami",
     "privacy_commitment": "Corvus RSS Reader dirancang untuk bekerja sepenuhnya di perangkat Anda. Kami tidak mengumpulkan, menyimpan, atau mengirimkan data pribadi apa pun.",
@@ -2261,7 +2275,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Tidak ada analitik atau telemetri</strong>. Kami tidak melacak cara Anda menggunakan ekstensi ini",
     "privacy_collection_li_personal": "<strong>Tidak ada informasi pribadi</strong>. Kami tidak mengumpulkan nama, alamat email, alamat IP, atau identifikasi perangkat.",
     "privacy_collection_li_thirdparty": "<strong>Tidak ada pelacakan pihak ketiga</strong>. Kami tidak menyematkan SDK iklan, kerangka kerja analitik, atau pixel pelacakan.",
-    "privacy_collection_li_local": "<strong>Penyimpanan lokal saja</strong>: Feed, artikel, folder, dan preferensi Anda disimpan secara lokal di perangkat Anda menggunakan penyimpanan ekstensi Safari dan tidak pernah dikirim ke server apa pun",
+    "privacy_collection_li_local": "Feed, artikel, folder, dan preferensi Anda disimpan di perangkat Anda. CorvusDevs tidak menerima pustaka Anda.",
     "privacy_h_network": "Permintaan Jaringan",
     "privacy_network_intro": "Corvus RSS Reader melakukan permintaan jaringan berikut untuk berfungsi:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader mengambil URL feed yang Anda langganan untuk mengambil artikel baru. Permintaan ini langsung dikirim dari browser Anda ke server penerbit feed.",
@@ -2323,7 +2337,8 @@ var T = {
     "wn_2_8_4_import": "Impor cadangan dari folder pilihan Anda",
     "wn_2_8_4_cancel": "Batal impor cadangan secara andal",
     "wn_2_8_5_badge": "Pilih apakah lencana bilah alat ditampilkan",
-    "wn_2_8_5_folders": "Menu folder tetap terbuka dan berfungsi dengan baik"
+    "wn_2_8_5_folders": "Menu folder tetap terbuka dan berfungsi dengan baik",
+    "privacy_network_li_bluesky": "Bluesky: Untuk feed Bluesky yang Anda ikuti, pengenal postingan publik dikirim ke public.api.bsky.app untuk mengambil postingan, kutipan, dan gambar. Permintaan API tidak menyertakan cookie dan tidak menggunakan login Bluesky. Gambar dimuat dari cdn.bsky.app. Seperti permintaan jaringan lainnya, penyedia ini menerima informasi koneksi, termasuk alamat IP Anda."
   },
   "it": {
     "nav_features": "Caratteristiche",
@@ -2407,7 +2422,7 @@ var T = {
     "f_connect": "Connetti",
     "legal_back": "Torna a Corvus RSS Reader",
     "privacy_title": "Informativa sulla privacy",
-    "privacy_date": "Data di efficacia: 6 aprile 2026 &middot; Ultima modifica: 6 aprile 2026",
+    "privacy_date": "Data di efficacia: 6 aprile 2026 &middot; Ultima modifica: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"noi\", \"noi\", \"nostro\") sviluppa e pubblica applicazioni software. Questa Informativa sulla Privacy spiega come gestiamo i dati in Corvus RSS Reader per Safari.",
     "privacy_h_commitment": "Il nostro impegno",
     "privacy_commitment": "Corvus RSS Reader è progettato per funzionare interamente sul tuo dispositivo. Non raccogliamo, conserviamo o trasmettiamo alcun dato personale.",
@@ -2416,7 +2431,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Nessuna analisi né telemetria</strong>: non tracciamo come utilizzi l'estensione",
     "privacy_collection_li_personal": "<strong>Nessuna informazione personale</strong>: non raccogliamo nomi, indirizzi email, indirizzi IP o identificativi dei dispositivi",
     "privacy_collection_li_thirdparty": "<strong>Nessun tracciamento di terze parti</strong>: non incorporiamo SDK pubblicitari, framework di analisi o pixel di tracciamento",
-    "privacy_collection_li_local": "<strong>Solo archiviazione locale</strong>: i tuoi feed, articoli, cartelle e preferenze vengono memorizzati localmente sul dispositivo utilizzando lo storage delle estensioni di Safari e non vengono mai inviati a nessun server",
+    "privacy_collection_li_local": "Feed, articoli, cartelle e preferenze sono memorizzati sul tuo dispositivo. CorvusDevs non riceve la tua raccolta.",
     "privacy_h_network": "Richieste di rete",
     "privacy_network_intro": "Corvus RSS Reader effettua le seguenti richieste di rete per funzionare:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader recupera gli URL dei feed a cui ti sei iscritto per ottenere nuovi articoli. Queste richieste vengono inviate direttamente dal tuo browser al server del publisher del feed.",
@@ -2478,7 +2493,8 @@ var T = {
     "wn_2_8_4_import": "Importa backup dalla cartella scelta",
     "wn_2_8_4_cancel": "Annulla l'importazione affidabile delle copie di backup",
     "wn_2_8_5_badge": "Scegli se mostrare il contatore della barra strumenti",
-    "wn_2_8_5_folders": "I menu delle cartelle restano aperti e funzionano bene"
+    "wn_2_8_5_folders": "I menu delle cartelle restano aperti e funzionano bene",
+    "privacy_network_li_bluesky": "Bluesky: Per i feed Bluesky a cui sei iscritto, gli identificatori dei post pubblici vengono inviati a public.api.bsky.app per recuperare post, citazioni e immagini. Le richieste API non includono cookie e non utilizzano un accesso a Bluesky. Le immagini vengono caricate da cdn.bsky.app. Come per le altre richieste di rete, questi fornitori ricevono informazioni sulla connessione, incluso il tuo indirizzo IP."
   },
   "ja": {
     "nav_features": "機能",
@@ -2562,7 +2578,7 @@ var T = {
     "f_connect": "接続する",
     "legal_back": "&larr; Corvus RSS リーダーに戻る",
     "privacy_title": "プライバシーポリシー",
-    "privacy_date": "有効期限：2026 年 4 月 6 日 &middot; 最終更新日：2026 年 4 月 6 日",
+    "privacy_date": "有効期限：2026 年 4 月 6 日 &middot; 最終更新日： 2026-11-17",
     "privacy_intro": "CorvusDevs（「私達」、「私たち」、「当社の」）はソフトウェアアプリケーションの開発および出版を行っています。本プライバシーポリシーでは、Safari 用 Corvus RSS リーダーにおけるデータの取り扱いについて説明します。",
     "privacy_h_commitment": "当社のコミットメント",
     "privacy_commitment": "Corvus RSS Reader は完全にデバイス上で動作するように設計されています。当社は個人データを収集、保存、送信しません。",
@@ -2571,7 +2587,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong> 分析やテレメトリは使用せず</strong>、拡張機能の利用状況を追跡しません",
     "privacy_collection_li_personal": "<strong>個人情報は収集しません</strong>。名前、メールアドレス、IP アドレス、またはデバイス識別子を収集することはありません。",
     "privacy_collection_li_thirdparty": "<strong>サードパーティのトラッキングなし</strong>。広告 SDK、分析フレームワーク、トラッキングピクセルを埋め込んでいません。",
-    "privacy_collection_li_local": "<strong>ローカルストレージのみ</strong>。フィード、記事、フォルダ、および設定は、Safari の機能拡張ストレージを使用してデバイス上にローカルに保存され、どのサーバーにも送信されません。",
+    "privacy_collection_li_local": "フィード、記事、フォルダ、設定はお使いのデバイスに保存されます。CorvusDevs がライブラリを受け取ることはありません。",
     "privacy_h_network": "ネットワークリクエスト",
     "privacy_network_intro": "Corvus RSS Reader は機能するために以下のネットワークリクエストを行います：",
     "privacy_network_li_feed": "<strong>RSS/Atom フィードの取得</strong>、Corvus RSS リーダーは購読しているフィード URL を取得して新しい記事を入手します。これらのリクエストは、直接ブラウザからフィード配信者のサーバーへ送られます。",
@@ -2633,7 +2649,8 @@ var T = {
     "wn_2_8_4_import": "選択したフォルダからバックアップをインポートします。",
     "wn_2_8_4_cancel": "バックアップのインポートを信頼してキャンセルできます",
     "wn_2_8_5_badge": "ツールバーのバッジの表示・非表示を選択できます",
-    "wn_2_8_5_folders": "フォルダのメニューが開いたまま正常に動作します"
+    "wn_2_8_5_folders": "フォルダのメニューが開いたまま正常に動作します",
+    "privacy_network_li_bluesky": "Bluesky：購読している Bluesky フィードについて、公開投稿の識別子を public.api.bsky.app に送信し、投稿、引用、画像を取得します。API リクエストには Cookie を含めず、Bluesky へのログインも使用しません。画像は cdn.bsky.app から読み込まれます。他のネットワークリクエストと同様、これらの提供者は IP アドレスを含む接続情報を受け取ります。"
   },
   "ko": {
     "nav_features": "기능",
@@ -2717,7 +2734,7 @@ var T = {
     "f_connect": "연결",
     "legal_back": "&larr; Corvus RSS Reader 로 돌아가기",
     "privacy_title": "개인정보 처리방침",
-    "privacy_date": "유효 날짜: 2026 년 4 월 6 일 &middot; 마지막 업데이트: 2026 년 4 월 6 일",
+    "privacy_date": "유효 날짜: 2026 년 4 월 6 일 &middot; 마지막 업데이트: 2026-11-17",
     "privacy_intro": "CorvusDevs(\"우리\", \"우리의\")는 소프트웨어 애플리케이션을 개발하고 출판합니다. 이 개인정보 처리방침은 Corvus RSS Reader for Safari 에서 데이터를 처리하는 방법을 설명합니다.",
     "privacy_h_commitment": "우리의 약속",
     "privacy_commitment": "Corvus RSS Reader 는 기기 전체에서 작동하도록 설계되었습니다. 우리는 개인 데이터를 수집, 저장, 전송하지 않습니다.",
@@ -2726,7 +2743,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>분석 또는 원격 정보 수집 없음</strong>, 확장 프로그램 사용 내역을 추적하지 않습니다",
     "privacy_collection_li_personal": "<strong>개인 정보 없음</strong>, 이름, 이메일, IP 주소, 또는 기기 식별자를 수집하지 않습니다.",
     "privacy_collection_li_thirdparty": "<strong>제 3 자 추적 없음</strong>, 광고 SDK, 분석 프레임워크, 또는 추적 픽셀을 내장하지 않습니다.",
-    "privacy_collection_li_local": "<strong>로컬 저장소 전용</strong>입니다. 구독, 기사, 폴더, 및 설정은 Safari 확장 프로그램 저장소를 통해 장치에 로컬로 저장되며, 어떤 서버에도 전송되지 않습니다.",
+    "privacy_collection_li_local": "피드, 글, 폴더 및 환경설정은 기기에 저장됩니다. CorvusDevs는 사용자의 라이브러리를 받지 않습니다.",
     "privacy_h_network": "네트워크 요청",
     "privacy_network_intro": "Corvus RSS Reader 는 작동하기 위해 다음 네트워크 요청을 수행합니다:",
     "privacy_network_li_feed": "<strong>RSS/Atom 피드 가져오기</strong>에서 Corvus RSS Reader 는 새 기사를 가져오기 위해 구독 중인 피드 URL 을 가져옵니다. 이 요청은 브라우저에서 피드 발행자의 서버로 직접 전송됩니다.",
@@ -2788,7 +2805,8 @@ var T = {
     "wn_2_8_4_import": "선택한 폴더에서 백업 가져오기",
     "wn_2_8_4_cancel": "백업 가져오기 취소",
     "wn_2_8_5_badge": "도구 막대 배지 표시 여부를 선택할 수 있습니다",
-    "wn_2_8_5_folders": "폴더 메뉴가 열린 상태로 유지되며 안정적으로 작동합니다"
+    "wn_2_8_5_folders": "폴더 메뉴가 열린 상태로 유지되며 안정적으로 작동합니다",
+    "privacy_network_li_bluesky": "Bluesky: 구독한 Bluesky 피드의 공개 게시물 식별자는 게시물, 인용 및 이미지를 가져오기 위해 public.api.bsky.app으로 전송됩니다. API 요청에는 쿠키가 포함되지 않으며 Bluesky 로그인을 사용하지 않습니다. 이미지는 cdn.bsky.app에서 불러옵니다. 다른 네트워크 요청과 마찬가지로 이러한 제공업체는 IP 주소를 포함한 연결 정보를 받습니다."
   },
   "ms": {
     "nav_features": "Ciri-ciri",
@@ -2872,7 +2890,7 @@ var T = {
     "f_connect": "Sambungkan",
     "legal_back": "&larr; Kembali ke Corvus RSS Reader",
     "privacy_title": "Kebijakan Privasi",
-    "privacy_date": "Tarikh Berkuat Daya: 6 April 2026 &middot; Terakhir Diperbaharui: 6 April 2026",
+    "privacy_date": "Tarikh Berkuat Daya: 6 April 2026 &middot; Terakhir Diperbaharui: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"kami\", \"kita\", \"kami\") mengembangkan dan menerbitkan aplikasi perisian. Dasar Privasi ini menerangkan bagaimana kami mengendalikan data dalam Corvus RSS Reader untuk Safari.",
     "privacy_h_commitment": "Komitmen Kami",
     "privacy_commitment": "Corvus RSS Reader direka untuk berfungsi sepenuhnya pada peranti anda. Kami tidak mengumpul, menyimpan, atau menghantar sebarang data peribadi.",
@@ -2881,7 +2899,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Tanpa analisis atau telemetri</strong>; kami tidak melacak bagaimana Anda menggunakan ekstensi",
     "privacy_collection_li_personal": "<strong>Tanpa maklumat peribadi</strong>; kami tidak mengumpul nama, alamat e-mel, alamat IP, atau pengenal pasti peranti",
     "privacy_collection_li_thirdparty": "<strong>Tanpa pelacakan pihak ketiga</strong>; kami tidak menyematkan SDK periklanan, kerangka kerja analisis, atau piksel pelacakan",
-    "privacy_collection_li_local": "<strong>Penyimpanan tempatan sahaja</strong>, Saluran, artikel, folder, dan tetapan anda disimpan secara tempatan pada peranti anda menggunakan penyimpanan sambungan Safari dan tidak pernah dihantar ke mana-mana pelayan",
+    "privacy_collection_li_local": "Suapan, artikel, folder dan pilihan anda disimpan pada peranti anda. CorvusDevs tidak menerima pustaka anda.",
     "privacy_h_network": "Permintaan Rangkaian",
     "privacy_network_intro": "Corvus RSS Reader melakukan permintaan rangkaian berikut untuk berfungsi:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader mengambil URL feed yang anda langgan untuk mendapatkan artikel baharu. Permintaan ini dihantar terus dari pelayar anda ke pelayan penerbit feed.",
@@ -2943,7 +2961,8 @@ var T = {
     "wn_2_8_4_import": "Importkan sandaran dari folder pilihan anda.",
     "wn_2_8_4_cancel": "Batalkan import cadangan dengan boleh dipercayai",
     "wn_2_8_5_badge": "Pilih sama ada lencana bar alat dipaparkan",
-    "wn_2_8_5_folders": "Menu folder kekal terbuka dan berfungsi dengan baik"
+    "wn_2_8_5_folders": "Menu folder kekal terbuka dan berfungsi dengan baik",
+    "privacy_network_li_bluesky": "Bluesky: Bagi suapan Bluesky yang anda langgani, pengecam siaran awam dihantar ke public.api.bsky.app untuk mendapatkan siaran, petikan dan imej. Permintaan API tidak menyertakan kuki dan tidak menggunakan log masuk Bluesky. Imej dimuatkan daripada cdn.bsky.app. Seperti permintaan rangkaian lain, penyedia ini menerima maklumat sambungan, termasuk alamat IP anda."
   },
   "nb": {
     "nav_features": "Funksjoner",
@@ -3027,7 +3046,7 @@ var T = {
     "f_connect": "Koble til",
     "legal_back": "&larr; Tilbake til Corvus RSS Reader",
     "privacy_title": "Personvernpolitikk",
-    "privacy_date": "Gyldig fra: 6. april 2026 &middot; Sist oppdatert: 6. april 2026",
+    "privacy_date": "Gyldig fra: 6. april 2026 &middot; Sist oppdatert: 2026-11-17",
     "privacy_intro": "CorvusDevs («vi», «oss», «vårt») utvikler og publiserer programvareapplikasjoner. Denne personvernerklæringen forklarer hvordan vi behandler data i Corvus RSS Reader for Safari.",
     "privacy_h_commitment": "Vårt løfte",
     "privacy_commitment": "Corvus RSS Reader er designet for å fungere fullstendig på din enhet. Vi samler ikke inn, lagrer eller sender noen personlige data.",
@@ -3036,7 +3055,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Ingen analyser eller telemetri</strong>. Vi sporer ikke hvordan du bruker utvidelsen.",
     "privacy_collection_li_personal": "<strong>Ingen personlig informasjon</strong>. Vi samler ikke inn navn, e-postadresser, IP-adresser eller enhetsidentifikatorer.",
     "privacy_collection_li_thirdparty": "<strong>Ingen sporing fra tredjeparter</strong>. Vi bruker ikke innbygde reklame-SDKer, analyseverktøy eller sporingsskjermbilder.",
-    "privacy_collection_li_local": "<strong>Kun lokalt lagring</strong>. Dine kanaler, artikler, mapper og preferanser lagres lokalt på enheten din ved hjelp av Safari-utvidelsens lagring og sendes aldri til noen server.",
+    "privacy_collection_li_local": "Feedene, artiklene, mappene og innstillingene dine lagres på enheten din. CorvusDevs mottar ikke biblioteket ditt.",
     "privacy_h_network": "Nettverksforespørsler",
     "privacy_network_intro": "Corvus RSS Reader utfører følgende nettverksforespørsler for å fungere:",
     "privacy_network_li_feed": "<strong>RSS/Atom-feedhenting</strong>. Corvus RSS Reader henter feed-URLer du er abonnert på for å hente nye artikler. Disse forespørslene går direkte fra nettleseren din til feed-utgiverens server.",
@@ -3098,7 +3117,8 @@ var T = {
     "wn_2_8_4_import": "Importer sikkerhetskopier fra en mappe du velger",
     "wn_2_8_4_cancel": "Avbryt import av sikkerhetskopier pålitelig",
     "wn_2_8_5_badge": "Velg om merket på verktøylinjen skal vises",
-    "wn_2_8_5_folders": "Mappemenyer forblir åpne og fungerer pålitelig"
+    "wn_2_8_5_folders": "Mappemenyer forblir åpne og fungerer pålitelig",
+    "privacy_network_li_bluesky": "Bluesky: For Bluesky-feeder du abonnerer på, sendes identifikatorer for offentlige innlegg til public.api.bsky.app for å hente innlegg, sitater og bilder. API-forespørsler inneholder ikke informasjonskapsler og bruker ikke Bluesky-innlogging. Bilder lastes fra cdn.bsky.app. Som ved andre nettverksforespørsler mottar disse leverandørene tilkoblingsinformasjon, inkludert IP-adressen din."
   },
   "nl": {
     "nav_features": "Functies",
@@ -3182,7 +3202,7 @@ var T = {
     "f_connect": "Verbinden",
     "legal_back": "&larr; Terug naar Corvus RSS Reader",
     "privacy_title": "Privacybeleid",
-    "privacy_date": "Effectieve datum: 6 april 2026 &middot; Laatst bijgewerkt: 6 april 2026",
+    "privacy_date": "Effectieve datum: 6 april 2026 &middot; Laatst bijgewerkt: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"wij\", \"ons\", \"onze\") ontwikkelt en publiceert softwaretoepassingen. Dit privacybeleid legt uit hoe wij gegevens verwerken in Corvus RSS Reader voor Safari.",
     "privacy_h_commitment": "Onze Toezegging",
     "privacy_commitment": "Corvus RSS Reader is ontworpen om volledig op uw apparaat te werken. We verzamelen, slaan of verzenden geen persoonlijke gegevens.",
@@ -3191,7 +3211,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Geen analytics of telemetrie</strong>, we volgen niet hoe u de extensie gebruikt",
     "privacy_collection_li_personal": "<strong>Geen persoonlijke gegevens</strong>. Wij verzamelen geen namen, e-mailadressen, IP-adressen of apparaatidentificatoren.",
     "privacy_collection_li_thirdparty": "<strong>Geen tracking door derden</strong>. Wij gebruiken geen advertentie-SDK's, analyse-frameworks of tracking-pixels.",
-    "privacy_collection_li_local": "<strong>Alleen lokale opslag</strong>: Uw feeds, artikelen, mappen en voorkeuren worden lokaal op uw apparaat opgeslagen via de extensie-opslag van Safari en worden nooit naar een server verzonden.",
+    "privacy_collection_li_local": "Uw feeds, artikelen, mappen en voorkeuren worden op uw apparaat opgeslagen. CorvusDevs ontvangt uw bibliotheek niet.",
     "privacy_h_network": "Netwerkverzoeken",
     "privacy_network_intro": "Corvus RSS Reader voert de volgende netwerkverzoeken uit om te functioneren:",
     "privacy_network_li_feed": "<strong>RSS/Atom-feedophalen</strong>: Corvus RSS Reader haalt de URL's van uw geabonneerde feeds op om nieuwe artikelen op te halen. Deze verzoeken gaan direct van uw browser naar de server van de feeduitgever.",
@@ -3253,7 +3273,8 @@ var T = {
     "wn_2_8_4_import": "Importeer back-ups van een map van uw keuze",
     "wn_2_8_4_cancel": "Annuleer back-ups betrouwbaar",
     "wn_2_8_5_badge": "Kies of de teller op de werkbalk wordt getoond",
-    "wn_2_8_5_folders": "Mapmenu’s blijven open en werken betrouwbaar"
+    "wn_2_8_5_folders": "Mapmenu’s blijven open en werken betrouwbaar",
+    "privacy_network_li_bluesky": "Bluesky: Voor Bluesky-feeds waarop u bent geabonneerd, worden identificatoren van openbare berichten naar public.api.bsky.app gestuurd om berichten, citaten en afbeeldingen op te halen. API-verzoeken bevatten geen cookies en gebruiken geen Bluesky-aanmelding. Afbeeldingen worden geladen vanaf cdn.bsky.app. Net als bij andere netwerkverzoeken ontvangen deze aanbieders verbindingsinformatie, waaronder uw IP-adres."
   },
   "pl": {
     "nav_features": "Funkcje",
@@ -3337,7 +3358,7 @@ var T = {
     "f_connect": "Połącz",
     "legal_back": "&larr; Wróć do Corvus RSS Reader",
     "privacy_title": "Polityka Prywatności",
-    "privacy_date": "Data wejścia w życie: 6 kwietnia 2026 &middot; Ostatnia aktualizacja: 6 kwietnia 2026",
+    "privacy_date": "Data wejścia w życie: 6 kwietnia 2026 &middot; Ostatnia aktualizacja: 2026-11-17",
     "privacy_intro": "CorvusDews (\"my\", \"us\", \"our\") tworzy i publikuje oprogramowanie. Ta Polityka Prywatności wyjaśnia, jak my przetwarzamy dane w Corvus RSS Reader dla Safari.",
     "privacy_h_commitment": "Nasze zobowiązanie",
     "privacy_commitment": "Corvus RSS Reader jest zaprojektowany do działania wyłącznie na Twoim urządzeniu. Nie zbieramy, przechowujemy ani nie przesyłamy żadnych danych osobowych.",
@@ -3346,7 +3367,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Brak analizy ani telemetrii</strong>, nie śledzimy sposobu, w jaki używasz rozszerzenia",
     "privacy_collection_li_personal": "<strong>Brak danych osobowych</strong>, Nie zbieramy imion i nazwisk, adresów e-mail, adresów IP ani identyfikatorów urządzeń",
     "privacy_collection_li_thirdparty": "<strong>Bez śledzenia przez firmy zewnętrzne</strong>, Nie korzystamy z reklamowych SDK, narzędzi analitycznych ani pikseli śledzących",
-    "privacy_collection_li_local": "<strong>Tylko pamięć lokalna</strong>. Twoje kanały, artykuły, foldery i ustawienia są przechowywane lokalnie na Twoim urządzeniu za pomocą rozszerzeń Safari i nigdy nie są wysyłane do żadnego serwera.",
+    "privacy_collection_li_local": "Twoje kanały, artykuły, foldery i preferencje są przechowywane na Twoim urządzeniu. CorvusDevs nie otrzymuje Twojej biblioteki.",
     "privacy_h_network": "Żądania sieciowe",
     "privacy_network_intro": "Corvus RSS Reader dokonuje następujących żądań sieciowych, aby działać:",
     "privacy_network_li_feed": "<strong>Pobieranie kanałów RSS/Atom</strong>, Corvus RSS Reader pobiera nowe artykuły z adresów URL subskrybowanych kanałów. Żądania trafiają bezpośrednio z przeglądarki do serwera wydawcy kanału.",
@@ -3408,7 +3429,8 @@ var T = {
     "wn_2_8_4_import": "Importuj kopie zapasowe z wybranego folderu",
     "wn_2_8_4_cancel": "Zaprzestań importu kopii zapasowych",
     "wn_2_8_5_badge": "Wybierz, czy pokazywać licznik na pasku narzędzi",
-    "wn_2_8_5_folders": "Menu folderów pozostają otwarte i działają niezawodnie"
+    "wn_2_8_5_folders": "Menu folderów pozostają otwarte i działają niezawodnie",
+    "privacy_network_li_bluesky": "Bluesky: W przypadku subskrybowanych kanałów Bluesky identyfikatory publicznych postów są wysyłane do public.api.bsky.app w celu pobrania postów, cytatów i obrazów. Żądania API nie zawierają plików cookie i nie korzystają z logowania do Bluesky. Obrazy są ładowane z cdn.bsky.app. Podobnie jak przy innych żądaniach sieciowych dostawcy ci otrzymują informacje o połączeniu, w tym Twój adres IP."
   },
   "pt-BR": {
     "nav_features": "Recursos",
@@ -3492,7 +3514,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Voltar ao Corvus RSS Reader",
     "privacy_title": "Política de Privacidade",
-    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 6 de abril de 2026",
+    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 2026-11-17",
     "privacy_intro": "A CorvusDevs (\"nós\", \"nossa\", \"nosso\") desenvolve e publica aplicações de software. Esta Política de Privacidade explica como tratamos os dados no Corvus RSS Reader para o Safari.",
     "privacy_h_commitment": "Nosso Comprometimento",
     "privacy_commitment": "O Corvus RSS Reader é projetado para funcionar inteiramente no seu dispositivo. Não coletamos, armazenamos ou transmitimos nenhum dado pessoal.",
@@ -3501,7 +3523,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sem análise de dados ou telemetria</strong>. Não rastreamos como você usa a extensão.",
     "privacy_collection_li_personal": "<strong>Não há informações pessoais</strong>. Não coletamos nomes, e-mails, endereços IP ou identificadores de dispositivo.",
     "privacy_collection_li_thirdparty": "<strong>Sem rastreamento de terceiros</strong>: não incorporamos SDKs de publicidade, frameworks de análise ou pixels de rastreamento",
-    "privacy_collection_li_local": "<strong>Apenas armazenamento local</strong>: Seus feeds, artigos, pastas e preferências são armazenados localmente no seu dispositivo usando o armazenamento de extensão do Safari e nunca são enviados para nenhum servidor.",
+    "privacy_collection_li_local": "Seus feeds, artigos, pastas e preferências são armazenados no seu dispositivo. A CorvusDevs não recebe sua biblioteca.",
     "privacy_h_network": "Solicitações de Rede",
     "privacy_network_intro": "O Corvus RSS Reader realiza as seguintes solicitações de rede para funcionar:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: O Corvus RSS Reader recupera as URLs dos feeds aos quais você se inscreveu para obter novos artigos. Essas solicitações são enviadas diretamente do seu navegador para o servidor do editor do feed.",
@@ -3563,7 +3585,8 @@ var T = {
     "wn_2_8_4_import": "Importe backups de uma pasta escolhida",
     "wn_2_8_4_cancel": "Cancelar importações de backup com segurança",
     "wn_2_8_5_badge": "Escolha se deseja mostrar o contador na barra",
-    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem"
+    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem",
+    "privacy_network_li_bluesky": "Bluesky: Para os feeds do Bluesky que você assina, identificadores de publicações públicas são enviados a public.api.bsky.app para obter publicações, citações e imagens. As solicitações à API não incluem cookies nem usam uma sessão do Bluesky. As imagens são carregadas de cdn.bsky.app. Como em outras solicitações de rede, esses provedores recebem informações de conexão, incluindo seu endereço IP."
   },
   "pt_BR": {
     "nav_features": "Recursos",
@@ -3647,7 +3670,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Voltar ao Corvus RSS Reader",
     "privacy_title": "Política de Privacidade",
-    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 6 de abril de 2026",
+    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 2026-11-17",
     "privacy_intro": "A CorvusDevs (\"nós\", \"nossa\", \"nosso\") desenvolve e publica aplicações de software. Esta Política de Privacidade explica como tratamos os dados no Corvus RSS Reader para o Safari.",
     "privacy_h_commitment": "Nosso Comprometimento",
     "privacy_commitment": "O Corvus RSS Reader é projetado para funcionar inteiramente no seu dispositivo. Não coletamos, armazenamos ou transmitimos nenhum dado pessoal.",
@@ -3656,7 +3679,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sem análise de dados ou telemetria</strong>. Não rastreamos como você usa a extensão.",
     "privacy_collection_li_personal": "<strong>Não há informações pessoais</strong>. Não coletamos nomes, e-mails, endereços IP ou identificadores de dispositivo.",
     "privacy_collection_li_thirdparty": "<strong>Sem rastreamento de terceiros</strong>: não incorporamos SDKs de publicidade, frameworks de análise ou pixels de rastreamento",
-    "privacy_collection_li_local": "<strong>Apenas armazenamento local</strong>: Seus feeds, artigos, pastas e preferências são armazenados localmente no seu dispositivo usando o armazenamento de extensão do Safari e nunca são enviados para nenhum servidor.",
+    "privacy_collection_li_local": "Seus feeds, artigos, pastas e preferências são armazenados no seu dispositivo. A CorvusDevs não recebe sua biblioteca.",
     "privacy_h_network": "Solicitações de Rede",
     "privacy_network_intro": "O Corvus RSS Reader realiza as seguintes solicitações de rede para funcionar:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: O Corvus RSS Reader recupera as URLs dos feeds aos quais você se inscreveu para obter novos artigos. Essas solicitações são enviadas diretamente do seu navegador para o servidor do editor do feed.",
@@ -3718,7 +3741,8 @@ var T = {
     "wn_2_8_4_import": "Importe backups de uma pasta escolhida",
     "wn_2_8_4_cancel": "Cancelar importações de backup com segurança",
     "wn_2_8_5_badge": "Escolha se deseja mostrar o contador na barra",
-    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem"
+    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem",
+    "privacy_network_li_bluesky": "Bluesky: Para os feeds do Bluesky que você assina, identificadores de publicações públicas são enviados a public.api.bsky.app para obter publicações, citações e imagens. As solicitações à API não incluem cookies nem usam uma sessão do Bluesky. As imagens são carregadas de cdn.bsky.app. Como em outras solicitações de rede, esses provedores recebem informações de conexão, incluindo seu endereço IP."
   },
   "pt-PT": {
     "nav_features": "Recursos",
@@ -3802,7 +3826,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Voltar ao Corvus RSS Reader",
     "privacy_title": "Política de Privacidade",
-    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 6 de abril de 2026",
+    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 2026-11-17",
     "privacy_intro": "A CorvusDevs (\"nós\", \"nos\", \"nosso\") desenvolve e publica aplicações de software. Esta Política de Privacidade explica como tratamos os dados no Corvus RSS Reader para o Safari.",
     "privacy_h_commitment": "O Nosso Compromisso",
     "privacy_commitment": "O Corvus RSS Reader está projetado para funcionar inteiramente no seu dispositivo. Não coletamos, armazenamos ou transmitimos quaisquer dados pessoais.",
@@ -3811,7 +3835,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sem analytics nem telemetria</strong>, não rastreamos como usa a extensão",
     "privacy_collection_li_personal": "<strong>Sem informações pessoais</strong>: não recolhemos nomes, endereços de e-mail, endereços IP ou identificadores de dispositivo",
     "privacy_collection_li_thirdparty": "<strong>Sem rastreamento de terceiros</strong>: não incorporamos SDKs de publicidade, frameworks de análise ou pixels de rastreamento",
-    "privacy_collection_li_local": "<strong>Apenas armazenamento local</strong>, as suas feeds, artigos, pastas e preferências são guardados localmente no seu dispositivo através do armazenamento de extensões do Safari e nunca são enviados para qualquer servidor",
+    "privacy_collection_li_local": "Os seus feeds, artigos, pastas e preferências são guardados no seu dispositivo. A CorvusDevs não recebe a sua biblioteca.",
     "privacy_h_network": "Pedidos de Rede",
     "privacy_network_intro": "O Corvus RSS Reader realiza as seguintes requisições à rede para funcionar:",
     "privacy_network_li_feed": "<strong>Leitura de feeds RSS/Atom</strong>, o Corvus RSS Reader obtém as URLs dos feeds aos quais se subscreve para recuperar novos artigos. Estas requisições são enviadas diretamente do seu navegador para o servidor do editor do feed.",
@@ -3873,7 +3897,8 @@ var T = {
     "wn_2_8_4_import": "Importe backups de uma pasta que escolher",
     "wn_2_8_4_cancel": "Cancelar importações de backup com fiabilidade",
     "wn_2_8_5_badge": "Escolha se pretende mostrar o contador na barra",
-    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem"
+    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem",
+    "privacy_network_li_bluesky": "Bluesky: Para os feeds do Bluesky que subscreve, os identificadores de publicações públicas são enviados para public.api.bsky.app para obter publicações, citações e imagens. Os pedidos à API não incluem cookies nem utilizam uma sessão do Bluesky. As imagens são carregadas de cdn.bsky.app. Tal como noutros pedidos de rede, estes fornecedores recebem informações de ligação, incluindo o seu endereço IP."
   },
   "pt_PT": {
     "nav_features": "Recursos",
@@ -3957,7 +3982,7 @@ var T = {
     "f_connect": "Conectar",
     "legal_back": "&larr; Voltar ao Corvus RSS Reader",
     "privacy_title": "Política de Privacidade",
-    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 6 de abril de 2026",
+    "privacy_date": "Data de Entrada em Vigor: 6 de abril de 2026 &middot; Última Atualização: 2026-11-17",
     "privacy_intro": "A CorvusDevs (\"nós\", \"nos\", \"nosso\") desenvolve e publica aplicações de software. Esta Política de Privacidade explica como tratamos os dados no Corvus RSS Reader para o Safari.",
     "privacy_h_commitment": "O Nosso Compromisso",
     "privacy_commitment": "O Corvus RSS Reader está projetado para funcionar inteiramente no seu dispositivo. Não coletamos, armazenamos ou transmitimos quaisquer dados pessoais.",
@@ -3966,7 +3991,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Sem analytics nem telemetria</strong>, não rastreamos como usa a extensão",
     "privacy_collection_li_personal": "<strong>Sem informações pessoais</strong>: não recolhemos nomes, endereços de e-mail, endereços IP ou identificadores de dispositivo",
     "privacy_collection_li_thirdparty": "<strong>Sem rastreamento de terceiros</strong>: não incorporamos SDKs de publicidade, frameworks de análise ou pixels de rastreamento",
-    "privacy_collection_li_local": "<strong>Apenas armazenamento local</strong>, as suas feeds, artigos, pastas e preferências são guardados localmente no seu dispositivo através do armazenamento de extensões do Safari e nunca são enviados para qualquer servidor",
+    "privacy_collection_li_local": "Os seus feeds, artigos, pastas e preferências são guardados no seu dispositivo. A CorvusDevs não recebe a sua biblioteca.",
     "privacy_h_network": "Pedidos de Rede",
     "privacy_network_intro": "O Corvus RSS Reader realiza as seguintes requisições à rede para funcionar:",
     "privacy_network_li_feed": "<strong>Leitura de feeds RSS/Atom</strong>, o Corvus RSS Reader obtém as URLs dos feeds aos quais se subscreve para recuperar novos artigos. Estas requisições são enviadas diretamente do seu navegador para o servidor do editor do feed.",
@@ -4028,7 +4053,8 @@ var T = {
     "wn_2_8_4_import": "Importe backups de uma pasta que escolher",
     "wn_2_8_4_cancel": "Cancelar importações de backup com fiabilidade",
     "wn_2_8_5_badge": "Escolha se pretende mostrar o contador na barra",
-    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem"
+    "wn_2_8_5_folders": "Os menus das pastas ficam abertos e funcionam bem",
+    "privacy_network_li_bluesky": "Bluesky: Para os feeds do Bluesky que subscreve, os identificadores de publicações públicas são enviados para public.api.bsky.app para obter publicações, citações e imagens. Os pedidos à API não incluem cookies nem utilizam uma sessão do Bluesky. As imagens são carregadas de cdn.bsky.app. Tal como noutros pedidos de rede, estes fornecedores recebem informações de ligação, incluindo o seu endereço IP."
   },
   "ro": {
     "nav_features": "Funcții",
@@ -4112,7 +4138,7 @@ var T = {
     "f_connect": "Conectează-te",
     "legal_back": "&larr; Înapoi la Corvus RSS Reader",
     "privacy_title": "Politica de confidențialitate",
-    "privacy_date": "Data eficientă: 6 aprilie 2026 &middot; Data ultimei actualizări: 6 aprilie 2026",
+    "privacy_date": "Data eficientă: 6 aprilie 2026 &middot; Data ultimei actualizări: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"noi\", \"ne\", \"noastră\") dezvoltă și publică aplicații de software. Această Politică de Confidențialitate explică modul în care procesăm datele în Corvus RSS Reader pentru Safari.",
     "privacy_h_commitment": "Angajamentul Nostru",
     "privacy_commitment": "Corvus RSS Reader este conceput să funcționeze integral pe dispozitivul dumneavoastră. Nu colectăm, stocăm sau transmitem nicio date personale.",
@@ -4121,7 +4147,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Fără analitică sau telemetrie</strong>. Nu urmărim modul în care utilizați extensia",
     "privacy_collection_li_personal": "<strong>Nu există informații personale</strong>. Nu colectăm nume, adrese de e-mail, adrese IP sau identificatori de dispozitive.",
     "privacy_collection_li_thirdparty": "<strong>Fără urmărirea de către terți</strong>. Nu încorporăm SDK-uri de publicitate, cadre de analiză sau pixeli de urmărire",
-    "privacy_collection_li_local": "<strong>Doar stocare locală</strong>. Fluxurile, articolele, dosarele și preferințele dumneavoastră sunt stocate local pe dispozitivul dumneavoastră folosind stocarea extensiilor din Safari și nu sunt trimise niciodată către niciun server.",
+    "privacy_collection_li_local": "Fluxurile, articolele, dosarele și preferințele dvs. sunt stocate pe dispozitiv. CorvusDevs nu primește biblioteca dvs.",
     "privacy_h_network": "Cereri de rețea",
     "privacy_network_intro": "Corvus RSS Reader face următoarele cereri de rețea pentru a funcționa:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader preia URL-urile feed-urilor la care sunteți abonat pentru a obține articolele noi. Aceste cereri sunt trimise direct de la browserul dumneavoastră către serverul editorului feed-ului.",
@@ -4183,7 +4209,8 @@ var T = {
     "wn_2_8_4_import": "Importați back-ups dintr-un folder ales",
     "wn_2_8_4_cancel": "Anulează importurile de rezervă în mod fiabil",
     "wn_2_8_5_badge": "Alegeți dacă se afișează contorul din bara de instrumente",
-    "wn_2_8_5_folders": "Meniurile dosarelor rămân deschise și funcționează corect"
+    "wn_2_8_5_folders": "Meniurile dosarelor rămân deschise și funcționează corect",
+    "privacy_network_li_bluesky": "Bluesky: Pentru fluxurile Bluesky la care vă abonați, identificatorii postărilor publice sunt trimiși la public.api.bsky.app pentru a prelua postări, citate și imagini. Cererile API nu includ cookie-uri și nu folosesc autentificarea Bluesky. Imaginile sunt încărcate de pe cdn.bsky.app. Ca în cazul altor cereri de rețea, acești furnizori primesc informații despre conexiune, inclusiv adresa dvs. IP."
   },
   "ru": {
     "nav_features": "Функции",
@@ -4267,7 +4294,7 @@ var T = {
     "f_connect": "Подключиться",
     "legal_back": "&larr; Вернуться к Corvus RSS Reader",
     "privacy_title": "Политика конфиденциальности",
-    "privacy_date": "Дата вступления в силу: 6 апреля 2026 &middot; Дата последнего обновления: 6 апреля 2026",
+    "privacy_date": "Дата вступления в силу: 6 апреля 2026 &middot; Дата последнего обновления: 2026-11-17",
     "privacy_intro": "Компания CorvusDevs («мы», «нас», «наше») разрабатывает и публикует программные приложения. Настоящая Политика конфиденциальности описывает, как мы обрабатываем данные в приложении Corvus RSS Reader для Safari.",
     "privacy_h_commitment": "Наша приверженность",
     "privacy_commitment": "Corvus RSS Reader предназначен для работы исключительно на вашем устройстве. Мы не собираем, не храним и не передаем никаких личных данных.",
@@ -4276,7 +4303,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Без аналитики или телеметрии</strong>: мы не отслеживаем, как вы используете расширение",
     "privacy_collection_li_personal": "<strong>Нет личной информации</strong>: мы не собираем имена, адреса электронной почты, IP-адреса или идентификаторы устройств",
     "privacy_collection_li_thirdparty": "<strong>Нет стороннего отслеживания</strong>: мы не используем рекламные SDK, аналитические фреймворки или пиксели отслеживания",
-    "privacy_collection_li_local": "<strong>Только локальное хранилище</strong>: ваши ленты, статьи, папки и предпочтения хранятся локально на вашем устройстве с помощью расширения Safari и никогда не передаются на какой-либо сервер",
+    "privacy_collection_li_local": "Ваши ленты, статьи, папки и настройки хранятся на вашем устройстве. CorvusDevs не получает вашу библиотеку.",
     "privacy_h_network": "Запросы к сети",
     "privacy_network_intro": "Приложение Corvus RSS Reader для своей работы выполняет следующие сетевые запросы:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader получает адреса каналов, на которые вы подписаны, чтобы загружать новые статьи. Эти запросы отправляются напрямую с вашего браузера на серверы издателей каналов.",
@@ -4338,7 +4365,8 @@ var T = {
     "wn_2_8_4_import": "Импортировать резервные копии из выбранной папки",
     "wn_2_8_4_cancel": "Надежная отмена импорта резервных копий",
     "wn_2_8_5_badge": "Выберите, показывать ли счётчик на панели инструментов",
-    "wn_2_8_5_folders": "Меню папок остаются открытыми и работают корректно"
+    "wn_2_8_5_folders": "Меню папок остаются открытыми и работают корректно",
+    "privacy_network_li_bluesky": "Bluesky: Для лент Bluesky, на которые вы подписаны, идентификаторы публичных публикаций отправляются на public.api.bsky.app для получения публикаций, цитат и изображений. Запросы API не содержат файлов cookie и не используют вход в Bluesky. Изображения загружаются с cdn.bsky.app. Как и при других сетевых запросах, эти поставщики получают сведения о соединении, включая ваш IP-адрес."
   },
   "sk": {
     "nav_features": "Funkcie",
@@ -4422,7 +4450,7 @@ var T = {
     "f_connect": "Pripojiť",
     "legal_back": "&larr; Návrat späť do Corvus RSS čítača",
     "privacy_title": "Politika súkromia",
-    "privacy_date": "Dátum účinnosti: 6. apríla 2026 &middot; Naposledy aktualizované: 6. apríla 2026",
+    "privacy_date": "Dátum účinnosti: 6. apríla 2026 &middot; Naposledy aktualizované: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"my\", \"nás\", \"naš\") vyvíja a vydáva softvérové aplikácie. Táto zásada ochrany osobných údajov vysvetľuje, ako spracovávame dáta v Corvus RSS Reader pre Safari.",
     "privacy_h_commitment": "Náš záväzok",
     "privacy_commitment": "Corvus RSS Reader je navrhnutý tak, aby fungoval úplne na vašom zariadení. Nezbierame, neskladujeme ani neprenášame žiadne osobné údaje.",
@@ -4431,7 +4459,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Žiadna analýza ani telemetria</strong>. Nesledujeme, ako používate rozšírenie.",
     "privacy_collection_li_personal": "<strong>Žiadne osobné údaje</strong>, nezberujeme mená, e-mailové adresy, IP adresy ani identifikátory zariadení",
     "privacy_collection_li_thirdparty": "<strong>Bez sledovania tretích strán</strong>, Nezahŕňame reklamné súpravy SDK, analytické frameworky ani sledovacie pixely",
-    "privacy_collection_li_local": "<strong>Len lokálne úložisko</strong>, Vaše kanály, články, priečinky a preferencie sa ukládajú lokálne na vašom zariadení pomocou rozšírenia v Safari a nikdy sa neposielajú na žiadny server",
+    "privacy_collection_li_local": "Vaše kanály, články, priečinky a predvoľby sa ukladajú vo vašom zariadení. CorvusDevs vašu knižnicu neprijíma.",
     "privacy_h_network": "Sieťové požiadavky",
     "privacy_network_intro": "Aplikácia Corvus RSS Reader na fungovanie vykonáva nasledujúce sieťové požiadavky:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>, Corvus RSS Reader stiahne URL adresy kanálov, na ktoré ste sa prihlásili, aby mohol získať nové články. Tieto požiadavky sa odosiela priamo z vášho prehliadača na server vydavateľa kanála.",
@@ -4493,7 +4521,8 @@ var T = {
     "wn_2_8_4_import": "Importujte zálohy z vybranej priečinka",
     "wn_2_8_4_cancel": "Spoločne zrušiť import zálohovania spoľahlivo",
     "wn_2_8_5_badge": "Vyberte, či zobrazovať odznak na paneli nástrojov",
-    "wn_2_8_5_folders": "Ponuky priečinkov zostávajú otvorené a fungujú spoľahlivo"
+    "wn_2_8_5_folders": "Ponuky priečinkov zostávajú otvorené a fungujú spoľahlivo",
+    "privacy_network_li_bluesky": "Bluesky: Pri odoberaných kanáloch Bluesky sa identifikátory verejných príspevkov odosielajú na public.api.bsky.app na načítanie príspevkov, citácií a obrázkov. Požiadavky API neobsahujú cookies a nepoužívajú prihlásenie do Bluesky. Obrázky sa načítavajú z cdn.bsky.app. Rovnako ako pri iných sieťových požiadavkách dostávajú títo poskytovatelia informácie o pripojení vrátane vašej IP adresy."
   },
   "sv": {
     "nav_features": "Funktioner",
@@ -4577,7 +4606,7 @@ var T = {
     "f_connect": "Anslut",
     "legal_back": "&larr; Tillbaka till Corvus RSS Reader",
     "privacy_title": "Integritetspolicy",
-    "privacy_date": "Giltig från: 6 april 2026 &middot; Senast uppdaterad: 6 april 2026",
+    "privacy_date": "Giltig från: 6 april 2026 &middot; Senast uppdaterad: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"vi\", \"oss\", \"våra\") utvecklar och publicerar programvaruapplikationer. Denna integritetspolicy förklarar hur vi hanterar data i Corvus RSS Reader för Safari.",
     "privacy_h_commitment": "Vårt löfte",
     "privacy_commitment": "Corvus RSS Reader är designad för att fungera helt på din enhet. Vi samlar inte in, lagrar eller överför några personuppgifter.",
@@ -4586,7 +4615,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Inga analyser eller telemetri</strong>. Vi spårar inte hur du använder tillägget.",
     "privacy_collection_li_personal": "<strong>Ingen personlig information</strong>. Vi samlar inte in namn, e-postadresser, IP-adresser eller enhetsidentifikatorer.",
     "privacy_collection_li_thirdparty": "<strong>Ingen spårning från tredje part</strong>. Vi integrerar inte annons-SDK:er, analysramverk eller spårningspixel.",
-    "privacy_collection_li_local": "<strong>Endast lokal lagring</strong>. Dina flöden, artiklar, mappar och preferenser lagras lokalt på din enhet med hjälp av Safari:s tilläggsförvar och skickas aldrig till någon server.",
+    "privacy_collection_li_local": "Dina flöden, artiklar, mappar och inställningar lagras på din enhet. CorvusDevs tar inte emot ditt bibliotek.",
     "privacy_h_network": "Nätverksförfrågan",
     "privacy_network_intro": "Corvus RSS Reader gör följande nätverksförfrågningar för att fungera:",
     "privacy_network_li_feed": "<strong>Hämtning av RSS/Atom-flöden</strong>. Corvus RSS Reader hämtar flödes-URL:er som du prenumererar på för att hämta nya artiklar. Dessa begäranden skickas direkt från din webbläsare till flödesutgivarens server.",
@@ -4648,7 +4677,8 @@ var T = {
     "wn_2_8_4_import": "Importera säkerhetskopior från ett vald mapp.",
     "wn_2_8_4_cancel": "Avsluta import av säkerhetskopior pålitligt",
     "wn_2_8_5_badge": "Välj om räknaren i verktygsfältet ska visas",
-    "wn_2_8_5_folders": "Mappmenyer förblir öppna och fungerar tillförlitligt"
+    "wn_2_8_5_folders": "Mappmenyer förblir öppna och fungerar tillförlitligt",
+    "privacy_network_li_bluesky": "Bluesky: För Bluesky-flöden du prenumererar på skickas identifierare för offentliga inlägg till public.api.bsky.app för att hämta inlägg, citat och bilder. API-anrop innehåller inga kakor och använder ingen Bluesky-inloggning. Bilder hämtas från cdn.bsky.app. Som vid andra nätverksanrop får dessa leverantörer anslutningsinformation, inklusive din IP-adress."
   },
   "th": {
     "nav_features": "คุณสมบัติ",
@@ -4732,7 +4762,7 @@ var T = {
     "f_connect": "เชื่อมต่อ",
     "legal_back": "&larr; กลับสู่ Corvus RSS Reader",
     "privacy_title": "นโยบายความเป็นส่วนตัว",
-    "privacy_date": "วันที่มีผล: 6 เมษายน 2026 &middot; วันที่อัปเดตล่าสุด: 6 เมษายน 2026",
+    "privacy_date": "วันที่มีผล: 6 เมษายน 2026 &middot; วันที่อัปเดตล่าสุด: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"เรา\", \"พวกเรา\", \"ของเรา\") พัฒนาและเผยแพร่แอปพลิเคชันซอฟต์แวร์ นโยบายความเป็นส่วนตัวฉบับนี้อธิบายวิธีการจัดการข้อมูลใน Corvus RSS Reader สำหรับ Safari",
     "privacy_h_commitment": "พันธสัญญาของเรา",
     "privacy_commitment": "Corvus RSS Reader ออกแบบมาให้ทำงานบนอุปกรณ์ของคุณอย่างสมบูรณ์ เราไม่เก็บรวบรวม เก็บรักษา หรือส่งข้อมูลส่วนบุคคลใดๆ",
@@ -4741,7 +4771,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>ไม่มีระบบวิเคราะห์ข้อมูลหรือการติดตาม</strong> เราไม่ติดตามการใช้งานส่วนขยายของคุณ",
     "privacy_collection_li_personal": "<strong>ไม่มีข้อมูลส่วนบุคคล</strong> เราไม่รวบรวมชื่อ อีเมล ที่อยู่ IP หรือตัวระบุอุปกรณ์",
     "privacy_collection_li_thirdparty": "<strong>ไม่มีการติดตามจากบุคคลที่สาม</strong> เราไม่ได้ฝัง SDK โฆษณา, กรอบการทำงานการวิเคราะห์, หรือพิกเซลการติดตาม",
-    "privacy_collection_li_local": "<strong>เก็บเฉพาะในหน่วยความจำภายใน</strong> ข้อมูลฟีด บทความ โฟลเดอร์ และตัวเลือกของคุณจะถูกเก็บไว้ในอุปกรณ์ของคุณโดยใช้พื้นที่เก็บส่วนขยายของ Safari และจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใดๆ เลย",
+    "privacy_collection_li_local": "ฟีด บทความ โฟลเดอร์ และการตั้งค่าของคุณจัดเก็บอยู่บนอุปกรณ์ของคุณ CorvusDevs ไม่ได้รับคลังข้อมูลของคุณ",
     "privacy_h_network": "คำขอเครือข่าย",
     "privacy_network_intro": "Corvus RSS Reader ต้องทำการร้องขอข้อมูลจากเครือข่ายดังนี้เพื่อการทำงาน:",
     "privacy_network_li_feed": "<strong>การดึงฟีด RSS/Atom</strong>/ Corvus RSS Reader จะดึง URL ของฟีดที่คุณสมัครสมาชิกเพื่อรับบทความใหม่ คำขอเหล่านี้จะส่งโดยตรงจากเบราว์เซอร์ของคุณไปยังเซิร์ฟเวอร์ของผู้ให้บริการฟีด",
@@ -4803,7 +4833,8 @@ var T = {
     "wn_2_8_4_import": "นำเข้าสำรองข้อมูลจากโฟลเดอร์ที่คุณเลือก",
     "wn_2_8_4_cancel": "ยกเลิกการนำเข้าสำรองข้อมูลอย่างน่าเชื่อถือ",
     "wn_2_8_5_badge": "เลือกว่าจะแสดงป้ายตัวเลขบนแถบเครื่องมือหรือไม่",
-    "wn_2_8_5_folders": "เมนูโฟลเดอร์เปิดค้างไว้และทำงานได้อย่างถูกต้อง"
+    "wn_2_8_5_folders": "เมนูโฟลเดอร์เปิดค้างไว้และทำงานได้อย่างถูกต้อง",
+    "privacy_network_li_bluesky": "Bluesky: สำหรับฟีด Bluesky ที่คุณสมัครติดตาม ระบบจะส่งตัวระบุโพสต์สาธารณะไปยัง public.api.bsky.app เพื่อดึงโพสต์ โพสต์ที่อ้างอิง และรูปภาพ คำขอ API ไม่ส่งคุกกี้และไม่ใช้การเข้าสู่ระบบ Bluesky รูปภาพโหลดจาก cdn.bsky.app เช่นเดียวกับคำขอเครือข่ายอื่น ผู้ให้บริการเหล่านี้ได้รับข้อมูลการเชื่อมต่อ รวมถึงที่อยู่ IP ของคุณ"
   },
   "tr": {
     "nav_features": "Özellikler",
@@ -4887,7 +4918,7 @@ var T = {
     "f_connect": "Bağlan",
     "legal_back": "&larr; Corvus RSS Okuyucu'una Dön",
     "privacy_title": "Gizlilik Politikası",
-    "privacy_date": "Güncelleme Tarihi: 6 Nisan 2026 &middot; Son Güncelleme: 6 Nisan 2026",
+    "privacy_date": "Güncelleme Tarihi: 6 Nisan 2026 &middot; Son Güncelleme: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"biz\", \"bizi\", \"bizim\") yazılım uygulamaları geliştirir ve yayınlar. Bu Gizlilik Politikası, Corvus RSS Reader for Safari uygulamasında verileri nasıl işlediğimizi açıklar.",
     "privacy_h_commitment": "Taahüdümüz",
     "privacy_commitment": "Corvus RSS Reader tamamen cihazınızda çalışacak şekilde tasarlanmıştır. Kişisel verileri toplar, depolar veya aktarırız.",
@@ -4896,7 +4927,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>İstatistik veya telemetri yok</strong>; uzantınızı nasıl kullandığınızı takip etmiyoruz",
     "privacy_collection_li_personal": "<strong>Kişisel bilgi yok</strong>; İsim, e-posta, IP adresleri veya cihaz tanımlayıcıları toplamaıyoruz.",
     "privacy_collection_li_thirdparty": "<strong>Üçüncü taraf izleme yok</strong>; Reklam SDK'ları, analiz çerçeveleri veya izleme pikselleri gömüyoruz",
-    "privacy_collection_li_local": "<strong>Sadece yerel depolama</strong>/ Okuma listeleriniz, makaleleriniz, klasörleriniz ve tercihleriniz, Safari'nin uzantı depolamasını kullanarak cihazınızda yerel olarak saklanır ve hiçbir sunucuya gönderilmez.",
+    "privacy_collection_li_local": "Akışlarınız, makaleleriniz, klasörleriniz ve tercihleriniz cihazınızda saklanır. CorvusDevs kitaplığınızı almaz.",
     "privacy_h_network": "Ağ İstekleri",
     "privacy_network_intro": "Corvus RSS Reader, çalışmak için aşağıdaki ağ isteklerini gerçekleştirmektedir:",
     "privacy_network_li_feed": "<strong>RSS/Atom beslemesi alma</strong> ile, Corvus RSS Reader, abone olduğunuz besleme URL'lerini yeni makaleleri almak için çeker. Bu istekler doğrudan tarayıcınızdan besleme yayıncısının sunucusuna gider.",
@@ -4958,7 +4989,8 @@ var T = {
     "wn_2_8_4_import": "Seçtiğiniz klasörden yedekleri içe aktarın",
     "wn_2_8_4_cancel": "Yedekleme içe aktarmayı güvenilir şekilde iptal edin",
     "wn_2_8_5_badge": "Araç çubuğu rozetinin gösterilip gösterilmeyeceğini seçin",
-    "wn_2_8_5_folders": "Klasör menüleri açık kalır ve güvenilir şekilde çalışır"
+    "wn_2_8_5_folders": "Klasör menüleri açık kalır ve güvenilir şekilde çalışır",
+    "privacy_network_li_bluesky": "Bluesky: Abone olduğunuz Bluesky akışları için herkese açık gönderi tanımlayıcıları, gönderileri, alıntıları ve görselleri almak amacıyla public.api.bsky.app adresine gönderilir. API istekleri çerez içermez ve Bluesky oturumu kullanmaz. Görseller cdn.bsky.app üzerinden yüklenir. Diğer ağ isteklerinde olduğu gibi bu sağlayıcılar, IP adresiniz dahil bağlantı bilgilerini alır."
   },
   "uk": {
     "nav_features": "Функції",
@@ -5042,7 +5074,7 @@ var T = {
     "f_connect": "Підключити",
     "legal_back": "&larr; Повернутися до Corvus RSS Reader",
     "privacy_title": "Політика конфіденційності",
-    "privacy_date": "Дата дії: 6 квітня 2026 &middot; Останнє оновлення: 6 квітня 2026",
+    "privacy_date": "Дата дії: 6 квітня 2026 &middot; Останнє оновлення: 2026-11-17",
     "privacy_intro": "Компанія CorvusDevs («ми», «нас», «наш») розробляє та видає програмні застосунки. Ця Політика конфіденційності пояснює, як ми обробляємо дані в застосунку Corvus RSS Reader для Safari.",
     "privacy_h_commitment": "Наша зобов'язаність",
     "privacy_commitment": "Corvus RSS Reader розроблений для повної роботи на вашому пристрої. Ми не збираємо, не зберігаємо та не передаємо жодних особистих даних.",
@@ -5051,7 +5083,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Без аналітики або телеметрії</strong>. Ми не відстежуємо, як ви використовуєте розширення.",
     "privacy_collection_li_personal": "<strong>Без особистої інформації</strong>: ми не збираємо імена, електронні пошти, IP-адреси або ідентифікатори пристроїв",
     "privacy_collection_li_thirdparty": "<strong>Без стороннього відстеження</strong>: ми не вбудовуємо рекламні SDK, фреймворки аналітики або пікселі відстеження",
-    "privacy_collection_li_local": "<strong>Тільки локальне сховище</strong>: Ваші потоки, статті, папки та налаштування зберігаються локально на вашому пристрої за допомогою розширення Safari та ніколи не надсилаються на жодний сервер",
+    "privacy_collection_li_local": "Ваші стрічки, статті, папки та налаштування зберігаються на вашому пристрої. CorvusDevs не отримує вашу бібліотеку.",
     "privacy_h_network": "Запити до мережі",
     "privacy_network_intro": "Corvus RSS Reader для виконання функціонування здійснює наступні запити до мережі:",
     "privacy_network_li_feed": "<strong>RSS/Atom feed fetching</strong>: Corvus RSS Reader завантажує URL-адреси підписок, щоб отримувати нові статті. Ці запити надсилаються безпосередньо з вашого браузера на сервер видавця ланцюжка.",
@@ -5113,7 +5145,8 @@ var T = {
     "wn_2_8_4_import": "Імпортуйте резервні копії з вибраної папки",
     "wn_2_8_4_cancel": "Надійне скасування імпорту резервних копій",
     "wn_2_8_5_badge": "Виберіть, чи показувати лічильник на панелі інструментів",
-    "wn_2_8_5_folders": "Меню папок залишаються відкритими й працюють коректно"
+    "wn_2_8_5_folders": "Меню папок залишаються відкритими й працюють коректно",
+    "privacy_network_li_bluesky": "Bluesky: Для стрічок Bluesky, на які ви підписані, ідентифікатори публічних дописів надсилаються на public.api.bsky.app для отримання дописів, цитат і зображень. Запити API не містять файлів cookie та не використовують вхід у Bluesky. Зображення завантажуються з cdn.bsky.app. Як і за інших мережевих запитів, ці постачальники отримують відомості про з'єднання, зокрема вашу IP-адресу."
   },
   "vi": {
     "nav_features": "Tính năng",
@@ -5197,7 +5230,7 @@ var T = {
     "f_connect": "Kết nối",
     "legal_back": "&larr; Quay lại Corvus RSS Reader",
     "privacy_title": "Chính sách bảo mật",
-    "privacy_date": "Ngày hiệu lực: 6 tháng 4, 2026 &middot; Ngày cập nhật lần cuối: 6 tháng 4, 2026",
+    "privacy_date": "Ngày hiệu lực: 6 tháng 4, 2026 &middot; Ngày cập nhật lần cuối: 2026-11-17",
     "privacy_intro": "CorvusDevs (\"chúng tôi\", \"chúng tôi\", \"của chúng tôi\") phát triển và xuất bản các ứng dụng phần mềm. Chính sách bảo mật này giải thích cách chúng tôi xử lý dữ liệu trong Corvus RSS Reader cho Safari.",
     "privacy_h_commitment": "Cam kết của chúng tôi",
     "privacy_commitment": "Corvus RSS Reader được thiết kế để hoạt động hoàn toàn trên thiết bị của bạn. Chúng tôi không thu thập, lưu trữ hay truyền tải bất kỳ dữ liệu cá nhân nào.",
@@ -5206,7 +5239,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>Không có phân tích dữ liệu hay theo dõi</strong>; chúng tôi không theo dõi cách bạn sử dụng tiện ích mở rộng",
     "privacy_collection_li_personal": "<strong>Không có thông tin cá nhân</strong>: Chúng tôi không thu thập tên, địa chỉ email, địa chỉ IP hoặc định danh thiết bị",
     "privacy_collection_li_thirdparty": "<strong>Không có theo dõi của bên thứ ba</strong>: Chúng tôi không nhúng các SDK quảng cáo, khung phân tích hoặc pixel theo dõi",
-    "privacy_collection_li_local": "<strong>Chỉ lưu trữ cục bộ</strong>: Các luồng cấp tin, bài viết, thư mục và tùy chọn của bạn được lưu trữ cục bộ trên thiết bị của bạn thông qua bộ lưu trữ mở rộng của Safari và không bao giờ được gửi đến bất kỳ máy chủ nào.",
+    "privacy_collection_li_local": "Nguồn cấp, bài viết, thư mục và tùy chọn của bạn được lưu trên thiết bị của bạn. CorvusDevs không nhận thư viện của bạn.",
     "privacy_h_network": "Yêu cầu mạng",
     "privacy_network_intro": "Corvus RSS Reader thực hiện các yêu cầu mạng sau để hoạt động:",
     "privacy_network_li_feed": "<strong>Lấy nguồn cấp dữ liệu RSS/Atom</strong>: Corvus RSS Reader lấy các URL nguồn cấp dữ liệu mà bạn đăng ký để truy xuất các bài viết mới. Các yêu cầu này được gửi trực tiếp từ trình duyệt của bạn đến máy chủ của nhà xuất bản nguồn cấp dữ liệu.",
@@ -5268,7 +5301,8 @@ var T = {
     "wn_2_8_4_import": "Nhập bản sao lưu từ thư mục bạn chọn",
     "wn_2_8_4_cancel": "Hủy nhập khẩu sao lưu một cách đáng tin cậy",
     "wn_2_8_5_badge": "Chọn có hiển thị số đếm trên thanh công cụ hay không",
-    "wn_2_8_5_folders": "Menu thư mục luôn mở và hoạt động ổn định"
+    "wn_2_8_5_folders": "Menu thư mục luôn mở và hoạt động ổn định",
+    "privacy_network_li_bluesky": "Bluesky: Với các nguồn cấp Bluesky bạn đăng ký, mã định danh bài đăng công khai được gửi đến public.api.bsky.app để lấy bài đăng, trích dẫn và hình ảnh. Yêu cầu API không bao gồm cookie và không dùng thông tin đăng nhập Bluesky. Hình ảnh được tải từ cdn.bsky.app. Như các yêu cầu mạng khác, những nhà cung cấp này nhận thông tin kết nối, bao gồm địa chỉ IP của bạn."
   },
   "zh-Hans": {
     "nav_features": "功能",
@@ -5352,7 +5386,7 @@ var T = {
     "f_connect": "连接",
     "legal_back": "&larr; 返回 Corvus RSS 阅读器",
     "privacy_title": "隐私政策",
-    "privacy_date": "生效日期：2026 年 4 月 6 日 &middot; 最后更新日期：2026 年 4 月 6 日",
+    "privacy_date": "生效日期：2026 年 4 月 6 日 &middot; 最后更新日期： 2026-11-17",
     "privacy_intro": "CorvusDevs（“我们”、“我们”、“我们的”）开发并发布软件应用程序。本隐私政策说明了我们在 Corvus RSS Reader for Safari 中如何处理数据。",
     "privacy_h_commitment": "我们的承诺",
     "privacy_commitment": "Corvus RSS Reader 专为在您的设备上独立运行而设计。我们不会收集、存储或传输任何个人数据。",
@@ -5361,7 +5395,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>无分析或遥测</strong>，我们不会追踪您如何使用此扩展",
     "privacy_collection_li_personal": "<strong>无个人信息</strong>，我们不会收集姓名、电子邮件、IP 地址或设备标识符",
     "privacy_collection_li_thirdparty": "<strong>无第三方追踪</strong>，我们未嵌入广告 SDK、分析框架或追踪像素",
-    "privacy_collection_li_local": "<strong>仅使用本地存储</strong>，您的订阅源、文章、文件夹和首选项均使用 Safari 扩展存储功能保存在您的设备上，永远不会发送到任何服务器",
+    "privacy_collection_li_local": "您的订阅源、文章、文件夹和偏好设置保存在您的设备上。CorvusDevs 不会收到您的资料库。",
     "privacy_h_network": "网络请求",
     "privacy_network_intro": "Corvus RSS Reader 需要执行以下网络请求以正常运行：",
     "privacy_network_li_feed": "<strong>RSS/Atom 订阅源获取</strong>，Corvus RSS Reader 会获取您订阅的订阅源 URL 以检索新文章。这些请求直接从您的浏览器发送到订阅源发布者的服务器。",
@@ -5423,7 +5457,8 @@ var T = {
     "wn_2_8_4_import": "从您选择的文件夹导入备份",
     "wn_2_8_4_cancel": "可靠地取消备份导入",
     "wn_2_8_5_badge": "选择是否显示工具栏角标",
-    "wn_2_8_5_folders": "文件夹菜单保持打开并正常响应操作"
+    "wn_2_8_5_folders": "文件夹菜单保持打开并正常响应操作",
+    "privacy_network_li_bluesky": "Bluesky：对于您订阅的 Bluesky 源，公开帖子的标识符会发送至 public.api.bsky.app，以获取帖子、引用和图片。API 请求不包含 Cookie，也不使用 Bluesky 登录。图片从 cdn.bsky.app 加载。与其他网络请求一样，这些提供商会收到连接信息，包括您的 IP 地址。"
   },
   "zh_CN": {
     "nav_features": "功能",
@@ -5507,7 +5542,7 @@ var T = {
     "f_connect": "连接",
     "legal_back": "&larr; 返回 Corvus RSS 阅读器",
     "privacy_title": "隐私政策",
-    "privacy_date": "生效日期：2026 年 4 月 6 日 &middot; 最后更新日期：2026 年 4 月 6 日",
+    "privacy_date": "生效日期：2026 年 4 月 6 日 &middot; 最后更新日期： 2026-11-17",
     "privacy_intro": "CorvusDevs（“我们”、“我们”、“我们的”）开发并发布软件应用程序。本隐私政策说明了我们在 Corvus RSS Reader for Safari 中如何处理数据。",
     "privacy_h_commitment": "我们的承诺",
     "privacy_commitment": "Corvus RSS Reader 专为在您的设备上独立运行而设计。我们不会收集、存储或传输任何个人数据。",
@@ -5516,7 +5551,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>无分析或遥测</strong>，我们不会追踪您如何使用此扩展",
     "privacy_collection_li_personal": "<strong>无个人信息</strong>，我们不会收集姓名、电子邮件、IP 地址或设备标识符",
     "privacy_collection_li_thirdparty": "<strong>无第三方追踪</strong>，我们未嵌入广告 SDK、分析框架或追踪像素",
-    "privacy_collection_li_local": "<strong>仅使用本地存储</strong>，您的订阅源、文章、文件夹和首选项均使用 Safari 扩展存储功能保存在您的设备上，永远不会发送到任何服务器",
+    "privacy_collection_li_local": "您的订阅源、文章、文件夹和偏好设置保存在您的设备上。CorvusDevs 不会收到您的资料库。",
     "privacy_h_network": "网络请求",
     "privacy_network_intro": "Corvus RSS Reader 需要执行以下网络请求以正常运行：",
     "privacy_network_li_feed": "<strong>RSS/Atom 订阅源获取</strong>，Corvus RSS Reader 会获取您订阅的订阅源 URL 以检索新文章。这些请求直接从您的浏览器发送到订阅源发布者的服务器。",
@@ -5578,7 +5613,8 @@ var T = {
     "wn_2_8_4_import": "从您选择的文件夹导入备份",
     "wn_2_8_4_cancel": "可靠地取消备份导入",
     "wn_2_8_5_badge": "选择是否显示工具栏角标",
-    "wn_2_8_5_folders": "文件夹菜单保持打开并正常响应操作"
+    "wn_2_8_5_folders": "文件夹菜单保持打开并正常响应操作",
+    "privacy_network_li_bluesky": "Bluesky：对于您订阅的 Bluesky 源，公开帖子的标识符会发送至 public.api.bsky.app，以获取帖子、引用和图片。API 请求不包含 Cookie，也不使用 Bluesky 登录。图片从 cdn.bsky.app 加载。与其他网络请求一样，这些提供商会收到连接信息，包括您的 IP 地址。"
   },
   "zh-Hant": {
     "nav_features": "功能",
@@ -5662,7 +5698,7 @@ var T = {
     "f_connect": "連接",
     "legal_back": "&larr; 返回 Corvus RSS 閱讀器",
     "privacy_title": "隱私權政策",
-    "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期：2026 年 4 月 6 日",
+    "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期： 2026-11-17",
     "privacy_intro": "CorvusDevs（「我們」、「我們」、「我們的」）開發並發布軟體應用程式。本隱私權政策說明我們如何在 Safari 中的 Corvus RSS Reader 處理資料。",
     "privacy_h_commitment": "我們的承諾",
     "privacy_commitment": "Corvus RSS Reader 專為在您的裝置上完全運作而設計。我們不會收集、儲存或傳輸任何個人資料。",
@@ -5671,7 +5707,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>無分析或遥測</strong>，我們不會追蹤您如何使用此延伸功能",
     "privacy_collection_li_personal": "<strong>內無個人資訊</strong>，我們不會收集姓名、電子郵件、IP 位址或裝置識別碼",
     "privacy_collection_li_thirdparty": "<strong>無第三方追蹤</strong>，我們未內嵌廣告 SDK、分析框架或追蹤像素",
-    "privacy_collection_li_local": "<strong>僅使用本地儲存</strong>，您的訂閱、文章、資料夾和偏好設定會使用 Safari 的延伸功能儲存空間，儲存在您的裝置上，絕不會傳送到任何伺服器。",
+    "privacy_collection_li_local": "您的訂閱來源、文章、資料夾和偏好設定儲存在您的裝置上。CorvusDevs 不會收到您的資料庫。",
     "privacy_h_network": "網路請求",
     "privacy_network_intro": "Corvus RSS Reader 需要執行以下網路請求才能正常運作：",
     "privacy_network_li_feed": "<strong>RSS/Atom 訂閱串流擷取</strong>，Corvus RSS Reader 會擷取您訂閱的串流 URL 以取得新文章。這些請求會直接從您的瀏覽器傳送至串流發布者的伺服器。",
@@ -5733,7 +5769,8 @@ var T = {
     "wn_2_8_4_import": "從您選擇的資料夾匯入備份",
     "wn_2_8_4_cancel": "可靠地取消备份导入",
     "wn_2_8_5_badge": "選擇是否顯示工具列標記",
-    "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作"
+    "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作",
+    "privacy_network_li_bluesky": "Bluesky：對於您訂閱的 Bluesky 來源，公開貼文的識別碼會傳送至 public.api.bsky.app，以取得貼文、引用和圖片。API 請求不包含 Cookie，也不使用 Bluesky 登入。圖片從 cdn.bsky.app 載入。與其他網路請求一樣，這些供應商會收到連線資訊，包括您的 IP 位址。"
   },
   "zh_TW": {
     "nav_features": "功能",
@@ -5817,7 +5854,7 @@ var T = {
     "f_connect": "連接",
     "legal_back": "&larr; 返回 Corvus RSS 閱讀器",
     "privacy_title": "隱私權政策",
-    "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期：2026 年 4 月 6 日",
+    "privacy_date": "有效日期：2026 年 4 月 6 日 &middot; 最後更新日期： 2026-11-17",
     "privacy_intro": "CorvusDevs（「我們」、「我們」、「我們的」）開發並發布軟體應用程式。本隱私權政策說明我們如何在 Safari 中的 Corvus RSS Reader 處理資料。",
     "privacy_h_commitment": "我們的承諾",
     "privacy_commitment": "Corvus RSS Reader 專為在您的裝置上完全運作而設計。我們不會收集、儲存或傳輸任何個人資料。",
@@ -5826,7 +5863,7 @@ var T = {
     "privacy_collection_li_analytics": "<strong>無分析或遥測</strong>，我們不會追蹤您如何使用此延伸功能",
     "privacy_collection_li_personal": "<strong>內無個人資訊</strong>，我們不會收集姓名、電子郵件、IP 位址或裝置識別碼",
     "privacy_collection_li_thirdparty": "<strong>無第三方追蹤</strong>，我們未內嵌廣告 SDK、分析框架或追蹤像素",
-    "privacy_collection_li_local": "<strong>僅使用本地儲存</strong>，您的訂閱、文章、資料夾和偏好設定會使用 Safari 的延伸功能儲存空間，儲存在您的裝置上，絕不會傳送到任何伺服器。",
+    "privacy_collection_li_local": "您的訂閱來源、文章、資料夾和偏好設定儲存在您的裝置上。CorvusDevs 不會收到您的資料庫。",
     "privacy_h_network": "網路請求",
     "privacy_network_intro": "Corvus RSS Reader 需要執行以下網路請求才能正常運作：",
     "privacy_network_li_feed": "<strong>RSS/Atom 訂閱串流擷取</strong>，Corvus RSS Reader 會擷取您訂閱的串流 URL 以取得新文章。這些請求會直接從您的瀏覽器傳送至串流發布者的伺服器。",
@@ -5888,6 +5925,7 @@ var T = {
     "wn_2_8_4_import": "從您選擇的資料夾匯入備份",
     "wn_2_8_4_cancel": "可靠地取消备份导入",
     "wn_2_8_5_badge": "選擇是否顯示工具列標記",
-    "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作"
+    "wn_2_8_5_folders": "資料夾選單保持開啟並正常回應操作",
+    "privacy_network_li_bluesky": "Bluesky：對於您訂閱的 Bluesky 來源，公開貼文的識別碼會傳送至 public.api.bsky.app，以取得貼文、引用和圖片。API 請求不包含 Cookie，也不使用 Bluesky 登入。圖片從 cdn.bsky.app 載入。與其他網路請求一樣，這些供應商會收到連線資訊，包括您的 IP 位址。"
   }
 };

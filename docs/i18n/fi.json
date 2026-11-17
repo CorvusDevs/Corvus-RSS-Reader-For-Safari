@@ -80,7 +80,7 @@
   "f_connect": "Yhdistä",
   "legal_back": "&larr; Takaisin sovellukseen Corvus RSS Reader",
   "privacy_title": "Yksityisyyspolitiikka",
-  "privacy_date": "Voimassaoloaika: 6. huhtikuuta 2026 &middot; Viimeisin päivitys: 6. huhtikuuta 2026",
+  "privacy_date": "Voimassaoloaika: 6. huhtikuuta 2026 &middot; Viimeisin päivitys: 2026-11-17",
   "privacy_intro": "CorvusDevs (me, meidän, meidän) kehittää ja julkaisee ohjelmistoja. Tämä tietosuojakäytäntö selittää, miten käsittelemme dataa sovelluksessa Corvus RSS Reader for Safari.",
   "privacy_h_commitment": "Meidän sitoutumiskohdumme",
   "privacy_commitment": "Corvus RSS Reader on suunniteltu toimimaan kokonaan laitteellasi. Emme kerää, tallenna tai lähetä mitään henkilökohtaista dataa.",
@@ -89,7 +89,7 @@
   "privacy_collection_li_analytics": "<strong>Ei analytiikkaa eikä telemetriaa</strong>; emme seurata, miten käytät laajennusta",
   "privacy_collection_li_personal": "<strong>Ei henkilökohtaista tietoa</strong>. Me emme kerää nimiä, sähköpostiosoitteita, IP-osoitteita tai laitteiden tunnisteita.",
   "privacy_collection_li_thirdparty": "<strong>Ei kolmansien osapuolten seurannaa</strong>; emme sisällytä mainospalvelun SDK:ja, analytiikkakehyksiä tai seuranta-pikseleitä",
-  "privacy_collection_li_local": "<strong>Vain paikallinen tallennus</strong>. Syötteesi, artikkelisi, kansiosi ja asetuksesi tallennetaan paikallisesti laitteellesi käyttäen Safari-laajennusten tallennustilaa, eikä niitä lähetetä mihinkään palvelimeen.",
+  "privacy_collection_li_local": "Syötteesi, artikkelisi, kansiosi ja asetuksesi tallennetaan laitteellesi. CorvusDevs ei saa kirjastoasi.",
   "privacy_h_network": "Verkkopyynnöt",
   "privacy_network_intro": "Corvus RSS Reader tarvitsee seuraavat verkkopyynnöt toimiakseen:",
   "privacy_network_li_feed": "<strong>RSS/Atom-luettelon lataaminen</strong>: Corvus RSS Reader lataaa lueteltasi luentouritteiden URL-osoitteet uusien artikkelien hakuun. Nämä pyynnöt lähtevät suoraan selaimestasi luentolähteen palvelimelle.",
@@ -151,5 +151,6 @@
   "wn_2_8_4_import": "Tuo valitsemasi kansion varmuuskopiot",
   "wn_2_8_4_cancel": "Peruuta varmuuskopioimista luotettavasti",
   "wn_2_8_5_badge": "Valitse, näytetäänkö työkalupalkin laskuri",
-  "wn_2_8_5_folders": "Kansiovalikot pysyvät auki ja toimivat luotettavasti"
+  "wn_2_8_5_folders": "Kansiovalikot pysyvät auki ja toimivat luotettavasti",
+  "privacy_network_li_bluesky": "Bluesky: Tilaamiesi Bluesky-syötteiden julkisten julkaisujen tunnisteet lähetetään osoitteeseen public.api.bsky.app julkaisujen, lainausten ja kuvien hakemiseksi. API-pyynnöissä ei lähetetä evästeitä eikä käytetä Bluesky-kirjautumista. Kuvat ladataan osoitteesta cdn.bsky.app. Kuten muissakin verkkopyynnöissä, nämä palveluntarjoajat saavat yhteystietoja, mukaan lukien IP-osoitteesi."
 }
